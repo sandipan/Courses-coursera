@@ -1,0 +1,22 @@
+Solution to MC((3, 3, 1)) found by breadth_first_tree_search
+[<Node (3, 3, 1)>, <Node (2, 2, 0)>, <Node (3, 2, 1)>, <Node (3, 0, 0)>, <Node (3, 1, 1)>, <Node (1, 1, 0)>, <Node (2, 2, 1)>, <Node (0, 2, 0)>, <Node (0, 3, 1)>, <Node (0, 1, 0)>, <Node (1, 1, 1)>, <Node (0, 0, 0)>]
+
+Solution to MC((3, 3, 1)) found by breadth_first_graph_search
+[<Node (3, 3, 1)>, <Node (2, 2, 0)>, <Node (3, 2, 1)>, <Node (3, 0, 0)>, <Node (3, 1, 1)>, <Node (1, 1, 0)>, <Node (2, 2, 1)>, <Node (0, 2, 0)>, <Node (0, 3, 1)>, <Node (0, 1, 0)>, <Node (1, 1, 1)>, <Node (0, 0, 0)>]
+
+Solution to MC((3, 3, 1)) found by depth_first_graph_search
+[<Node (3, 3, 1)>, <Node (3, 1, 0)>, <Node (3, 2, 1)>, <Node (3, 0, 0)>, <Node (3, 1, 1)>, <Node (1, 1, 0)>, <Node (2, 2, 1)>, <Node (0, 2, 0)>, <Node (0, 3, 1)>, <Node (0, 1, 0)>, <Node (0, 2, 1)>, <Node (0, 0, 0)>]
+
+Solution to MC((3, 3, 1)) found by iterative_deepening_search
+[<Node (3, 3, 1)>, <Node (2, 2, 0)>, <Node (3, 2, 1)>, <Node (3, 0, 0)>, <Node (3, 1, 1)>, <Node (1, 1, 0)>, <Node (2, 2, 1)>, <Node (0, 2, 0)>, <Node (0, 3, 1)>, <Node (0, 1, 0)>, <Node (1, 1, 1)>, <Node (0, 0, 0)>]
+
+Solution to MC((3, 3, 1)) found by depth_limited_search
+[<Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (3, 2, 0)>, <Node (3, 3, 1)>, <Node (2, 2, 0)>, <Node (3, 2, 1)>, <Node (3, 0, 0)>, <Node (3, 1, 1)>, <Node (1, 1, 0)>, <Node (2, 2, 1)>, <Node (0, 2, 0)>, <Node (0, 3, 1)>, <Node (0, 1, 0)>, <Node (1, 1, 1)>, <Node (0, 0, 0)>]
+
+SUMMARY: successors/goal tests/states generated/solution
+                                                       
+breadth_first_tree_search    <11877/11878/26942/(0, >  
+breadth_first_graph_search   <  14/  29/  30/(0, >     
+depth_first_graph_search     <  11/  17/  25/(0, >     
+iterative_deepening_search   <9097/20975/20970/(0, >   
+depth_limited_search         <6980/14702/14746/(0, >   

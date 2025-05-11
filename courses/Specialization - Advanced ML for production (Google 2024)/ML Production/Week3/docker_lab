@@ -1,0 +1,11 @@
+gcloud config list --format 'value(core.project)'
+PROJECT_ID=qwiklabs-gcp-04-8a243aa24ccc
+BUCKET_NAME="gs://${PROJECT_ID}-bucket"
+gsutil mb -l us-west1 $BUCKET_NAME
+IMAGE_URI="gcr.io/$PROJECT_ID/mpg:v1"
+docker build ./ -t $IMAGE_URI
+docker run $IMAGE_URI
+docker push $IMAGE_URI
+service-844721777927@gcp-sa-aiplatform-cc.iam.gserviceaccount.com
+
+# qwiklabs-gcp-00-6a8e51246097-compute@developer.gserviceaccount.com
