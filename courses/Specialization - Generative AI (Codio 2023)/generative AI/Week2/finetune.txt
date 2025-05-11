@@ -1,0 +1,8 @@
+openai tools fine_tunes.prepare_data -f SampleData.csv
+
+openai api fine_tunes.create -t <TRAIN_FILE_ID_OR_PATH> -m <BASE_MODEL>
+openai api fine_tunes.create -t SampleData_prepared.jsonl -m curie
+
+openai api completions.create -m <FINE_TUNED_MODEL> -p <YOUR_PROMPT>
+model= "curie:ft-personal-.....",
+prompt="Codio sign: its tuesday ->"

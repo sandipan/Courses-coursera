@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>REST</title>
+    <script>
+        const getName =  async () => {
+                try {
+                    const response = await fetch('/getName')
+                    const resp = await response.json();
+                    console.log("Obj returned from server", resp)
+					alert(resp.name);
+
+                } catch (error) {
+                    console.log('Fetch error: ', error);
+					alert(error);
+                }
+        }
+    </script>
+</head>
+
+<body>
+    <button onclick="getName()">getName</button>
+</body>
+
+</html>

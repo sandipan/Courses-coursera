@@ -1,0 +1,1 @@
+{"prompt": "What is the capital of France?", "completion": "The capital of France is Paris."}
