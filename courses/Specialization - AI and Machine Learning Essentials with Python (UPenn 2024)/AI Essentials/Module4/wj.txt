@@ -1,0 +1,37 @@
+Solution to WJ((5, 2),(5, 0),(0, 1)) found by breadth_first_tree_search
+[<Node (5, 0)>, <Node (3, 2)>, <Node (3, 0)>, <Node (1, 2)>, <Node (1, 0)>, <Node (0, 1)>]
+
+Solution to WJ((5, 2),(5, 0),(0, 1)) found by breadth_first_graph_search
+[<Node (5, 0)>, <Node (3, 2)>, <Node (3, 0)>, <Node (1, 2)>, <Node (1, 0)>, <Node (0, 1)>]
+
+Solution to WJ((5, 2),(5, 0),(0, 1)) found by depth_first_graph_search
+[<Node (5, 0)>, <Node (3, 2)>, <Node (3, 0)>, <Node (1, 2)>, <Node (1, 0)>, <Node (0, 1)>]
+
+Solution to WJ((5, 2),(5, 0),(0, 1)) found by iterative_deepening_search
+[<Node (5, 0)>, <Node (3, 2)>, <Node (3, 0)>, <Node (1, 2)>, <Node (1, 0)>, <Node (0, 1)>]
+
+Solution to WJ((5, 2),(5, 0),(0, 1)) found by depth_limited_search
+[<Node (5, 0)>, <Node (3, 2)>, <Node (3, 0)>, <Node (1, 2)>, <Node (1, 0)>, <Node (0, 1)>]
+
+Solution to WJ((5, 2),(5, 0),(2, 0)) found by breadth_first_tree_search
+[<Node (5, 0)>, <Node (3, 2)>, <Node (0, 2)>, <Node (2, 0)>]
+
+Solution to WJ((5, 2),(5, 0),(2, 0)) found by breadth_first_graph_search
+[<Node (5, 0)>, <Node (3, 2)>, <Node (0, 2)>, <Node (2, 0)>]
+
+Solution to WJ((5, 2),(5, 0),(2, 0)) found by depth_first_graph_search
+[<Node (5, 0)>, <Node (3, 2)>, <Node (3, 0)>, <Node (1, 2)>, <Node (0, 2)>, <Node (2, 0)>]
+
+Solution to WJ((5, 2),(5, 0),(2, 0)) found by iterative_deepening_search
+[<Node (5, 0)>, <Node (3, 2)>, <Node (0, 2)>, <Node (2, 0)>]
+
+Solution to WJ((5, 2),(5, 0),(2, 0)) found by depth_limited_search
+[<Node (5, 0)>, <Node (3, 2)>, <Node (0, 2)>, <Node (2, 0)>]
+
+SUMMARY: successors/goal tests/states generated/solution
+SEARCHER                     GOAL:(0,1)              GOAL:(2,0)             
+breadth_first_tree_search    <  25/  26/  37/(0, >   <   7/   8/  11/(2, >  
+breadth_first_graph_search   <   8/  17/  16/(0, >   <   5/   8/   9/(2, >  
+depth_first_graph_search     <   5/   8/  12/(0, >   <   8/  13/  16/(2, >  
+iterative_deepening_search   <  35/  61/  57/(0, >   <   8/  16/  14/(2, >  
+depth_limited_search         < 194/ 199/ 200/(0, >   <   5/   6/   7/(2, >  
