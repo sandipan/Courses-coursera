@@ -1,0 +1,130 @@
+Use a pseudo-code to describe the DES encryption which takes 64-bit input/output data and 56 bit key. Define the subkeys for all rounds (a total of 768 bits) as input variables. You are given the following functions/blocks (you can just use these without implementing how they work, but define the other functions if you use others): 
+
+-- IP (the initial permutation, taking 64 bits of input and outputting 64 bits)
+
+-- F (the round function, taking 32 bits of data and 48 bits of subkey and outputting 32 bits)
+
+-- FP (the final permutation, taking 64 bits of input and outputting 64 bits)
+
+
+Define all the variables that you use and clearly document the variables and each steps/lines of your pseudo-code, and be as brief and clear as possible. Your assignment will be graded based on the correctness (does it work, e.g., did you miss any steps?) and presentations (e.g., is it easy to follow the variable definitions, logic, and the steps? Is the pseudo-code unnecessarily long?). As for presentation, you would want enough details/documentation, so that a person with introductory programming background (with any language) but no prior knowledge about DES to be able to understand your logic. 
+
+Implement python functions for DES encryption and Decryption and the operations IP, F and FP. Provide an working example.
+
+
+
+## Pseudo-code for DES Encryption:
+
+# Constants / Design Parameters for DES as a Feistel Cipher
+
+- BLOCK_SZ = 64          # length of block
+- KEY_SZ = 56                # length of key (56 bits for DES)
+- NUM_ROUNDS = 16  # number of rounds
+
+- subkey_gen_fn : generate_subkeys  # generates 16 different subkeys of size 48 bits from input key
+- round_fn: F                                           # the round function                      
+
+# other variables
+
+# Input:
+- plaintext: input text of length BLOCK_SZ (64-bits) to be encrypted
+- key: input key of length KEY_SZ (56-bits) to be used for subkey generation
+
+# Output:
+- ciphertext: encrypted output of length BLOCK_SZ (64-bits)
+
+# Variables:
+ 
+- subkeys[16]: array of 48-bit subkeys for each of the 16 rounds
+- left[0..15], right[0..15]: arrays to hold the left and right halves of the data during the rounds
+- temp: temporary variable used for swapping
+
+# Functions (helpers)
+
+- IP (the initial permutation, taking 64 bits of input and outputting 64 bits)
+- F (the round function, taking 32 bits of data and 48 bits of subkey and outputting 32 bits)
+- FP (the final permutation, taking 64 bits of input and outputting 64 bits)
+- generate_subkeys (function to generate 16 subkeys each of length 48 bits from input key of length 56 bits)
+
+## Steps:
+
+# 0. Generate 16 subkeys each of length 48 bits from the input key with a subkey generation algorithm 
+
+subkeys = generate_subkeys(key) # the function returns array of 16 different 48-bit subkeys
+
+# 1. Apply the initial permutation (IP) to the plaintext
+   
+data = IP(plaintext)
+
+# 2. Split the permuted data into two equal halves
+
+left[0] = data[0..31]       # First 32 bits
+right[0] = data[32..63]  # Last 32 bits
+
+# 3. Perform 16 rounds of processing
+
+for round from 1 to NUM_ROUNDS do:
+
+     # a. Apply the round function (F) to the right half and the round's subkey
+     
+     temp = F(right[round-1], subkeys[round-1])
+     
+     # b. XOR the output of the round function with the left half
+        
+      temp = temp XOR left[round-1]
+     
+     # c. The left half for the next round is the right half of the current round
+        
+     left[round] = right[round-1]
+     
+     # d. The right half for the next round is the result stored in temp
+        
+     right[round] = temp
+
+# 4. After the final round, combine the halves in reverse order (right[16], left[16])
+   
+combined_data = right[16] + left[16]
+
+# 5. Apply the final permutation (FP) to the combined data
+   
+ciphertext = FP(combined_data)
+
+# 6. Return the ciphertext as the output
+
+## Python Implementation
+
+A python function implementing the above pseudocode will look like the following one:
+
+##
+
+def DES_encrypt(plaintext, key):
+
+    """
+    Encrypts the given plaintext using the DES algorithm.
+
+    Parameters:
+    plaintext (str): The plaintext to be encrypted.
+    key (list): The key to be used for subkey generation for DES.
+
+    Returns:
+    str: The ciphertext generated from the encryption process.
+    """
+
+    # Generate subkeys from the input key
+    subkeys = generate_subkeys(key)
+
+    # Apply IP
+    permuted_data = IP(plaintext)   # initial permutation
+    left, right = [0] * (NUM_ROUNDS+1), [0] * (NUM_ROUNDS+1)     
+    left[0], right[0] = permuted_data[:32], permuted_data[32:]
+    
+    # 16 rounds
+    for round in range(1, NUM_ROUNDS+1):
+        temp = XOR( F(right[round - 1], subkeys[round - 1]), left[round - 1])
+        left[round], right[round] = right[round - 1], temp
+    
+    # Combine and apply FP
+    combined_data = right[NUM_ROUNDS] + left[NUM_ROUNDS]     # NUM_ROUNDS = 16
+    ciphertext = FP(combined_data)  # final permutation to obtain the output ciphertext
+
+    return ciphertext
