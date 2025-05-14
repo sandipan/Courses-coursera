@@ -3,7 +3,7 @@
 from openai import OpenAI
 import os
 #%% 
-api_key = "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" #os.getenv('OPENAIAPI')
+# api_key = "xxxx" #os.getenv('OPENAIAPI')
 openai = OpenAI(api_key=api_key)
 
 '''
