@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[114],{GmVJ:function(module,e,t){"use strict";t.r(e);var a=t("q1tI"),c=t("Yf05"),m=t("K2XA"),s=t("z3RS");e.default=function(e){var t=e.computedItem,n=e.itemMetadata;return(a.createElement(m.a,{className:"rc-DiscussionPromptWrapper",hideFeedback:!0},a.createElement("div",{className:"discussion-prompt-content"},a.createElement(s.a,{itemName:t.name,itemMetadata:n,courseId:t.courseId}),a.createElement(c.a,{itemMetadata:n,previouslyCompleted:t.isCompleted}))))}}}]);
+//# sourceMappingURL=114.5a75c91c17fd78b97be4.js.map
