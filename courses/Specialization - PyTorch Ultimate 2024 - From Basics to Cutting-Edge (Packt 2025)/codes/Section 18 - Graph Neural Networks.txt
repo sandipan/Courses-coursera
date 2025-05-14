@@ -1,0 +1,5 @@
+PyG Installation
+https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+
+Inspirational Google Colab on Node Classification
+https://colab.research.google.com/drive/14OvFnAXggxB8vM4e8vSURUp1TaKnovzX?usp=sharing#scrollTo=dszt2RUHE7lW

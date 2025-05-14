@@ -1,0 +1,15 @@
+name: pytorch
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pytorch
+  - torchvision
+  - ipykernel
+  - seaborn
+  - requests
+  - psutil
+  - python-kaleido
+  - python-graphviz
+  - torchmetrics
