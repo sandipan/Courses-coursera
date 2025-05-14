@@ -1,0 +1,44 @@
+{
+    "ticker": "MEET",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -64590000.0,
+            "Total Assets": 275300000.0,
+            "Operating Cash Flow": 31270000.0,
+            "Beginning Year Total Assets": 209500000.0,
+            "Long Term Debt": 40800000.0,
+            "Current Assets": 53800000.0,
+            "Current Liabilities": 45800000.0,
+            "Weighted Average Shares Out": 71840000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 123760000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 46260000.0,
+            "Total Assets": 209500000.0,
+            "Operating Cash Flow": 25920000.0,
+            "Beginning Year Total Assets": 111500000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 47100000.0,
+            "Current Liabilities": 14400000.0,
+            "Weighted Average Shares Out": 64170000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 76120000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 5960000.0,
+            "Total Assets": 111500000.0,
+            "Operating Cash Flow": 7210000.0,
+            "Beginning Year Total Assets": 103200000.0,
+            "Long Term Debt": 200000.0,
+            "Current Assets": 36800000.0,
+            "Current Liabilities": 7600000.0,
+            "Weighted Average Shares Out": 46720000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 56910000.0
+        }
+    ]
+}

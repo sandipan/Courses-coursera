@@ -1,0 +1,44 @@
+{
+    "ticker": "RELL",
+    "financials": [
+        {
+            "Date": "2017-12-02",
+            "Net Income": 100000.0,
+            "Total Assets": 160000000.0,
+            "Operating Cash Flow": 1490000.0,
+            "Beginning Year Total Assets": 155400000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 131400000.0,
+            "Current Liabilities": 23900000.0,
+            "Weighted Average Shares Out": 12900000.0,
+            "Gross Margin": 0.331141422997662,
+            "Revenue": 145800000.0
+        },
+        {
+            "Date": "2016-11-26",
+            "Net Income": -8500000.0,
+            "Total Assets": 155400000.0,
+            "Operating Cash Flow": -6679999.999999999,
+            "Beginning Year Total Assets": 168800000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 126700000.0,
+            "Current Liabilities": 21300000.0,
+            "Weighted Average Shares Out": 12800000.0,
+            "Gross Margin": 0.3205878301377275,
+            "Revenue": 138100000.0
+        },
+        {
+            "Date": "2015-11-28",
+            "Net Income": -8100000.0,
+            "Total Assets": 168800000.0,
+            "Operating Cash Flow": -16280000.0,
+            "Beginning Year Total Assets": 194300000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 138800000.0,
+            "Current Liabilities": 22400000.0,
+            "Weighted Average Shares Out": 12900000.0,
+            "Gross Margin": 0.29859211780850303,
+            "Revenue": 139600000.0
+        }
+    ]
+}

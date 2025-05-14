@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "SANW",
+        "open": 4.6,
+        "high": 4.75,
+        "low": 4.5501,
+        "close": 4.75,
+        "volume": 76579,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "SANW",
+        "open": 4,
+        "high": 4,
+        "low": 3.9579,
+        "close": 4,
+        "volume": 4378,
+        "from": "2018-01-04"
+    }
+]

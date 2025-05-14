@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "UAN",
+        "open": 60.8,
+        "high": 63.5,
+        "low": 60.7,
+        "close": 63.3,
+        "volume": 34555,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "UAN",
+        "open": 37,
+        "high": 38.3,
+        "low": 36.5,
+        "close": 37.5,
+        "volume": 84627,
+        "from": "2018-01-04"
+    }
+]

@@ -1,0 +1,44 @@
+{
+    "ticker": "IOR",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 1510000.0,
+            "Total Assets": 87900000.0,
+            "Operating Cash Flow": 2780000.0,
+            "Beginning Year Total Assets": 86400000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 2000.0,
+            "Current Liabilities": 10000.0,
+            "Weighted Average Shares Out": 4170000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 498000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 2070000.0,
+            "Total Assets": 86400000.0,
+            "Operating Cash Flow": 3450000.0,
+            "Beginning Year Total Assets": 84300000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 1000.0,
+            "Current Liabilities": 23000.0,
+            "Weighted Average Shares Out": 4170000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 486000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 1490000.0,
+            "Total Assets": 84300000.0,
+            "Operating Cash Flow": 270000.0,
+            "Beginning Year Total Assets": 93100000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 2000.0,
+            "Current Liabilities": 6000.0,
+            "Weighted Average Shares Out": 4170000.0,
+            "Gross Margin": 0.872156354881074,
+            "Revenue": 704000.0
+        }
+    ]
+}

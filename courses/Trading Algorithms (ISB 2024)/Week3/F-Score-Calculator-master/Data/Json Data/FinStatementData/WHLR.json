@@ -1,0 +1,44 @@
+{
+    "ticker": "WHLR",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -12090000.0,
+            "Total Assets": 457700000.0,
+            "Operating Cash Flow": 23820000.0,
+            "Beginning Year Total Assets": 489000000.0,
+            "Long Term Debt": 307400000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 33500000.0,
+            "Weighted Average Shares Out": 8740000.0,
+            "Gross Margin": 0.7365985,
+            "Revenue": 58540000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -11200000.0,
+            "Total Assets": 489000000.0,
+            "Operating Cash Flow": 11100000.0,
+            "Beginning Year Total Assets": 309200000.0,
+            "Long Term Debt": 306000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 35700000.0,
+            "Weighted Average Shares Out": 8500000.0,
+            "Gross Margin": 0.7293170000000001,
+            "Revenue": 44170000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -17530000.0,
+            "Total Assets": 309200000.0,
+            "Operating Cash Flow": -5330000.0,
+            "Beginning Year Total Assets": 205000000.0,
+            "Long Term Debt": 184600000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 26400000.0,
+            "Weighted Average Shares Out": 8310000.0,
+            "Gross Margin": 0.69873025,
+            "Revenue": 27690000.0
+        }
+    ]
+}

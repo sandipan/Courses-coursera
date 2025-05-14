@@ -1,0 +1,44 @@
+{
+    "ticker": "RUN",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 124525000.0,
+            "Total Assets": 3927874000.0,
+            "Operating Cash Flow": -61011000.0,
+            "Beginning Year Total Assets": 3572818000.0,
+            "Long Term Debt": 1273416000.0,
+            "Current Assets": 432702000.0,
+            "Current Liabilities": 335031000.0,
+            "Weighted Average Shares Out": 106538000.0,
+            "Gross Margin": 0.1510804773531142,
+            "Revenue": 529699000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 91687000.0,
+            "Total Assets": 3572818000.0,
+            "Operating Cash Flow": -150580000.0,
+            "Beginning Year Total Assets": 2738146000.0,
+            "Long Term Debt": 883870000.0,
+            "Current Assets": 369345000.0,
+            "Current Liabilities": 244784000.0,
+            "Weighted Average Shares Out": 0.0,
+            "Gross Margin": 0.11623423303928526,
+            "Revenue": 453898000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -28246000.0,
+            "Total Assets": 2738146000.0,
+            "Operating Cash Flow": -105266000.0,
+            "Beginning Year Total Assets": 1935632000.0,
+            "Long Term Debt": 532910000.0,
+            "Current Assets": 360494000.0,
+            "Current Liabilities": 253167000.0,
+            "Weighted Average Shares Out": 0.0,
+            "Gross Margin": 0.08195623084598697,
+            "Revenue": 304606000.0
+        }
+    ]
+}

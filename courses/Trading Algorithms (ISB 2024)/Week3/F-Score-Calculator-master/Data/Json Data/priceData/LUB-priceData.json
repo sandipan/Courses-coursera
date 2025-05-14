@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "LUB",
+        "open": 4.35,
+        "high": 4.35,
+        "low": 4.2,
+        "close": 4.21,
+        "volume": 9764,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "LUB",
+        "open": 2.73,
+        "high": 2.81,
+        "low": 2.68,
+        "close": 2.73,
+        "volume": 10936,
+        "from": "2018-01-04"
+    }
+]

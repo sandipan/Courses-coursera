@@ -1,0 +1,44 @@
+{
+    "ticker": "NES",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -86451000.0,
+            "Total Assets": 311322000.0,
+            "Operating Cash Flow": -25405000.0,
+            "Beginning Year Total Assets": 342604000.0,
+            "Long Term Debt": 33524000.0,
+            "Current Assets": 53423000.0,
+            "Current Liabilities": 28387000.0,
+            "Weighted Average Shares Out": 11696000.0,
+            "Gross Margin": 0.10126639737220874,
+            "Revenue": 127191000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -168856000.0,
+            "Total Assets": 342604000.0,
+            "Operating Cash Flow": -26251000.0,
+            "Beginning Year Total Assets": 531327000.0,
+            "Long Term Debt": 5956000.0,
+            "Current Assets": 33478000.0,
+            "Current Liabilities": 492967000.0,
+            "Weighted Average Shares Out": 137702000.0,
+            "Gross Margin": 0.1452448531624041,
+            "Revenue": 152176000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -195454000.0,
+            "Total Assets": 531327000.0,
+            "Operating Cash Flow": 49119000.0,
+            "Beginning Year Total Assets": 871572000.0,
+            "Long Term Debt": 11758000.0,
+            "Current Assets": 92317000.0,
+            "Current Liabilities": 553795000.0,
+            "Weighted Average Shares Out": 0.0,
+            "Gross Margin": 0.20695322890588624,
+            "Revenue": 356699000.0
+        }
+    ]
+}

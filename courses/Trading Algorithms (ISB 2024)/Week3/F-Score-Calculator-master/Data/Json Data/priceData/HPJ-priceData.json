@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "HPJ",
+        "open": 2.3,
+        "high": 2.4,
+        "low": 2.2,
+        "close": 2.2,
+        "volume": 54357,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "HPJ",
+        "open": 3.85,
+        "high": 4.1,
+        "low": 3.85,
+        "close": 4.05,
+        "volume": 100472,
+        "from": "2018-01-04"
+    }
+]

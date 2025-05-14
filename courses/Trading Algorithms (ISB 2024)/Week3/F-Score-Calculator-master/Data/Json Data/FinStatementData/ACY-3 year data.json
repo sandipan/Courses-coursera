@@ -1,0 +1,41 @@
+[
+    {
+        "Date": "2017-12-31",
+        "Net Income": 7399200.0,
+        "Total Assets": 236400000.0,
+        "Operating Cash Flow": 11920000.0,
+        "Beginning Year Total Assets": 222000000.0,
+        "Long Term Debt": 147500000.0,
+        "Current Assets": 0.0,
+        "Current Liabilities": 41500000.0,
+        "Weighted Average Shares Out": 1449576.0,
+        "Gross Margin": 1.0,
+        "Revenue": 35553800.0
+    },
+    {
+        "Date": "2016-12-31",
+        "Net Income": -39038000.0,
+        "Total Assets": 218700000.0,
+        "Operating Cash Flow": 13110000.0,
+        "Beginning Year Total Assets": 176400000.0,
+        "Long Term Debt": 127700000.0,
+        "Current Assets": 0.0,
+        "Current Liabilities": 48500000.0,
+        "Weighted Average Shares Out": 1566699.0,
+        "Gross Margin": 1.0,
+        "Revenue": 28716300.0
+    },
+    {
+        "Date": "2015-12-31",
+        "Net Income": 6437600.0,
+        "Total Assets": 181000000.0,
+        "Operating Cash Flow": 5790000.0,
+        "Beginning Year Total Assets": 195400000.0,
+        "Long Term Debt": 110400000.0,
+        "Current Assets": 0.0,
+        "Current Liabilities": 29300000.0,
+        "Weighted Average Shares Out": 1544285.0,
+        "Gross Margin": 1.0,
+        "Revenue": 38533700.0
+    }
+]

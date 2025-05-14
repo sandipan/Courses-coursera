@@ -1,0 +1,44 @@
+{
+    "ticker": "NHLD",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -571000.0,
+            "Total Assets": 64489000.0,
+            "Operating Cash Flow": 3522000.0,
+            "Beginning Year Total Assets": 57387000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 47400000.0,
+            "Current Liabilities": 33400000.0,
+            "Weighted Average Shares Out": 12437916.0,
+            "Gross Margin": 0.0,
+            "Revenue": 23195000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -47000.0,
+            "Total Assets": 57387000.0,
+            "Operating Cash Flow": 345000.0,
+            "Beginning Year Total Assets": 61805000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 34900000.0,
+            "Current Liabilities": 26600000.0,
+            "Weighted Average Shares Out": 12437916.0,
+            "Gross Margin": 0.0,
+            "Revenue": 18920000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -465000.0,
+            "Total Assets": 61805000.0,
+            "Operating Cash Flow": 890000.0,
+            "Beginning Year Total Assets": 61174000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 35000000.0,
+            "Current Liabilities": 17000000.0,
+            "Weighted Average Shares Out": 12446064.0,
+            "Gross Margin": 0.0,
+            "Revenue": 125086000.0
+        }
+    ]
+}

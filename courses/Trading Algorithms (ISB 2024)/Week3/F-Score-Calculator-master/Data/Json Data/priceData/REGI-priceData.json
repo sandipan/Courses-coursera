@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "REGI",
+        "open": 9.7,
+        "high": 9.95,
+        "low": 9.65,
+        "close": 9.95,
+        "volume": 281596,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "REGI",
+        "open": 11.8,
+        "high": 11.9,
+        "low": 11.5,
+        "close": 11.55,
+        "volume": 814266,
+        "from": "2018-01-04"
+    }
+]

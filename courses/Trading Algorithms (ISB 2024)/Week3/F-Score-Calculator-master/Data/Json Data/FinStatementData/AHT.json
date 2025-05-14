@@ -1,0 +1,44 @@
+{
+    "ticker": "AHT",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -67000000.0,
+            "Total Assets": 4669900000.0,
+            "Operating Cash Flow": 207400000.0,
+            "Beginning Year Total Assets": 4891500000.0,
+            "Long Term Debt": 3696300000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 341100000.0,
+            "Weighted Average Shares Out": 95300000.0,
+            "Gross Margin": 0.31756949999999995,
+            "Revenue": 1439300000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -46200000.0,
+            "Total Assets": 4891500000.0,
+            "Operating Cash Flow": 179700000.0,
+            "Beginning Year Total Assets": 4965100000.0,
+            "Long Term Debt": 3723600000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 376300000.0,
+            "Weighted Average Shares Out": 94600000.0,
+            "Gross Margin": 0.32042525,
+            "Revenue": 1492100000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 269300000.0,
+            "Total Assets": 4965100000.0,
+            "Operating Cash Flow": 203600000.0,
+            "Beginning Year Total Assets": 2770100000.0,
+            "Long Term Debt": 3840600000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 313400000.0,
+            "Weighted Average Shares Out": 94000000.0,
+            "Gross Margin": 0.323757,
+            "Revenue": 1336900000.0
+        }
+    ]
+}

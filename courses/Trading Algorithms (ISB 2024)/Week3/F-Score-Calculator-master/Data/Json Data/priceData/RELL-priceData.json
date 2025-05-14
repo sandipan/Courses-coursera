@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "RELL",
+        "open": 6.31,
+        "high": 6.46,
+        "low": 6.22,
+        "close": 6.25,
+        "volume": 11544,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "RELL",
+        "open": 6.78,
+        "high": 6.96,
+        "low": 6.78,
+        "close": 6.94,
+        "volume": 39375,
+        "from": "2018-01-04"
+    }
+]

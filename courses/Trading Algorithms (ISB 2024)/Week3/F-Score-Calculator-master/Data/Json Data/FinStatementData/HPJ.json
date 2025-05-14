@@ -1,0 +1,44 @@
+{
+    "ticker": "HPJ",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 16772852.0,
+            "Total Assets": 220264538.0,
+            "Operating Cash Flow": -4082687.0,
+            "Beginning Year Total Assets": 163331750.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 155983609.0,
+            "Current Liabilities": 152274668.0,
+            "Weighted Average Shares Out": 15326797.0,
+            "Gross Margin": 0.202446842922098,
+            "Revenue": 244166312.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 5983535.0,
+            "Total Assets": 163331750.0,
+            "Operating Cash Flow": 4794812.0,
+            "Beginning Year Total Assets": 134204484.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 104536987.0,
+            "Current Liabilities": 118034754.0,
+            "Weighted Average Shares Out": 15105235.0,
+            "Gross Margin": 0.2161762092497245,
+            "Revenue": 173851113.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 7303082.0,
+            "Total Assets": 134204484.0,
+            "Operating Cash Flow": 346196.0,
+            "Beginning Year Total Assets": 146154072.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 80682981.0,
+            "Current Liabilities": 91207597.0,
+            "Weighted Average Shares Out": 15096166.0,
+            "Gross Margin": 0.1944633943592455,
+            "Revenue": 254511011.0
+        }
+    ]
+}

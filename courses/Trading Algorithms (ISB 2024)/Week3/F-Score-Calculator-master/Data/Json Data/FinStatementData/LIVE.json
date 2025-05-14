@@ -1,0 +1,44 @@
+{
+    "ticker": "LIVE",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 6950000.0,
+            "Total Assets": 132200000.0,
+            "Operating Cash Flow": 10990000.0,
+            "Beginning Year Total Assets": 120300000.0,
+            "Long Term Debt": 31600000.0,
+            "Current Assets": 56600000.0,
+            "Current Liabilities": 65300000.0,
+            "Weighted Average Shares Out": 3750000.0,
+            "Gross Margin": 0.41402425,
+            "Revenue": 160250000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 19090000.0,
+            "Total Assets": 120300000.0,
+            "Operating Cash Flow": 8330000.0,
+            "Beginning Year Total Assets": 38900000.0,
+            "Long Term Debt": 55000000.0,
+            "Current Assets": 46300000.0,
+            "Current Liabilities": 36300000.0,
+            "Weighted Average Shares Out": 3830000.0,
+            "Gross Margin": 0.27030925,
+            "Revenue": 91040000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -9550000.0,
+            "Total Assets": 38900000.0,
+            "Operating Cash Flow": 3010000.0,
+            "Beginning Year Total Assets": 17900000.0,
+            "Long Term Debt": 20500000.0,
+            "Current Assets": 24500000.0,
+            "Current Liabilities": 11400000.0,
+            "Weighted Average Shares Out": 3200000.0,
+            "Gross Margin": 0.35852125,
+            "Revenue": 45460000.0
+        }
+    ]
+}

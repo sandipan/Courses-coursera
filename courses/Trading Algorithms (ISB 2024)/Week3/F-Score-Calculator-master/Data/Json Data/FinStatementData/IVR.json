@@ -1,0 +1,44 @@
+{
+    "ticker": "IVR",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 348600000.0,
+            "Total Assets": 18657000000.0,
+            "Operating Cash Flow": 290600000.0,
+            "Beginning Year Total Assets": 15706000000.0,
+            "Long Term Debt": 1793000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 14234000000.0,
+            "Weighted Average Shares Out": 119300000.0,
+            "Gross Margin": 0.5730014999999999,
+            "Revenue": 545000000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 254400000.0,
+            "Total Assets": 15706000000.0,
+            "Operating Cash Flow": 295800000.0,
+            "Beginning Year Total Assets": 16767000000.0,
+            "Long Term Debt": 2047000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 11418000000.0,
+            "Weighted Average Shares Out": 184700000.0,
+            "Gross Margin": 0.600703,
+            "Revenue": 478600000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 112600000.0,
+            "Total Assets": 16767000000.0,
+            "Operating Cash Flow": 358600000.0,
+            "Beginning Year Total Assets": 21231000000.0,
+            "Long Term Debt": 2045000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 12481000000.0,
+            "Weighted Average Shares Out": 123100000.0,
+            "Gross Margin": 0.51288,
+            "Revenue": 650000000.0
+        }
+    ]
+}

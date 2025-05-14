@@ -1,0 +1,44 @@
+{
+    "ticker": "CYH",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -2459000000.0,
+            "Total Assets": 17450000000.0,
+            "Operating Cash Flow": 944000000.0,
+            "Beginning Year Total Assets": 21944000000.0,
+            "Long Term Debt": 13880000000.0,
+            "Current Assets": 4068000000.0,
+            "Current Liabilities": 2356000000.0,
+            "Weighted Average Shares Out": 112000000.0,
+            "Gross Margin": 0.824252,
+            "Revenue": 15354000000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -1721000000.0,
+            "Total Assets": 21944000000.0,
+            "Operating Cash Flow": 1116000000.0,
+            "Beginning Year Total Assets": 26595000000.0,
+            "Long Term Debt": 14789000000.0,
+            "Current Assets": 4666000000.0,
+            "Current Liabilities": 2887000000.0,
+            "Weighted Average Shares Out": 110900000.0,
+            "Gross Margin": 0.83659825,
+            "Revenue": 18438000000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 159000000.0,
+            "Total Assets": 26595000000.0,
+            "Operating Cash Flow": 1591000000.0,
+            "Beginning Year Total Assets": 27421000000.0,
+            "Long Term Debt": 16556000000.0,
+            "Current Assets": 5166000000.0,
+            "Current Liabilities": 3072000000.0,
+            "Weighted Average Shares Out": 112900000.0,
+            "Gross Margin": 0.8431629999999999,
+            "Revenue": 19437000000.0
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "CALI",
+        "open": 3.5,
+        "high": 3.5,
+        "low": 3.35,
+        "close": 3.42,
+        "volume": 2729,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "CALI",
+        "open": 3.38,
+        "high": 3.39,
+        "low": 3.17,
+        "close": 3.2,
+        "volume": 47210,
+        "from": "2018-01-04"
+    }
+]

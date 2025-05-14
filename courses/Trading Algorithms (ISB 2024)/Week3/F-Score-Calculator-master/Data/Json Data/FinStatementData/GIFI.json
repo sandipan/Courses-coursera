@@ -1,0 +1,44 @@
+{
+    "ticker": "GIFI",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -44800000.0,
+            "Total Assets": 270800000.0,
+            "Operating Cash Flow": -39390000.0,
+            "Beginning Year Total Assets": 322400000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 179200000.0,
+            "Current Liabilities": 48700000.0,
+            "Weighted Average Shares Out": 14900000.0,
+            "Gross Margin": -0.271515,
+            "Revenue": 171100000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 3400000.0,
+            "Total Assets": 322400000.0,
+            "Operating Cash Flow": 14570000.0,
+            "Beginning Year Total Assets": 316900000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 113400000.0,
+            "Current Liabilities": 35300000.0,
+            "Weighted Average Shares Out": 14700000.0,
+            "Gross Margin": 0.07957475,
+            "Revenue": 286400000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -25300000.0,
+            "Total Assets": 316900000.0,
+            "Operating Cash Flow": 10690000.0,
+            "Beginning Year Total Assets": 395300000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 115900000.0,
+            "Current Liabilities": 37900000.0,
+            "Weighted Average Shares Out": 14600000.0,
+            "Gross Margin": -0.08059975000000001,
+            "Revenue": 306000000.0
+        }
+    ]
+}

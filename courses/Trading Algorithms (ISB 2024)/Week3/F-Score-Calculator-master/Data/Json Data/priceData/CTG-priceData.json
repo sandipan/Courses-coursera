@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "CTG",
+        "open": 4.2,
+        "high": 4.25,
+        "low": 4.2,
+        "close": 4.24,
+        "volume": 41864,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "CTG",
+        "open": 5.28,
+        "high": 5.28,
+        "low": 5.1,
+        "close": 5.12,
+        "volume": 25454,
+        "from": "2018-01-04"
+    }
+]

@@ -1,0 +1,44 @@
+{
+    "ticker": "BPOP",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 107681000.0,
+            "Total Assets": 44277337000.0,
+            "Operating Cash Flow": 635512000.0,
+            "Beginning Year Total Assets": 38661609000.0,
+            "Long Term Debt": 1536356000.0,
+            "Current Assets": 22686000.0,
+            "Current Liabilities": 38523000000.0,
+            "Weighted Average Shares Out": 101695868.0,
+            "Gross Margin": 0.0,
+            "Revenue": 1921131000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 216691000.0,
+            "Total Assets": 38661609000.0,
+            "Operating Cash Flow": 589467000.0,
+            "Beginning Year Total Assets": 35769534000.0,
+            "Long Term Debt": 1574852000.0,
+            "Current Assets": 38158000.0,
+            "Current Liabilities": 32652000000.0,
+            "Weighted Average Shares Out": 103368820.0,
+            "Gross Margin": 0.0,
+            "Revenue": 1699196000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 895344000.0,
+            "Total Assets": 35769534000.0,
+            "Operating Cash Flow": 670135000.0,
+            "Beginning Year Total Assets": 33096695000.0,
+            "Long Term Debt": 1670309000.0,
+            "Current Assets": 13540000.0,
+            "Current Liabilities": 29741000000.0,
+            "Weighted Average Shares Out": 103098249.0,
+            "Gross Margin": 0.0,
+            "Revenue": 1905669000.0
+        }
+    ]
+}

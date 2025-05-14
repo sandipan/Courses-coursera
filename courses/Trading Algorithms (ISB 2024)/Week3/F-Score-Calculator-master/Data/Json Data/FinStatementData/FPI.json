@@ -1,0 +1,44 @@
+{
+    "ticker": "FPI",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 7920000.0,
+            "Total Assets": 1166100000.0,
+            "Operating Cash Flow": 930000.0,
+            "Beginning Year Total Assets": 655500000.0,
+            "Long Term Debt": 514100000.0,
+            "Current Assets": 60312000.0,
+            "Current Liabilities": 183300000.0,
+            "Weighted Average Shares Out": 32760000.0,
+            "Gross Margin": 0.857739026368797,
+            "Revenue": 46220000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 4300000.0,
+            "Total Assets": 655500000.0,
+            "Operating Cash Flow": 5040000.0,
+            "Beginning Year Total Assets": 345000000.0,
+            "Long Term Debt": 308800000.0,
+            "Current Assets": 51630000.0,
+            "Current Liabilities": 184800000.0,
+            "Weighted Average Shares Out": 14830000.0,
+            "Gross Margin": 0.9184321244827782,
+            "Revenue": 31000000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 1220000.0,
+            "Total Assets": 345000000.0,
+            "Operating Cash Flow": 7690000.000000001,
+            "Beginning Year Total Assets": 200700000.0,
+            "Long Term Debt": 187100000.0,
+            "Current Assets": 24466162.0,
+            "Current Liabilities": 49500000.0,
+            "Weighted Average Shares Out": 11870000.0,
+            "Gross Margin": 0.9163895126135118,
+            "Revenue": 13750000.0
+        }
+    ]
+}

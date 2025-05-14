@@ -1,0 +1,44 @@
+{
+    "ticker": "DEST",
+    "financials": [
+        {
+            "Date": "2017-10-28",
+            "Net Income": -44225000.0,
+            "Total Assets": 166424000.0,
+            "Operating Cash Flow": 12818000.0,
+            "Beginning Year Total Assets": 211418000.0,
+            "Long Term Debt": 25190000.0,
+            "Current Assets": 89474000.0,
+            "Current Liabilities": 67736000.0,
+            "Weighted Average Shares Out": 13777000.0,
+            "Gross Margin": 0.5279729674952045,
+            "Revenue": 401218000.0
+        },
+        {
+            "Date": "2016-10-29",
+            "Net Income": -3036000.0,
+            "Total Assets": 211418000.0,
+            "Operating Cash Flow": 18723000.0,
+            "Beginning Year Total Assets": 230382000.0,
+            "Long Term Debt": 34195000.0,
+            "Current Assets": 106959000.0,
+            "Current Liabilities": 60066000.0,
+            "Weighted Average Shares Out": 13696000.0,
+            "Gross Margin": 0.5206826662811075,
+            "Revenue": 451828000.0
+        },
+        {
+            "Date": "2015-10-31",
+            "Net Income": -18801000.0,
+            "Total Assets": 230382000.0,
+            "Operating Cash Flow": -19617000.0,
+            "Beginning Year Total Assets": 230533000.0,
+            "Long Term Debt": 10035000.0,
+            "Current Assets": 117522000.0,
+            "Current Liabilities": 96467000.0,
+            "Weighted Average Shares Out": 13585000.0,
+            "Gross Margin": 0.47236466972990926,
+            "Revenue": 546110000.0
+        }
+    ]
+}

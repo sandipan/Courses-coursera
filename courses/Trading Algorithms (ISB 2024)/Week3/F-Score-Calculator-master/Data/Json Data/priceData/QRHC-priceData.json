@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "QRHC",
+        "open": 2.48,
+        "high": 2.55,
+        "low": 2.2,
+        "close": 2.33,
+        "volume": 74697,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "QRHC",
+        "open": 2.4234,
+        "high": 2.57,
+        "low": 2.42,
+        "close": 2.57,
+        "volume": 44526,
+        "from": "2018-01-04"
+    }
+]

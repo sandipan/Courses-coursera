@@ -1,0 +1,44 @@
+{
+    "ticker": "SENEA",
+    "financials": [
+        {
+            "Date": "2017-12-30",
+            "Net Income": 4138000.0,
+            "Total Assets": 1134200000.0,
+            "Operating Cash Flow": 7327000.0,
+            "Beginning Year Total Assets": 1004711000.0,
+            "Long Term Debt": 449200000.0,
+            "Current Assets": 855100000.0,
+            "Current Liabilities": 242000000.0,
+            "Weighted Average Shares Out": 9800000.0,
+            "Gross Margin": 0.0654227067529842,
+            "Revenue": 1238523000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 29826000.0,
+            "Total Assets": 1004711000.0,
+            "Operating Cash Flow": 41935000.0,
+            "Beginning Year Total Assets": 960200000.0,
+            "Long Term Debt": 343634000.0,
+            "Current Assets": 750156000.0,
+            "Current Liabilities": 178732000.0,
+            "Weighted Average Shares Out": 9770000.0,
+            "Gross Margin": 0.104510113901752,
+            "Revenue": 1298107000.0
+        },
+        {
+            "Date": "2015-12-26",
+            "Net Income": 43365000.0,
+            "Total Assets": 960200000.0,
+            "Operating Cash Flow": 25437000.0,
+            "Beginning Year Total Assets": 881100000.0,
+            "Long Term Debt": 36700000.0,
+            "Current Assets": 737600000.0,
+            "Current Liabilities": 480700000.0,
+            "Weighted Average Shares Out": 10000000.0,
+            "Gross Margin": 0.0981388001674828,
+            "Revenue": 1249639000.0
+        }
+    ]
+}

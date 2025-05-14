@@ -1,0 +1,44 @@
+{
+    "ticker": "PDLI",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 110748000.0,
+            "Total Assets": 1243123000.0,
+            "Operating Cash Flow": 40624000.0,
+            "Beginning Year Total Assets": 1215387000.0,
+            "Long Term Debt": 117415000.0,
+            "Current Assets": 640443000.0,
+            "Current Liabilities": 193109000.0,
+            "Weighted Average Shares Out": 151217000.0,
+            "Gross Margin": 0.8847966920597373,
+            "Revenue": 302316000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 63606000.0,
+            "Total Assets": 1215387000.0,
+            "Operating Cash Flow": 101718000.0,
+            "Beginning Year Total Assets": 1016178000.0,
+            "Long Term Debt": 232443000.0,
+            "Current Assets": 398031000.0,
+            "Current Liabilities": 130315000.0,
+            "Weighted Average Shares Out": 163975000.0,
+            "Gross Margin": 0.2333371591598485,
+            "Revenue": 213897000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 332795000.0,
+            "Total Assets": 1016178000.0,
+            "Operating Cash Flow": 301465000.0,
+            "Beginning Year Total Assets": 962350000.0,
+            "Long Term Debt": 232835000.0,
+            "Current Assets": 282710000.0,
+            "Current Liabilities": 36741000.0,
+            "Weighted Average Shares Out": 163601000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 554246000.0
+        }
+    ]
+}

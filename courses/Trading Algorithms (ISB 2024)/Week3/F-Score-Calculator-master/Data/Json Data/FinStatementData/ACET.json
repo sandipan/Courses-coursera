@@ -1,0 +1,44 @@
+{
+    "ticker": "ACET",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 17535000.0,
+            "Total Assets": 1014944000.0,
+            "Operating Cash Flow": 58529000.0,
+            "Beginning Year Total Assets": 1044714000.0,
+            "Long Term Debt": 312015000.0,
+            "Current Assets": 477384000.0,
+            "Current Liabilities": 238608000.0,
+            "Weighted Average Shares Out": 35093000.0,
+            "Gross Margin": 0.24372297847372199,
+            "Revenue": 661438000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 19736000.0,
+            "Total Assets": 1044714000.0,
+            "Operating Cash Flow": 12282000.0,
+            "Beginning Year Total Assets": 524394000.0,
+            "Long Term Debt": 368469000.0,
+            "Current Assets": 459220000.0,
+            "Current Liabilities": 207626000.0,
+            "Weighted Average Shares Out": 29831000.0,
+            "Gross Margin": 0.236062660433152,
+            "Revenue": 535347000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 35132000.0,
+            "Total Assets": 524394000.0,
+            "Operating Cash Flow": 41240000.0,
+            "Beginning Year Total Assets": 479800000.0,
+            "Long Term Debt": 115885000.0,
+            "Current Assets": 329177000.0,
+            "Current Liabilities": 102594000.0,
+            "Weighted Average Shares Out": 29049000.0,
+            "Gross Margin": 0.2421353478930925,
+            "Revenue": 520785000.0
+        }
+    ]
+}

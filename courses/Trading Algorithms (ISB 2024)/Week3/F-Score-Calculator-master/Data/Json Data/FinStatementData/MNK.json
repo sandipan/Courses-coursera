@@ -1,0 +1,44 @@
+{
+    "ticker": "MNK",
+    "financials": [
+        {
+            "Date": "2017-12-29",
+            "Net Income": 2134400000.0,
+            "Total Assets": 15281000000.0,
+            "Operating Cash Flow": 727300000.0,
+            "Beginning Year Total Assets": 15206300000.0,
+            "Long Term Debt": 6421000000.0,
+            "Current Assets": 2285000000.0,
+            "Current Liabilities": 1050000000.0,
+            "Weighted Average Shares Out": 97700000.0,
+            "Gross Margin": 0.5142119961808252,
+            "Revenue": 3221600000.0
+        },
+        {
+            "Date": "2016-12-30",
+            "Net Income": 277600000.0,
+            "Total Assets": 15206300000.0,
+            "Operating Cash Flow": -311400000.0,
+            "Beginning Year Total Assets": 16039000000.0,
+            "Long Term Debt": 5880800000.0,
+            "Current Assets": 1566500000.0,
+            "Current Liabilities": 1307200000.0,
+            "Weighted Average Shares Out": 103300000.0,
+            "Gross Margin": 0.28111319338617025,
+            "Revenue": -914800000.0
+        },
+        {
+            "Date": "2015-12-25",
+            "Net Income": 443100000.0,
+            "Total Assets": 16039000000.0,
+            "Operating Cash Flow": 991000000.0,
+            "Beginning Year Total Assets": 12774000000.0,
+            "Long Term Debt": 6410000000.0,
+            "Current Assets": 1625000000.0,
+            "Current Liabilities": 888000000.0,
+            "Weighted Average Shares Out": 115400000.0,
+            "Gross Margin": 0.5689843115388367,
+            "Revenue": 3395400000.0
+        }
+    ]
+}

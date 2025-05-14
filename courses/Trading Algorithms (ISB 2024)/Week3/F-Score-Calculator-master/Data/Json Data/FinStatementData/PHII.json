@@ -1,0 +1,44 @@
+{
+    "ticker": "PHII",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 7532000.0,
+            "Total Assets": 1401846000.0,
+            "Operating Cash Flow": -19103000.0,
+            "Beginning Year Total Assets": 1448440000.0,
+            "Long Term Debt": 117500000.0,
+            "Current Assets": 352613000.0,
+            "Current Liabilities": 79036000.0,
+            "Weighted Average Shares Out": 15762000.0,
+            "Gross Margin": 0.0551855509947957,
+            "Revenue": 579545000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -7385000.0,
+            "Total Assets": 1448440000.0,
+            "Operating Cash Flow": -564000.0,
+            "Beginning Year Total Assets": 1430332000.0,
+            "Long Term Debt": 134000000.0,
+            "Current Assets": 521666000.0,
+            "Current Liabilities": 57050000.0,
+            "Weighted Average Shares Out": 15663000.0,
+            "Gross Margin": 0.06410765029018672,
+            "Revenue": 634098000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 26924000.0,
+            "Total Assets": 1430332000.0,
+            "Operating Cash Flow": 133918000.0,
+            "Beginning Year Total Assets": 1376080000.0,
+            "Long Term Debt": 557500000.0,
+            "Current Assets": 521290000.0,
+            "Current Liabilities": 76132000.0,
+            "Weighted Average Shares Out": 15566000.0,
+            "Gross Margin": 0.14479946905115548,
+            "Revenue": 804228000.0
+        }
+    ]
+}

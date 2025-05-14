@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "CXDC",
+        "open": 4,
+        "high": 4.1389,
+        "low": 4,
+        "close": 4.025,
+        "volume": 20637,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "CXDC",
+        "open": 4.6,
+        "high": 4.63,
+        "low": 4.55,
+        "close": 4.6,
+        "volume": 22608,
+        "from": "2018-01-04"
+    }
+]

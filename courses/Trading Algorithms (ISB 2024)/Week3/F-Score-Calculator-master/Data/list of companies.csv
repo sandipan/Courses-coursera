@@ -1,0 +1,642 @@
+Metric,Criteria,Value,,,,,,
+Price to book ,<,1,,,,,,
+Market Cap ,<,"$10,000,000,000.00",,,,,,
+IPO Date,>,5,,,,,,
+Price,<,2,,,,,,
+,,,,,,,,
+No.,Ticker,Company Name,Sector,Industry,Country,Market Cap,Price,Volume
+1,AAIC,Arlington Asset Investment Corp.,Real Estate,REIT - Mortgage,USA,123.3,3.62,185893
+2,AAME,Atlantic American Corporation,Financial,Insurance - Life,USA,48.2,2.38,17069
+3,AAN,"The Aaron's Company, Inc.",Industrials,Rental & Leasing Services,USA,589.85,16.94,502237
+4,AAOI,"Applied Optoelectronics, Inc.",Technology,Semiconductors,USA,259.62,11.01,883341
+5,AAWW,"Atlas Air Worldwide Holdings, Inc.",Industrials,Airports & Air Services,USA,1456.14,51.82,501518
+6,ABIO,"ARCA biopharma, Inc.",Healthcare,Biotechnology,USA,39.02,4.2,473998
+7,ABTX,"Allegiance Bancshares, Inc.",Financial,Banks - Regional,USA,730.34,35.18,94419
+8,AC,"Associated Capital Group, Inc.",Financial,Capital Markets,USA,728.39,32.84,20368
+9,ACNB,ACNB Corporation,Financial,Banks - Regional,USA,222.19,25.05,17303
+10,ACRE,Ares Commercial Real Estate Corporation,Real Estate,REIT - Mortgage,USA,388.62,11.32,230376
+11,ADX,"Adams Diversified Equity Fund, Inc.",Financial,Closed-End Fund - Equity,USA,1862.83,17.14,227375
+12,AE,"Adams Resources & Energy, Inc.",Energy,Oil & Gas Integrated,USA,103.86,24.21,12310
+13,AEL,American Equity Investment Life Holding Company,Financial,Insurance - Life,USA,2724.59,29.19,728995
+14,AFB,AllianceBernstein National Municipal Income Fund,Financial,Closed-End Fund - Debt,USA,416.23,14.48,25693
+15,AFT,Apollo Senior Floating Rate Fund Inc.,Financial,Asset Management,USA,226.28,14.53,47781
+16,AGNC,AGNC Investment Corp.,Real Estate,REIT - Mortgage,USA,8625.24,15.6,8840662
+17,AHC,A.H. Belo Corporation,Communication Services,Publishing,USA,48.2,2.2,166591
+18,AINV,Apollo Investment Corporation,Financial,Asset Management,USA,796.75,12.1,655983
+19,AIV,Apartment Investment and Management Company,Real Estate,REIT - Residential,USA,702.59,4.59,4139860
+20,AJX,Great Ajax Corp.,Real Estate,REIT - Mortgage,USA,235.02,9.85,73714
+21,AKER,"Akers Biosciences, Inc.",Healthcare,Medical Instruments & Supplies,USA,24.71,2.64,193187
+22,AKR,Acadia Realty Trust,Real Estate,REIT - Retail,USA,1322.55,14.5,963690
+23,AL,Air Lease Corporation,Industrials,Rental & Leasing Services,USA,4785.32,39.63,698686
+24,ALEX,"Alexander & Baldwin, Inc.",Real Estate,REIT - Diversified,USA,1138.84,15.12,403057
+25,AMBC,"Ambac Financial Group, Inc.",Financial,Insurance - Specialty,USA,678.89,14.42,484183
+26,AMNB,American National Bankshares Inc.,Financial,Banks - Regional,USA,314.44,27.95,41600
+27,AMRB,American River Bankshares,Financial,Banks - Regional,USA,79.59,12.92,5656
+28,AMS,American Shared Hospital Services,Healthcare,Medical Care Facilities,USA,14.79,2.52,56014
+29,ANAT,"American National Group, Inc.",Financial,Insurance - Diversified,USA,2427.8,88.38,36643
+30,ANDE,"The Andersons, Inc.",Consumer Defensive,Food Distribution,USA,805.69,23,215235
+31,ANH,Anworth Mortgage Asset Corporation,Real Estate,REIT - Mortgage,USA,252.1,2.44,615219
+32,APLE,"Apple Hospitality REIT, Inc.",Real Estate,REIT - Hotel & Motel,USA,2897.98,12.48,2224635
+33,APTS,"Preferred Apartment Communities, Inc.",Real Estate,REIT - Residential,USA,367.27,7.19,626946
+34,AR,Antero Resources Corporation,Energy,Oil & Gas E&P,USA,2044.59,6.94,11222215
+35,ARI,"Apollo Commercial Real Estate Finance, Inc.",Real Estate,REIT - Mortgage,USA,1651.29,11.18,1939786
+36,ARL,"American Realty Investors, Inc.",Real Estate,Real Estate - Development,USA,145.42,8.63,17160
+37,ARLP,"Alliance Resource Partners, L.P.",Energy,Thermal Coal,USA,648.72,5.03,512679
+38,ARR,"ARMOUR Residential REIT, Inc.",Real Estate,REIT - Mortgage,USA,731.52,11.17,1209145
+39,ASA,ASA Gold and Precious Metals Limited,Financial,Asset Management,USA,406.05,21.05,86939
+40,ASB,Associated Banc-Corp,Financial,Banks - Regional,USA,2812.27,17.94,1914522
+41,ASMB,"Assembly Biosciences, Inc.",Healthcare,Biotechnology,USA,183.92,5.58,1345345
+42,ASRV,"AmeriServ Financial, Inc.",Financial,Banks - Regional,USA,58.21,3.4,22593
+43,ASUR,"Asure Software, Inc.",Technology,Software - Application,USA,156.81,8.18,84006
+44,ATAX,"America First Multifamily Investors, L.P.",Financial,Mortgage Finance,USA,276.1,4.48,447538
+45,ATLO,Ames National Corporation,Financial,Banks - Regional,USA,208.89,22.51,27871
+46,AUB,Atlantic Union Bankshares Corporation,Financial,Banks - Regional,USA,2644.61,32.84,324659
+47,AVT,"Avnet, Inc.",Technology,Electronics & Computer Distribution,USA,3549.01,35.31,2180604
+48,AWF,AllianceBernstein Global High Income Fund,Financial,Closed-End Fund - Debt,USA,1008.03,11.69,134095
+49,AWX,Avalon Holdings Corporation,Industrials,Waste Management,USA,13.69,3.3,136694
+50,AXR,AMREP Corporation,Real Estate,Real Estate Services,USA,57.28,8,15885
+51,AYTU,"Aytu BioScience, Inc.",Healthcare,Biotechnology,USA,125.74,7.14,379919
+52,BANR,Banner Corporation,Financial,Banks - Regional,USA,1629.43,44.23,215047
+53,BANX,StoneCastle Financial Corp.,Financial,Asset Management,USA,130.45,19.87,5445
+54,BBDC,"Barings BDC, Inc.",Financial,Credit Services,USA,423.5,8.83,301740
+55,BBF,BlackRock Municipal Income Investment Trust,Financial,Closed-End Fund - Debt,USA,142.13,13.89,10558
+56,BBGI,"Beasley Broadcast Group, Inc.",Communication Services,Broadcasting,USA,60.91,2.05,255677
+57,BBK,BlackRock Municipal Bond Trust,Financial,Closed-End Fund - Debt,USA,169.53,16.11,20717
+58,BCBP,"BCB Bancorp, Inc.",Financial,Banks - Regional,USA,188.62,11.48,58203
+59,BCEI,"Bonanza Creek Energy, Inc.",Energy,Oil & Gas E&P,USA,437.58,20.66,242854
+60,BCML,BayCom Corp,Financial,Banks - Regional,USA,177.43,14.7,22735
+61,BDGE,"Bridge Bancorp, Inc.",Financial,Banks - Regional,USA,549.68,24.43,3788311
+62,BFIN,BankFinancial Corporation,Financial,Banks - Regional,USA,126.44,8.48,63710
+63,BFY,BlackRock New York Municipal Income Trust II,Financial,Asset Management,USA,73.15,14.61,2621
+64,BFZ,BlackRock California Municipal Income Trust,Financial,Closed-End Fund - Debt,USA,451.18,14.3,183114
+65,BGR,BlackRock Energy and Resources Trust,Financial,Closed-End Fund - Equity,USA,217.72,7.3,175517
+66,BGT,BlackRock Floating Rate Income Trust,Financial,Closed-End Fund - Debt,USA,272.57,12.06,50178
+67,BHB,Bar Harbor Bankshares,Financial,Banks - Regional,USA,325.45,21.51,55027
+68,BHE,"Benchmark Electronics, Inc.",Technology,Electronic Components,USA,925.3,25.33,274942
+69,BHLB,"Berkshire Hills Bancorp, Inc.",Financial,Banks - Regional,USA,886.53,16.58,707108
+70,BHR,"Braemar Hotels & Resorts, Inc.",Real Estate,REIT - Hotel & Motel,USA,188.6,5,367297
+71,BIF,"Boulder Growth & Income Fund, Inc.",Financial,Closed-End Fund - Equity,USA,1081.96,11.01,155875
+72,BKCC,BlackRock Capital Investment Corporation,Financial,Asset Management,USA,216.93,3,278149
+73,BKEP,"Blueknight Energy Partners, L.P.",Energy,Oil & Gas Midstream,USA,86.11,2.01,205013
+74,BKT,"BlackRock Income Trust, Inc.",Financial,Closed-End Fund - Debt,USA,393.63,6.17,119619
+75,BNED,"Barnes & Noble Education, Inc.",Consumer Cyclical,Specialty Retail,USA,314.51,5.86,418526
+76,BNTC,Benitec Biopharma Inc.,Healthcare,Biotechnology,USA,17.8,4.01,300013
+77,BNY,BlackRock New York Municipal Income Trust,Financial,Closed-End Fund - Debt,USA,195.16,15.04,50949
+78,BOCH,Bank of Commerce Holdings,Financial,Banks - Regional,USA,173.43,10.13,35341
+79,BOKF,BOK Financial Corporation,Financial,Banks - Regional,USA,5318.66,73.86,402240
+80,BOTJ,"Bank of the James Financial Group, Inc.",Financial,Banks - Regional,USA,59.62,13.58,1683
+81,BPOP,"Popular, Inc.",Financial,Banks - Regional,USA,4991.73,56.75,934303
+82,BSE,BlackRock New York Municipal Income Quality Trust,Financial,Closed-End Fund - Debt,USA,91.24,13.99,12016
+83,BSRR,Sierra Bancorp,Financial,Banks - Regional,USA,342.92,21.87,36333
+84,BTT,Blackrock Municipal 2030 Target Term Trust,Financial,Closed-End Fund - Debt,USA,1829.62,25.95,27753
+85,BUSE,First Busey Corporation,Financial,Banks - Regional,USA,1167.03,20.67,264316
+86,BWFG,"Bankwell Financial Group, Inc.",Financial,Banks - Regional,USA,152.1,19.45,14559
+87,BYM,BlackRock Municipal Income Quality Trust,Financial,Closed-End Fund - Debt,USA,396.62,15.02,60706
+88,BZH,"Beazer Homes USA, Inc.",Consumer Cyclical,Residential Construction,USA,570.07,16.62,827082
+89,CAI,"CAI International, Inc.",Industrials,Rental & Leasing Services,USA,582.84,32.47,136865
+90,CARE,"Carter Bankshares, Inc.",Financial,Banks - Regional,USA,273.37,10.01,48671
+91,CBAN,"Colony Bankcorp, Inc.",Financial,Banks - Regional,USA,131.71,13.85,11648
+92,CBFV,"CB Financial Services, Inc.",Financial,Banks - Regional,USA,99.96,18.01,12841
+93,CCNE,CNB Financial Corporation,Financial,Banks - Regional,USA,357.72,21.03,56100
+94,CDOR,"Condor Hospitality Trust, Inc.",Real Estate,REIT - Hotel & Motel,USA,56.01,4.41,11905
+95,CDR,"Cedar Realty Trust, Inc.",Real Estate,REIT - Retail,USA,152.05,10.67,87496
+96,CET,Central Securities Corp.,Financial,Asset Management,USA,861.8,33.42,29745
+97,CEV,Eaton Vance California Municipal Income Trust,Financial,Asset Management,USA,97.16,13.62,11595
+98,CFFI,C&F Financial Corporation,Financial,Banks - Regional,USA,147.64,39.37,21809
+99,CHFS,"CHF Solutions, Inc.",Healthcare,Medical Devices,USA,22.48,7.97,139789
+100,CHMG,Chemung Financial Corporation,Financial,Banks - Regional,USA,157.6,33.46,13117
+101,CHMI,Cherry Hill Mortgage Investment Corporation,Real Estate,REIT - Mortgage,USA,153.74,8.8,205277
+102,CHN,"The China Fund, Inc.",Financial,Closed-End Fund - Foreign,USA,312.25,29.88,27901
+103,CIM,Chimera Investment Corporation,Real Estate,REIT - Mortgage,USA,2407.44,10.1,2449030
+104,CIT,CIT Group Inc.,Financial,Banks - Regional,USA,3726.53,36.9,1068019
+105,CIVB,"Civista Bancshares, Inc.",Financial,Banks - Regional,USA,271.27,17.05,46757
+106,CIZN,Citizens Holding Company,Financial,Banks - Regional,USA,110.24,20.19,9821
+107,CLDT,Chatham Lodging Trust,Real Estate,REIT - Hotel & Motel,USA,538.28,10.71,352154
+108,CLI,Mack-Cali Realty Corporation,Real Estate,REIT - Office,USA,1198.27,12.73,773658
+109,CMO,Capstead Mortgage Corporation,Real Estate,REIT - Mortgage,USA,519.1,5.34,1902998
+110,CMU,MFS High Yield Municipal Trust,Financial,Closed-End Fund - Debt,USA,126.05,4.45,144131
+111,CNFR,"Conifer Holdings, Inc.",Financial,Insurance - Property & Casualty,USA,30.51,3.12,15854
+112,CNO,"CNO Financial Group, Inc.",Financial,Insurance - Life,USA,3103.45,21.21,1233994
+113,CNOB,"ConnectOne Bancorp, Inc.",Financial,Banks - Regional,USA,856.16,21.25,993602
+114,CNX,CNX Resources Corporation,Energy,Oil & Gas E&P,USA,2837.95,12.67,4095721
+115,COHN,Cohen & Company Inc.,Financial,Capital Markets,USA,23.63,17.25,8189
+116,CONN,"Conn's, Inc.",Consumer Cyclical,Specialty Retail,USA,468.12,15.73,590414
+117,COWN,Cowen Inc.,Financial,Capital Markets,USA,696.4,25.15,592593
+118,CPE,Callon Petroleum Company,Energy,Oil & Gas E&P,USA,574.36,13.84,2167154
+119,CPS,Cooper-Standard Holdings Inc.,Consumer Cyclical,Auto Parts,USA,529.04,30.51,118032
+120,CPSS,"Consumer Portfolio Services, Inc.",Financial,Credit Services,USA,93.02,4.23,8317
+121,CPTA,Capitala Finance Corp.,Financial,Asset Management,USA,42.1,15.53,26890
+122,CRK,"Comstock Resources, Inc.",Energy,Oil & Gas E&P,USA,1078.4,4.55,2772079
+123,CTEK,"CynergisTek, Inc.",Technology,Information Technology Services,USA,23.1,2.1,94085
+124,CTO,"CTO Realty Growth, Inc.",Real Estate,Real Estate - Development,USA,254.47,42.13,49950
+125,CUBI,"Customers Bancorp, Inc.",Financial,Banks - Regional,USA,707.04,22.22,205759
+126,CVCY,Central Valley Community Bancorp,Financial,Banks - Regional,USA,193.24,15.3,27296
+127,CVEO,Civeo Corporation,Industrials,Specialty Business Services,USA,204.04,13.89,31554
+128,CVLG,"Covenant Logistics Group, Inc.",Industrials,Trucking,USA,258.64,15.09,210512
+129,CVLY,"Codorus Valley Bancorp, Inc.",Financial,Banks - Regional,USA,158.79,15.8,28837
+130,CVR,Chicago Rivet & Machine Co.,Industrials,Tools & Accessories,USA,27.33,27.33,14309
+131,CWBC,Community West Bancshares,Financial,Banks - Regional,USA,74.64,8.75,13928
+132,CXE,MFS High Income Municipal Trust,Financial,Closed-End Fund - Debt,USA,159.18,5.05,66415
+133,CXH,MFS Investment Grade Municipal Trust,Financial,Closed-End Fund - Debt,USA,89.47,9.82,2755
+134,CXP,"Columbia Property Trust, Inc.",Real Estate,REIT - Office,USA,1581.95,13.6,828189
+135,CXW,"CoreCivic, Inc.",Real Estate,REIT - Specialty,USA,830.31,7.11,4585989
+136,CZWI,"Citizens Community Bancorp, Inc.",Financial,Banks - Regional,USA,120.2,11.1,2602
+137,DCOM,"Dime Community Bancshares, Inc.",Financial,Banks - Regional,USA,593.23,15.9,2101366
+138,DCP,"DCP Midstream, LP",Energy,Oil & Gas Midstream,USA,4140,20,1218323
+139,DGICA,Donegal Group Inc.,Financial,Insurance - Property & Casualty,USA,401.12,13.87,74724
+140,DHC,Diversified Healthcare Trust,Real Estate,REIT - Healthcare Facilities,USA,1005.48,4.02,1460352
+141,DHF,BNY Mellon High Yield Strategies Fund,Financial,Closed-End Fund - Debt,USA,213.03,2.93,2536209
+142,DHX,"DHI Group, Inc.",Industrials,Staffing & Employment Services,USA,131.6,2.5,111366
+143,DHY,"Credit Suisse High Yield Bond Fund, Inc.",Financial,Asset Management,USA,234.96,2.27,3500803
+144,DIAX,Nuveen Dow 30 Dynamic Overwrite Fund,Financial,Closed-End Fund - Equity,USA,532.41,14.64,98910
+145,DIT,AMCON Distributing Company,Consumer Defensive,Food Distribution,USA,62.72,112,172
+146,DLA,"Delta Apparel, Inc.",Consumer Cyclical,Apparel Manufacturing,USA,139.74,20.02,18307
+147,DMF,"BNY Mellon Municipal Income, Inc.",Financial,Asset Management,USA,182.38,8.79,38368
+148,DRH,DiamondRock Hospitality Company,Real Estate,REIT - Hotel & Motel,USA,1757.83,8.2,2154628
+149,DSM,"BNY Mellon Strategic Municipal Bond Fund, Inc.",Financial,Closed-End Fund - Debt,USA,388.45,7.86,109813
+150,DSS,"Document Security Systems, Inc.",Industrials,Specialty Business Services,USA,51.01,4.02,1262959
+151,DSU,"BlackRock Debt Strategies Fund, Inc.",Financial,Closed-End Fund - Debt,USA,493.56,10.55,96172
+152,DTF,DTF Tax-Free Income Inc.,Financial,Closed-End Fund - Debt,USA,101.58,14.45,9944
+153,DWSN,Dawson Geophysical Company,Energy,Oil & Gas Equipment & Services,USA,61.51,2.58,16554
+154,DX,"Dynex Capital, Inc.",Real Estate,REIT - Mortgage,USA,433.92,18.05,1871419
+155,DXYN,"The Dixie Group, Inc.",Consumer Cyclical,Textile Manufacturing,USA,54.71,3.5,112397
+156,EAD,Wells Fargo Income Opportunities Fund,Financial,Asset Management,USA,493.78,8.15,168492
+157,EARN,Ellington Residential Mortgage REIT,Real Estate,REIT - Mortgage,USA,151.29,11.96,65554
+158,EBMT,"Eagle Bancorp Montana, Inc.",Financial,Banks - Regional,USA,145.02,21.39,12419
+159,EBTC,"Enterprise Bancorp, Inc.",Financial,Banks - Regional,USA,308.39,25.34,21399
+160,ECPG,"Encore Capital Group, Inc.",Financial,Mortgage Finance,USA,964.95,29.7,385425
+161,EFC,Ellington Financial Inc.,Financial,Mortgage Finance,USA,665.87,14.96,380055
+162,EFR,Eaton Vance Senior Floating-Rate Trust,Financial,Closed-End Fund - Debt,USA,489.71,13.29,124854
+163,EFT,Eaton Vance Floating-Rate Income Trust,Financial,Closed-End Fund - Debt,USA,538.16,13.5,123045
+164,EGF,"BlackRock Enhanced Government Fund, Inc.",Financial,Closed-End Fund - Debt,USA,55.57,13.04,4538
+165,EGLE,Eagle Bulk Shipping Inc.,Industrials,Marine Shipping,USA,236.99,19.57,131147
+166,EIG,"Employers Holdings, Inc.",Financial,Insurance - Specialty,USA,899.75,30.5,192648
+167,EIM,Eaton Vance Municipal Bond Fund,Financial,Asset Management,USA,963.45,13.39,96213
+168,ELDN,"Eledon Pharmaceuticals, Inc.",Healthcare,Biotechnology,USA,207.92,14.83,18765
+169,EMCF,Emclaire Financial Corp,Financial,Banks - Regional,USA,73.31,26.75,1758
+170,EMD,Western Asset Emerging Markets Debt Fund Inc.,Financial,Closed-End Fund - Debt,USA,817.64,13.46,179485
+171,ENBL,"Enable Midstream Partners, LP",Energy,Oil & Gas Midstream,USA,2377.72,5.32,984896
+172,ENX,Eaton Vance New York Municipal Bond Fund,Financial,Asset Management,USA,220.14,12.15,19960
+173,EQBK,"Equity Bancshares, Inc.",Financial,Banks - Regional,USA,347.32,22.08,42278
+174,EQT,EQT Corporation,Energy,Oil & Gas E&P,USA,4530.75,16.31,6092915
+175,ESBK,Elmira Savings Bank,Financial,Banks - Regional,USA,42.37,12.21,2833
+176,ESSA,"ESSA Bancorp, Inc.",Financial,Banks - Regional,USA,152.65,14.28,18666
+177,ESTE,"Earthstone Energy, Inc.",Energy,Oil & Gas E&P,USA,356.1,5.14,169456
+178,ESXB,Community Bankers Trust Corporation,Financial,Banks - Regional,USA,159.78,7.22,120071
+179,ETM,Entercom Communications Corp.,Communication Services,Broadcasting,USA,582.32,4.65,6887469
+180,EVBN,"Evans Bancorp, Inc.",Financial,Banks - Regional,USA,159.89,29.72,15136
+181,EVG,Eaton Vance Short Duration Diversified Income Fund,Financial,Closed-End Fund - Debt,USA,233.34,13.05,42401
+182,EVM,Eaton Vance California Municipal Bond Fund,Financial,Asset Management,USA,287.93,11.52,77391
+183,EVN,Eaton Vance Municipal Income Trust,Financial,Closed-End Fund - Debt,USA,535.11,13.49,49314
+184,EVV,Eaton Vance Limited Duration Income Fund,Financial,Asset Management,USA,1451.84,12.5,442114
+185,EVY,Eaton Vance New York Municipal Income Trust,Financial,Asset Management,USA,74.98,13.88,6956
+186,EXTN,Exterran Corporation,Energy,Oil & Gas Equipment & Services,USA,144.42,4.32,309730
+187,EZPW,"EZCORP, Inc.",Financial,Credit Services,USA,251.89,4.49,605048
+188,FAM,First Trust/Aberdeen Global Opportunity Income Fund,Financial,Closed-End Fund - Debt,USA,133.13,10.49,64567
+189,FANG,"Diamondback Energy, Inc.",Energy,Oil & Gas E&P,USA,9527.32,56.69,3133310
+190,FARM,Farmer Bros. Co.,Consumer Defensive,Packaged Foods,USA,93.48,5.24,149550
+191,FAX,"Aberdeen Asia-Pacific Income Fund, Inc.",Financial,Closed-End Fund - Debt,USA,1097.29,4.43,1129864
+192,FBIZ,"First Business Financial Services, Inc.",Financial,Banks - Regional,USA,158.32,19.26,24470
+193,FBP,First BanCorp.,Financial,Banks - Regional,USA,2099.37,9.1,2193619
+194,FBSS,"Fauquier Bankshares, Inc.",Financial,Banks - Regional,USA,71.46,18.56,7084
+195,FCBC,"First Community Bankshares, Inc.",Financial,Banks - Regional,USA,382.85,21.46,50865
+196,FCCO,First Community Corporation,Financial,Banks - Regional,USA,128.95,16.99,13815
+197,FCCY,1st Constitution Bancorp,Financial,Banks - Regional,USA,157.85,15.43,12509
+198,FCT,First Trust Senior Floating Rate Income Fund II,Financial,Closed-End Fund - Debt,USA,312.27,11.71,204538
+199,FDUS,Fidus Investment Corporation,Financial,Asset Management,USA,312.8,12.8,131610
+200,FEN,First Trust Energy Income and Growth Fund,Financial,Asset Management,USA,230.04,11.49,159957
+201,FET,"Forum Energy Technologies, Inc.",Energy,Oil & Gas Equipment & Services,USA,80.38,14.83,66468
+202,FFBC,First Financial Bancorp.,Financial,Banks - Regional,USA,1892.64,18.32,518881
+203,FFG,"FBL Financial Group, Inc.",Financial,Insurance - Life,USA,1372.98,56.04,82959
+204,FFIC,Flushing Financial Corporation,Financial,Banks - Regional,USA,525.18,18.28,297722
+205,FFNW,"First Financial Northwest, Inc.",Financial,Banks - Regional,USA,124.85,12.74,9159
+206,FGBI,"First Guaranty Bancshares, Inc.",Financial,Banks - Regional,USA,157.28,16,3843
+207,FISI,"Financial Institutions, Inc.",Financial,Banks - Regional,USA,378.83,22.89,61927
+208,FMBI,"First Midwest Bancorp, Inc.",Financial,Banks - Regional,USA,1970.54,16.53,2655007
+209,FMN,Federated Hermes Premier Municipal Income Fund,Financial,Closed-End Fund - Debt,USA,167.89,14.6,20005
+210,FMO,Fiduciary/Claymore Energy Infrastructure Fund,Financial,Closed-End Fund - Equity,USA,46,6.49,32531
+211,FMY,First Trust Mortgage Income Fund,Financial,Closed-End Fund - Debt,USA,58.4,13.86,2306
+212,FNB,F.N.B. Corporation,Financial,Banks - Regional,USA,3287.62,9.86,3681339
+213,FNCB,"FNCB Bancorp, Inc.",Financial,Banks - Regional,USA,122.52,6.12,30996
+214,FNHC,FedNat Holding Company,Financial,Insurance - Property & Casualty,USA,72.18,5.2,46885
+215,FNWB,First Northwest Bancorp,Financial,Banks - Regional,USA,147.14,13.7,19437
+216,FONR,FONAR Corporation,Healthcare,Medical Devices,USA,116.54,17.82,19917
+217,FPI,Farmland Partners Inc.,Real Estate,REIT - Specialty,USA,302.6,10.31,219675
+218,FRA,"BlackRock Floating Rate Income Strategies Fund, Inc.",Financial,Closed-End Fund - Debt,USA,443.52,12.43,163428
+219,FRBA,First Bank,Financial,Banks - Regional,USA,187.97,9.05,36226
+220,FRBK,"Republic First Bancorp, Inc.",Financial,Banks - Regional,USA,167.8,2.8,255158
+221,FRD,"Friedman Industries, Incorporated",Basic Materials,Steel,USA,50.62,7.16,9635
+222,FSFG,"First Savings Financial Group, Inc.",Financial,Banks - Regional,USA,144.33,60.39,5642
+223,FSK,FS KKR Capital Corp.,Financial,Asset Management,USA,2079.1,16.8,443751
+224,FSP,Franklin Street Properties Corp.,Real Estate,REIT - Office,USA,452.88,4.11,626993
+225,FSTR,L.B. Foster Company,Industrials,Railroads,USA,162.56,15.15,56802
+226,FT,Franklin Universal Trust,Financial,Closed-End Fund - Debt,USA,185.47,7.38,31482
+227,FULT,Fulton Financial Corporation,Financial,Banks - Regional,USA,2203.36,13.4,1596208
+228,FUNC,First United Corporation,Financial,Banks - Regional,USA,110.35,15.63,12108
+229,GAIN,Gladstone Investment Corporation,Financial,Asset Management,USA,339.69,10.23,207480
+230,GAM,"General American Investors Company, Inc.",Financial,Closed-End Fund - Equity,USA,911.34,36.98,24939
+231,GBDC,"Golub Capital BDC, Inc.",Financial,Asset Management,USA,2376.76,14.21,656663
+232,GBLI,"Global Indemnity Group, LLC",Financial,Insurance - Property & Casualty,USA,395.13,27.25,13693
+233,GBX,"The Greenbrier Companies, Inc.",Industrials,Railroads,USA,1197.92,36.18,540013
+234,GEL,"Genesis Energy, L.P.",Energy,Oil & Gas Midstream,USA,744.98,6.23,1468511
+235,GEOS,Geospace Technologies Corporation,Energy,Oil & Gas Equipment & Services,USA,113.77,8.15,39271
+236,GFED,"Guaranty Federal Bancshares, Inc.",Financial,Banks - Regional,USA,75.47,17.43,841
+237,GGN,"GAMCO Global Gold, Natural Resources & Income Trust",Financial,Asset Management,USA,568.94,3.45,579023
+238,GHC,Graham Holdings Company,Consumer Defensive,Education & Training Services,USA,2868.96,568.11,29235
+239,GIFI,"Gulf Island Fabrication, Inc.",Energy,Oil & Gas Equipment & Services,USA,53.6,3.44,33060
+240,GIII,"G-III Apparel Group, Ltd.",Consumer Cyclical,Apparel Retail,USA,1327.39,27.04,820213
+241,GIM,Templeton Global Income Fund,Financial,Closed-End Fund - Debt,USA,749.86,5.59,755595
+242,GLBZ,Glen Burnie Bancorp,Financial,Banks - Regional,USA,28.27,9.92,95
+243,GNK,Genco Shipping & Trading Limited,Industrials,Marine Shipping,USA,312.29,7.91,1013709
+244,GNL,"Global Net Lease, Inc.",Real Estate,REIT - Office,USA,1474.71,16.11,708741
+245,GNW,"Genworth Financial, Inc.",Financial,Insurance - Life,USA,1456.1,2.84,7681695
+246,GOVX,"GeoVax Labs, Inc.",Healthcare,Biotechnology,USA,18.11,4.68,413069
+247,GPRE,Green Plains Inc.,Basic Materials,Specialty Chemicals,USA,708.46,19.21,616720
+248,GPX,GP Strategies Corporation,Consumer Defensive,Education & Training Services,USA,206.45,12.08,45417
+249,GRF,"Eagle Capital Growth Fund, Inc.",Financial,Asset Management,USA,31.45,7.72,2050
+250,GT,The Goodyear Tire & Rubber Company,Consumer Cyclical,Auto Parts,USA,2492.23,10.55,3455035
+251,GTS,Triple-S Management Corporation,Healthcare,Healthcare Plans,USA,570.75,23.43,95023
+252,GYRO,"Gyrodyne, LLC",Real Estate,Real Estate Services,USA,24.72,16.67,5
+253,HAFC,Hanmi Financial Corporation,Financial,Banks - Regional,USA,432.57,13.82,257838
+254,HALL,"Hallmark Financial Services, Inc.",Financial,Insurance - Property & Casualty,USA,64.8,3.6,179793
+255,HAYN,"Haynes International, Inc.",Industrials,Metal Fabrication,USA,293.59,23.19,162890
+256,HBCP,"Home Bancorp, Inc.",Financial,Banks - Regional,USA,250.91,28.16,19932
+257,HBMD,"Howard Bancorp, Inc.",Financial,Banks - Regional,USA,235.59,12.1,29135
+258,HCAP,Harvest Capital Credit Corporation,Financial,Asset Management,USA,46.36,7.78,13368
+259,HCHC,"HC2 Holdings, Inc.",Communication Services,Telecom Services,USA,272.6,3.49,336714
+260,HFBL,"Home Federal Bancorp, Inc. of Louisiana",Financial,Banks - Regional,USA,51.04,30.38,8
+261,HFC,HollyFrontier Corporation,Energy,Oil & Gas Refining & Marketing,USA,4818.28,28.46,3581516
+262,HIO,Western Asset High Income Opportunity Fund Inc.,Financial,Closed-End Fund - Debt,USA,622.58,4.91,261652
+263,HLX,"Helix Energy Solutions Group, Inc.",Energy,Oil & Gas Equipment & Services,USA,638.19,4.12,2074754
+264,HMN,Horace Mann Educators Corporation,Financial,Insurance - Property & Casualty,USA,1665.12,39.17,219051
+265,HMNF,"HMN Financial, Inc.",Financial,Banks - Regional,USA,87.02,17.76,1700
+266,HNNA,"Hennessy Advisors, Inc.",Financial,Asset Management,USA,63.5,8.57,16466
+267,HOPE,"Hope Bancorp, Inc.",Financial,Banks - Regional,USA,1422.54,11.18,1061817
+268,HP,"Helmerich & Payne, Inc.",Energy,Oil & Gas Drilling,USA,2695.08,24.28,1280634
+269,HQH,Tekla Healthcare Investors,Financial,Closed-End Fund - Equity,USA,1045.9,23.84,133661
+270,HRTG,"Heritage Insurance Holdings, Inc.",Financial,Insurance - Property & Casualty,USA,268.79,9.32,136631
+271,HT,Hersha Hospitality Trust,Real Estate,REIT - Hotel & Motel,USA,313.93,7.64,579221
+272,HTBI,"HomeTrust Bancshares, Inc.",Financial,Banks - Regional,USA,360.36,21,65451
+273,HTBK,Heritage Commerce Corp,Financial,Banks - Regional,USA,549.36,8.78,233422
+274,HTD,John Hancock Tax-Advantaged Dividend Income Fund,Financial,Closed-End Fund - Debt,USA,741.29,20.94,98278
+275,HTLF,"Heartland Financial USA, Inc.",Financial,Banks - Regional,USA,1614.68,42.66,148483
+276,HURC,"Hurco Companies, Inc.",Industrials,Specialty Industrial Machinery,USA,200.94,29.42,11496
+277,HWBK,"Hawthorn Bancshares, Inc.",Financial,Banks - Regional,USA,120.81,18.36,129095
+278,HWC,Hancock Whitney Corporation,Financial,Banks - Regional,USA,3065.09,34.14,422344
+279,HWCC,Houston Wire & Cable Company,Industrials,Industrial Distribution,USA,56.11,3.34,29442
+280,HYB,The New America High Income Fund Inc.,Financial,Closed-End Fund - Debt,USA,206.58,8.84,48843
+281,ICBK,"County Bancorp, Inc.",Financial,Banks - Regional,USA,130.65,21.63,9787
+282,ICD,"Independence Contract Drilling, Inc.",Energy,Oil & Gas Drilling,USA,27.08,3.68,508609
+283,ICMB,"Investcorp Credit Management BDC, Inc.",Financial,Asset Management,USA,66.96,4.82,17269
+284,IGA,Voya Global Advantage and Premium Opportunity Fund,Financial,Closed-End Fund - Foreign,USA,156.41,8.58,81354
+285,IGD,Voya Global Equity Dividend and Premium Opportunity Fund,Financial,Closed-End Fund - Foreign,USA,514.33,5.32,429342
+286,IGR,CBRE Clarion Global Real Estate Income Fund,Financial,Closed-End Fund - Foreign,USA,820.79,7.04,583460
+287,IIM,Invesco Value Municipal Income Trust,Financial,Closed-End Fund - Debt,USA,742.08,15.77,57940
+288,INBK,First Internet Bancorp,Financial,Banks - Regional,USA,315.08,30.62,35347
+289,INN,"Summit Hotel Properties, Inc.",Real Estate,REIT - Hotel & Motel,USA,905.9,8.1,2585751
+290,INSI,Insight Select Income Fund,Financial,Asset Management,USA,219.23,20.47,48696
+291,IOR,"Income Opportunity Realty Investors, Inc.",Financial,Mortgage Finance,USA,47.67,11.01,323
+292,IPI,"Intrepid Potash, Inc.",Basic Materials,Agricultural Inputs,USA,315.27,22.73,116016
+293,IPLDP,Interstate Power and Light Company,Utilities,Utilities - Regulated Electric,USA,350.82,26.2,12680
+294,IQI,Invesco Quality Municipal Income Trust,Financial,Closed-End Fund - Debt,USA,681.14,12.88,74644
+295,IRL,"The New Ireland Fund, Inc.",Financial,Closed-End Fund - Foreign,USA,51.57,10.48,4832
+296,IROQ,"IF Bancorp, Inc.",Financial,Banks - Regional,USA,60.47,19.82,5329
+297,ISTR,Investar Holding Corporation,Financial,Banks - Regional,USA,173.07,16.13,17379
+298,IVC,Invacare Corporation,Healthcare,Medical Devices,USA,321.7,9.36,114297
+299,IVZ,Invesco Ltd.,Financial,Asset Management,USA,9889.58,20.59,6640090
+300,JCS,"Communications Systems, Inc.",Technology,Communication Equipment,USA,45.12,4.71,69649
+301,JDD,Nuveen Diversified Dividend and Income Fund,Financial,Closed-End Fund - Equity,USA,170.33,8.63,58445
+302,JEF,Jefferies Financial Group Inc.,Financial,Financial Conglomerates,USA,6102.29,23.35,3392753
+303,JEQ,"Aberdeen Japan Equity Fund, Inc.",Financial,Closed-End Fund - Foreign,USA,124.3,9.27,8709
+304,JFR,Nuveen Floating Rate Income Fund,Financial,Closed-End Fund - Debt,USA,525.36,9.23,457157
+305,JHS,John Hancock Income Securities Trust,Financial,Closed-End Fund - Debt,USA,180.87,15.53,17500
+306,JOF,"Japan Smaller Capitalization Fund, Inc.",Financial,Closed-End Fund - Foreign,USA,246.22,8.69,111113
+307,JQC,Nuveen Credit Strategies Income Fund,Financial,Closed-End Fund - Debt,USA,861.12,6.35,992400
+308,JRO,Nuveen Floating Rate Income Opportunity Fund,Financial,Closed-End Fund - Debt,USA,373.38,9.21,440048
+309,JRS,Nuveen Real Estate Income Fund,Financial,Asset Management,USA,245.88,8.51,149223
+310,JTD,Nuveen Tax-Advantaged Dividend Growth Fund,Financial,Closed-End Fund - Equity,USA,201.33,13.9,54710
+311,KELYA,"Kelly Services, Inc.",Industrials,Staffing & Employment Services,USA,776.51,19.52,172835
+312,KEQU,Kewaunee Scientific Corporation,Consumer Cyclical,"Furnishings, Fixtures & Appliances",USA,35.64,13.2,12878
+313,KEX,Kirby Corporation,Industrials,Marine Shipping,USA,3142.04,50.76,709855
+314,KINS,"Kingstone Companies, Inc.",Financial,Insurance - Property & Casualty,USA,75.92,7.01,17524
+315,KRNY,Kearny Financial Corp.,Financial,Banks - Regional,USA,912.97,10.35,286596
+316,KTCC,Key Tronic Corporation,Technology,Computer Hardware,USA,99.46,8.53,74596
+317,KTF,DWS Municipal Income Trust,Financial,Closed-End Fund - Debt,USA,460.19,11.65,71606
+318,KYN,"Kayne Anderson Energy Infrastructure Fund, Inc.",Financial,Closed-End Fund - Equity,USA,799.15,6.32,511059
+319,LADR,Ladder Capital Corp,Real Estate,REIT - Mortgage,USA,1236.32,9.83,1398837
+320,LARK,"Landmark Bancorp, Inc.",Financial,Banks - Regional,USA,113.09,23.61,5581
+321,LBAI,"Lakeland Bancorp, Inc.",Financial,Banks - Regional,USA,675.82,13.11,175929
+322,LCNB,LCNB Corp.,Financial,Banks - Regional,USA,197.79,15.38,35426
+323,LFT,"Lument Finance Trust, Inc.",Real Estate,REIT - Mortgage,USA,79.6,3.16,18535
+324,LILA,Liberty Latin America Ltd.,Communication Services,Telecom Services,USA,2389.01,10.09,282622
+325,LILAK,Liberty Latin America Ltd.,Communication Services,Telecom Services,USA,1790.89,9.89,1120008
+326,LIVE,Live Ventures Incorporated,Consumer Cyclical,Specialty Retail,USA,37.93,25.8,85085
+327,LMRK,Landmark Infrastructure Partners LP,Real Estate,Real Estate Services,USA,298.25,11.56,30272
+328,LNC,Lincoln National Corporation,Financial,Insurance - Life,USA,9385.04,45.49,2911579
+329,LPG,Dorian LPG Ltd.,Energy,Oil & Gas Midstream,USA,568.37,11.59,986957
+330,LSBK,"Lake Shore Bancorp, Inc.",Financial,Banks - Regional,USA,76.5,13.01,362
+331,LXU,"LSB Industries, Inc.",Basic Materials,Chemicals,USA,99.7,3.27,248201
+332,MAC,The Macerich Company,Real Estate,REIT - Retail,USA,3053.65,15.7,14594598
+333,MAV,Pioneer Municipal High Income Advantage Trust,Financial,Closed-End Fund - Debt,USA,281.29,11.77,61409
+334,MAYS,"J.W. Mays, Inc.",Real Estate,Real Estate Services,USA,51.26,25.5,60
+335,MCA,"BlackRock MuniYield California Quality Fund, Inc.",Financial,Closed-End Fund - Debt,USA,519.18,15.09,50415
+336,MFA,"MFA Financial, Inc.",Real Estate,REIT - Mortgage,USA,1722.7,3.64,5874284
+337,MFD,Macquarie/First Trust Global Infrastructure/Utilities Dividend & Income Fund,Financial,Closed-End Fund - Equity,USA,73.94,8.65,50271
+338,MFIN,Medallion Financial Corp.,Financial,Credit Services,USA,154.33,6.85,182274
+339,MFL,BlackRock MuniHoldings Investment Quality Fund,Financial,Closed-End Fund - Debt,USA,548.74,14.48,34589
+340,MFM,MFS Municipal Income Trust,Financial,Closed-End Fund - Debt,USA,274.31,6.66,59100
+341,MFNC,Mackinac Financial Corporation,Financial,Banks - Regional,USA,134.84,12.52,51203
+342,MGF,MFS Government Markets Income Trust,Financial,Closed-End Fund - Debt,USA,146.64,4.5,143521
+343,MGU,Macquarie Global Infrastructure Total Return Fund Inc.,Financial,Closed-End Fund - Foreign,USA,247.87,19.88,55864
+344,MHD,"BlackRock MuniHoldings Fund, Inc.",Financial,Closed-End Fund - Debt,USA,230.91,16.25,21334
+345,MHF,Western Asset Municipal High Income Fund Inc.,Financial,Closed-End Fund - Debt,USA,169.6,7.84,22391
+346,MHI,Pioneer Municipal High Income Trust,Financial,Closed-End Fund - Debt,USA,284.19,12.48,36648
+347,MHN,"BlackRock MuniHoldings New York Quality Fund, Inc.",Financial,Closed-End Fund - Debt,USA,436.78,14.03,52268
+348,MICT,"MICT, Inc.",Technology,Computer Hardware,USA,148,2.12,454532
+349,MIN,MFS Intermediate Income Trust,Financial,Closed-End Fund - Debt,USA,438.22,3.78,329951
+350,MIND,"MIND Technology, Inc.",Technology,Scientific & Technical Instruments,USA,29,2.14,121919
+351,MIY,"BlackRock MuniYield Michigan Quality Fund, Inc.",Financial,Closed-End Fund - Debt,USA,436.74,14.8,62604
+352,MLVF,"Malvern Bancorp, Inc.",Financial,Banks - Regional,USA,120.39,15.82,1926
+353,MMAC,"MMA Capital Holdings, Inc.",Financial,Mortgage Finance,USA,132.37,23.68,17189
+354,MMT,MFS Multimarket Income Trust,Financial,Closed-End Fund - Debt,USA,370.19,6.15,218941
+355,MNP,Western Asset Municipal Partners Fund Inc.,Financial,Closed-End Fund - Debt,USA,148.12,15.24,31017
+356,MNSB,"MainStreet Bancshares, Inc.",Financial,Banks - Regional,USA,132.37,17.08,33436
+357,MOFG,"MidWestOne Financial Group, Inc.",Financial,Banks - Regional,USA,401.06,24.59,58113
+358,MPA,BlackRock MuniYield Pennsylvania Quality Fund,Financial,Closed-End Fund - Debt,USA,195.23,14.67,13126
+359,MPB,"Mid Penn Bancorp, Inc.",Financial,Banks - Regional,USA,184.09,21.76,10175
+360,MPV,Barings Participation Investors,Financial,Closed-End Fund - Debt,USA,127.22,12,19049
+361,MQT,"BlackRock MuniYield Quality Fund II, Inc.",Financial,Closed-End Fund - Debt,USA,317.62,14.08,36439
+362,MRCC,Monroe Capital Corporation,Financial,Mortgage Finance,USA,182.14,8.55,60864
+363,MRLN,Marlin Business Services Corp.,Financial,Credit Services,USA,143.07,14.25,91571
+364,MRO,Marathon Oil Corporation,Energy,Oil & Gas E&P,USA,5967.79,7.24,23795687
+365,MSD,"Morgan Stanley Emerging Markets Debt Fund, Inc.",Financial,Closed-End Fund - Debt,USA,190.21,9.33,82910
+366,MTG,MGIC Investment Corporation,Financial,Insurance - Specialty,USA,4167.75,11.72,4091414
+367,MTW,"The Manitowoc Company, Inc.",Industrials,Farm & Heavy Construction Machinery,USA,466.47,13.14,331925
+368,MUC,"BlackRock MuniHoldings California Quality Fund, Inc.",Financial,Closed-End Fund - Debt,USA,615.04,15,61385
+369,MUE,"BlackRock MuniHoldings Quality Fund II, Inc.",Financial,Closed-End Fund - Debt,USA,301.33,13.38,29894
+370,MUH,"BlackRock MuniHoldings Fund II, Inc.",Financial,Closed-End Fund - Debt,USA,170.95,15.08,33007
+371,MUI,"BlackRock Muni Intermediate Duration Fund, Inc.",Financial,Closed-End Fund - Debt,USA,573.68,14.98,53422
+372,MUJ,"BlackRock MuniHoldings New Jersey Quality Fund, Inc.",Financial,Closed-End Fund - Debt,USA,435.06,14.46,83924
+373,MUR,Murphy Oil Corporation,Energy,Oil & Gas E&P,USA,1986,12.37,5622911
+374,MUS,"BlackRock MuniHoldings Quality Fund, Inc.",Financial,Closed-End Fund - Debt,USA,176.01,13.52,21074
+375,MVF,"BlackRock MuniVest Fund, Inc.",Financial,Asset Management,USA,603.63,9.31,145328
+376,MYC,"Blackrock MuniYield California Fund, Inc.",Financial,Closed-End Fund - Debt,USA,316.58,14.78,22274
+377,MYD,"BlackRock MuniYield Fund, Inc.",Financial,Closed-End Fund - Debt,USA,674.24,14.37,95301
+378,MYF,BlackRock MuniYield Investment Fund,Financial,Closed-End Fund - Debt,USA,193.64,14.12,19814
+379,MYI,"BlackRock MuniYield Quality Fund III, Inc.",Financial,Closed-End Fund - Debt,USA,984.78,14.45,72869
+380,MYJ,"BlackRock MuniYield New Jersey Fund, Inc.",Financial,Closed-End Fund - Debt,USA,350.53,14.51,35176
+381,MYN,"BlackRock MuniYield New York Quality Fund, Inc.",Financial,Closed-End Fund - Debt,USA,529.67,13.38,30980
+382,NAC,Nuveen California Quality Municipal Income Fund,Financial,Closed-End Fund - Debt,USA,2176.81,15.04,139473
+383,NAD,Nuveen Quality Municipal Income Fund,Financial,Asset Management,USA,3234,15.28,339379
+384,NAN,Nuveen New York Quality Municipal Income Fund,Financial,Closed-End Fund - Debt,USA,447.34,14.5,42673
+385,NAVI,Navient Corporation,Financial,Credit Services,USA,2151.51,11.26,3798323
+386,NBO,"Neuberger Berman New York Municipal Fund, Inc.",Financial,Asset Management,USA,62.96,12.4,1563
+387,NBW,Neuberger Berman California Municipal Fund Inc.,Financial,Asset Management,USA,75.88,13.67,13629
+388,NC,"NACCO Industries, Inc.",Energy,Thermal Coal,USA,173.06,23.97,23337
+389,NCB,Nuveen California Municipal Value Fund 2,Financial,Asset Management,USA,51.39,15.56,983
+390,NEA,Nuveen AMT-Free Quality Municipal Income Fund,Financial,Asset Management,USA,4189.99,15.04,390654
+391,NFBK,"Northfield Bancorp, Inc. (Staten Island, NY)",Financial,Banks - Regional,USA,664.6,12.36,321545
+392,NFJ,"AllianzGI Dividend, Interest & Premium Strategy Fund",Financial,Closed-End Fund - Equity,USA,1258.97,13.28,232329
+393,NGL,NGL Energy Partners LP,Energy,Oil & Gas Refining & Marketing,USA,351.49,2.74,2053213
+394,NGS,"Natural Gas Services Group, Inc.",Energy,Oil & Gas Equipment & Services,USA,109.42,8.19,93603
+395,NHLD,National Holdings Corporation,Financial,Capital Markets,USA,45.19,3.27,115546
+396,NICK,"Nicholas Financial, Inc.",Financial,Credit Services,USA,112.73,9.18,8776
+397,NID,Nuveen Intermediate Duration Municipal Term Fund,Financial,Asset Management,USA,670.81,14.3,102688
+398,NJV,Nuveen New Jersey Municipal Value Fund,Financial,Asset Management,USA,21.6,14.17,2019
+399,NKG,Nuveen Georgia Quality Municipal Income Fund,Financial,Asset Management,USA,136.45,13.12,16189
+400,NKSH,"National Bankshares, Inc.",Financial,Banks - Regional,USA,202.74,31,16524
+401,NKX,Nuveen California AMT-Free Quality Municipal Income Fund,Financial,Asset Management,USA,742.27,15.62,64784
+402,NL,"NL Industries, Inc.",Industrials,Security & Protection Services,USA,226.9,4.51,19502
+403,NMFC,New Mountain Finance Corporation,Financial,Asset Management,USA,1108.67,11.45,404485
+404,NMY,Nuveen Maryland Quality Municipal Income Fund,Financial,Closed-End Fund - Debt,USA,329.17,14.25,18063
+405,NNY,"Nuveen New York Municipal Value Fund, Inc.",Financial,Closed-End Fund - Debt,USA,153.27,10.06,5766
+406,NOV,NOV Inc.,Energy,Oil & Gas Equipment & Services,USA,4899.88,12.38,5488217
+407,NPN,Nuveen Pennsylvania Municipal Value Fund,Financial,Closed-End Fund - Debt,USA,16.87,13.84,4052
+408,NQP,Nuveen Pennsylvania Quality Municipal Income Fund,Financial,Closed-End Fund - Debt,USA,530.84,14.2,85940
+409,NR,"Newpark Resources, Inc.",Energy,Oil & Gas Equipment & Services,USA,228.79,2.39,954884
+410,NRIM,"Northrim BanCorp, Inc.",Financial,Banks - Regional,USA,201.39,32.12,21065
+411,NRK,Nuveen New York AMT-Free Quality Municipal Income Fund,Financial,Asset Management,USA,1195.12,13.7,124311
+412,NRP,Natural Resource Partners L.P.,Energy,Thermal Coal,USA,190.13,15.61,15525
+413,NRZ,New Residential Investment Corp.,Real Estate,REIT - Mortgage,USA,4057.7,9.39,4990062
+414,NSEC,"The National Security Group, Inc.",Financial,Insurance - Property & Casualty,USA,28.82,11.39,65
+415,NSL,Nuveen Senior Income Fund,Financial,Closed-End Fund - Debt,USA,208.5,5.4,1353976
+416,NSYS,Nortech Systems Incorporated,Technology,Electronic Components,USA,19.49,7.24,6775
+417,NTWK,"NetSol Technologies, Inc.",Technology,Software - Application,USA,48.29,4.12,36462
+418,NUM,Nuveen Michigan Quality Municipal Income Fund,Financial,Asset Management,USA,305.02,15.08,40625
+419,NUO,Nuveen Ohio Quality Municipal Income Fund,Financial,Asset Management,USA,288.68,15.76,43345
+420,NVFY,"Nova LifeStyle, Inc.",Consumer Cyclical,"Furnishings, Fixtures & Appliances",USA,16.5,2.82,91450
+421,NWHM,The New Home Company Inc.,Consumer Cyclical,Residential Construction,USA,97.52,5.26,25626
+422,NWLI,"National Western Life Group, Inc.",Financial,Insurance - Life,USA,678.6,180,7161
+423,NXJ,Nuveen New Jersey Quality Municipal Income Fund,Financial,Asset Management,USA,598.18,14.42,98542
+424,NXN,Nuveen New York Select Tax-Free Income Portfolio,Financial,Closed-End Fund - Debt,USA,53.61,13.66,5126
+425,NYCB,"New York Community Bancorp, Inc.",Financial,Banks - Regional,USA,4968.4,10.46,4824298
+426,NYMT,"New York Mortgage Trust, Inc.",Real Estate,REIT - Mortgage,USA,1458.09,3.73,4351796
+427,NYV,Nuveen New York Municipal Value Fund 2,Financial,Asset Management,USA,34.94,14.87,22
+428,OCFC,OceanFirst Financial Corp.,Financial,Banks - Regional,USA,1139.9,18.16,193263
+429,OCN,Ocwen Financial Corporation,Financial,Mortgage Finance,USA,217.69,24.46,54254
+430,OCSI,Oaktree Strategic Income Corporation,Financial,Asset Management,USA,225.68,7.65,56391
+431,OCSL,Oaktree Specialty Lending Corporation,Financial,Credit Services,USA,783.74,5.56,504540
+432,OFG,OFG Bancorp,Financial,Banks - Regional,USA,909.85,17.18,270949
+433,OFS,OFS Capital Corporation,Financial,Asset Management,USA,92.77,6.92,26848
+434,OIS,"Oil States International, Inc.",Energy,Oil & Gas Equipment & Services,USA,352.8,5.6,801668
+435,ONB,Old National Bancorp,Financial,Banks - Regional,USA,2846.24,16.79,705963
+436,OPBK,OP Bancorp,Financial,Banks - Regional,USA,114,7.59,22306
+437,OPHC,"OptimumBank Holdings, Inc.",Financial,Banks - Regional,USA,9.81,3.66,292901
+438,OPI,Office Properties Income Trust,Real Estate,REIT - Office,USA,1161.17,23.14,383149
+439,OPOF,Old Point Financial Corporation,Financial,Banks - Regional,USA,99.2,19.3,1865
+440,OPY,Oppenheimer Holdings Inc.,Financial,Capital Markets,USA,382.76,34.67,446984
+441,ORC,"Orchid Island Capital, Inc.",Real Estate,REIT - Mortgage,USA,454.49,5.17,4095527
+442,ORI,Old Republic International Corporation,Financial,Insurance - Diversified,USA,5585.66,18.1,3631881
+443,ORRF,"Orrstown Financial Services, Inc.",Financial,Banks - Regional,USA,202.18,17.31,30477
+444,OSBC,"Old Second Bancorp, Inc.",Financial,Banks - Regional,USA,288.32,9.82,106377
+445,OSG,"Overseas Shipholding Group, Inc.",Energy,Oil & Gas Midstream,USA,178.7,2.07,638144
+446,OVBC,Ohio Valley Banc Corp.,Financial,Banks - Regional,USA,107.88,21.49,19254
+447,OVV,Ovintiv Inc.,Energy,Oil & Gas E&P,USA,4282.46,15.76,3002476
+448,OXSQ,Oxford Square Capital Corp.,Financial,Asset Management,USA,175.05,3.53,417083
+449,PAA,"Plains All American Pipeline, L.P.",Energy,Oil & Gas Midstream,USA,6250.3,8.37,4851328
+450,PANL,"Pangaea Logistics Solutions, Ltd.",Industrials,Marine Shipping,USA,124.4,2.78,515755
+451,PATI,"Patriot Transportation Holding, Inc.",Industrials,Trucking,USA,30.29,8.91,12588
+452,PBCT,"People's United Financial, Inc.",Financial,Banks - Regional,USA,5905.63,13.66,18556650
+453,PBF,PBF Energy Inc.,Energy,Oil & Gas Refining & Marketing,USA,1141.16,8.47,9613060
+454,PBHC,"Pathfinder Bancorp, Inc.",Financial,Banks - Regional,USA,55.41,11.64,71
+455,PBIP,"Prudential Bancorp, Inc.",Financial,Banks - Regional,USA,96.02,11.81,16854
+456,PCB,PCB Bancorp,Financial,Banks - Regional,USA,185.06,11.84,98095
+457,PCF,High Income Securities Fund,Financial,Closed-End Fund - Debt,USA,47.75,8.58,82091
+458,PDCE,"PDC Energy, Inc.",Energy,Oil & Gas E&P,USA,2274.77,21.71,903006
+459,PEB,Pebblebrook Hotel Trust,Real Estate,REIT - Hotel & Motel,USA,2531.84,18.38,1864251
+460,PEBK,"Peoples Bancorp of North Carolina, Inc.",Financial,Banks - Regional,USA,118.99,20.1,7178
+461,PEI,Pennsylvania Real Estate Investment Trust,Real Estate,REIT - Retail,USA,210.81,2.62,3409183
+462,PEO,"Adams Natural Resources Fund, Inc.",Financial,Closed-End Fund - Equity,USA,352.28,11.83,50485
+463,PFBI,"Premier Financial Bancorp, Inc.",Financial,Banks - Regional,USA,249.61,15.37,70975
+464,PFIN,"P&F Industries, Inc.",Industrials,Tools & Accessories,USA,18.79,5.89,22086
+465,PFIS,Peoples Financial Services Corp.,Financial,Banks - Regional,USA,267.27,36.02,23635
+466,PFLT,PennantPark Floating Rate Capital Ltd.,Financial,Asset Management,USA,421.84,10.88,230016
+467,PFS,"Provident Financial Services, Inc.",Financial,Banks - Regional,USA,1470.86,18.52,1145813
+468,PGC,Peapack-Gladstone Financial Corporation,Financial,Banks - Regional,USA,450.41,23.52,62977
+469,PGRE,"Paramount Group, Inc.",Real Estate,REIT - Office,USA,1979.27,8.89,1125610
+470,PHX,PHX Minerals Inc.,Energy,Oil & Gas E&P,USA,65.81,2.75,104570
+471,PICO,"PICO Holdings, Inc.",Utilities,Utilities - Regulated Water,USA,167.27,8.6,142750
+472,PIM,Putnam Master Intermediate Income Trust,Financial,Closed-End Fund - Debt,USA,213.62,4.17,56342
+473,PLAB,"Photronics, Inc.",Technology,Semiconductor Equipment & Materials,USA,728.05,11.1,522640
+474,PMBC,Pacific Mercantile Bancorp,Financial,Banks - Regional,USA,139.59,5.9,7217
+475,PMT,PennyMac Mortgage Investment Trust,Real Estate,REIT - Mortgage,USA,1731.73,17.25,927822
+476,PNBK,"Patriot National Bancorp, Inc.",Financial,Banks - Regional,USA,39.87,10.12,156
+477,PNNT,PennantPark Investment Corporation,Financial,Asset Management,USA,348.63,5.2,837608
+478,PNRG,PrimeEnergy Resources Corporation,Energy,Oil & Gas E&P,USA,69.77,35.78,2928
+479,PPIH,"Perma-Pipe International Holdings, Inc.",Industrials,Pollution & Treatment Controls,USA,50.49,6.09,4904
+480,PPR,Voya Prime Rate Trust,Financial,Closed-End Fund - Debt,USA,550.2,4.5,304863
+481,PPT,Putnam Premier Income Trust,Financial,Closed-End Fund - Debt,USA,474.66,4.63,340667
+482,PRA,ProAssurance Corporation,Financial,Insurance - Property & Casualty,USA,994.77,18.33,356174
+483,PROV,"Provident Financial Holdings, Inc.",Financial,Banks - Regional,USA,119.41,16.05,15333
+484,PSEC,Prospect Capital Corporation,Financial,Asset Management,USA,2397.74,6.3,3940597
+485,PTEN,"Patterson-UTI Energy, Inc.",Energy,Oil & Gas Drilling,USA,1168.07,6.15,2800526
+486,PTVCB,Protective Insurance Corporation,Financial,Insurance - Property & Casualty,USA,206.27,14.07,21742
+487,PVBC,"Provident Bancorp, Inc.",Financial,Banks - Regional,USA,221.26,11.53,37818
+488,PWOD,"Penns Woods Bancorp, Inc.",Financial,Banks - Regional,USA,154.66,21.54,14403
+489,PZC,PIMCO California Municipal Income Fund III,Financial,Closed-End Fund - Debt,USA,232.46,10.39,34018
+490,QEP,"QEP Resources, Inc.",Energy,Oil & Gas E&P,USA,726.41,2.85,8090701
+491,QRHC,Quest Resource Holding Corporation,Industrials,Waste Management,USA,44.91,2.52,20235
+492,RAIL,"FreightCar America, Inc.",Industrials,Railroads,USA,54.7,3.63,335828
+493,RAND,Rand Capital Corporation,Financial,Asset Management,USA,46.15,17.03,5017
+494,RBCAA,"Republic Bancorp, Inc.",Financial,Banks - Regional,USA,765.11,36.09,30687
+495,RBCN,"Rubicon Technology, Inc.",Technology,Semiconductor Equipment & Materials,USA,23.35,9.65,335
+496,RC,Ready Capital Corporation,Real Estate,REIT - Mortgage,USA,645.82,11.38,775630
+497,RDN,Radian Group Inc.,Financial,Insurance - Specialty,USA,3846.53,19.2,1056615
+498,RELL,"Richardson Electronics, Ltd.",Technology,Electronic Components,USA,84.79,6.38,18686
+499,RGA,"Reinsurance Group of America, Incorporated",Financial,Insurance - Reinsurance,USA,7540.49,105.05,980657
+500,RLGY,Realogy Holdings Corp.,Real Estate,Real Estate Services,USA,1787.35,14.2,2583508
+501,RLH,Red Lion Hotels Corporation,Consumer Cyclical,Lodging,USA,87.11,3.4,125881
+502,RLJ,RLJ Lodging Trust,Real Estate,REIT - Hotel & Motel,USA,2283.91,12.91,1572279
+503,RNST,Renasant Corporation,Financial,Banks - Regional,USA,2067.01,35.4,678204
+504,RVSB,"Riverview Bancorp, Inc.",Financial,Banks - Regional,USA,117.28,5.21,80021
+505,RWT,"Redwood Trust, Inc.",Real Estate,REIT - Mortgage,USA,1001.8,8.58,3911404
+506,RYAM,Rayonier Advanced Materials Inc.,Basic Materials,Chemicals,USA,430.08,6.92,565408
+507,SAL,"Salisbury Bancorp, Inc.",Financial,Banks - Regional,USA,108.18,36.67,6391
+508,SAR,Saratoga Investment Corp.,Financial,Asset Management,USA,239.09,20.79,82768
+509,SATS,EchoStar Corporation,Technology,Communication Equipment,USA,2065.52,20.94,976954
+510,SBFG,"SB Financial Group, Inc.",Financial,Banks - Regional,USA,126.14,17.28,15568
+511,SBI,Western Asset Intermediate Muni Fund Inc.,Financial,Asset Management,USA,130.82,9.29,5913
+512,SCD,LMP Capital and Income Fund Inc.,Financial,Closed-End Fund - Equity,USA,209.87,11.67,57821
+513,SCHL,Scholastic Corporation,Communication Services,Publishing,USA,880.82,25.77,195336
+514,SCM,Stellus Capital Investment Corporation,Financial,Asset Management,USA,200.51,10.29,65342
+515,SCOR,"comScore, Inc.",Communication Services,Advertising Agencies,USA,237.11,3.19,552731
+516,SCSC,"ScanSource, Inc.",Technology,Electronics & Computer Distribution,USA,606.2,24.19,120604
+517,SCX,The L.S. Starrett Company,Industrials,Tools & Accessories,USA,30.99,4.34,16222
+518,SELF,"Global Self Storage, Inc.",Real Estate,REIT - Industrial,USA,38.2,4.06,14907
+519,SENEA,Seneca Foods Corporation,Consumer Defensive,Packaged Foods,USA,337.13,36.25,29664
+520,SFNC,Simmons First National Corporation,Financial,Banks - Regional,USA,2744.42,24.7,1011671
+521,SGA,"Saga Communications, Inc.",Communication Services,Broadcasting,USA,133.2,22.5,6832
+522,SGMA,"SigmaTron International, Inc.",Technology,Electronic Components,USA,22.4,5.08,29208
+523,SHBI,"Shore Bancshares, Inc.",Financial,Banks - Regional,USA,164.57,13.25,19556
+524,SKYW,"SkyWest, Inc.",Industrials,Airlines,USA,2055.16,38.99,323035
+525,SLCT,"Select Bancorp, Inc.",Financial,Banks - Regional,USA,166.8,9.44,137122
+526,SLG,SL Green Realty Corp.,Real Estate,REIT - Office,USA,4755.99,67.48,1525267
+527,SLRC,Solar Capital Ltd.,Financial,Asset Management,USA,733.22,17.35,247944
+528,SM,SM Energy Company,Energy,Oil & Gas E&P,USA,969.3,8.39,3567832
+529,SMBK,"SmartFinancial, Inc.",Financial,Banks - Regional,USA,301.16,19.8,62639
+530,SMLP,"Summit Midstream Partners, LP",Energy,Oil & Gas Midstream,USA,59.25,15.55,74366
+531,SMMF,"Summit Financial Group, Inc.",Financial,Banks - Regional,USA,267.86,20.7,11142
+532,SNFCA,Security National Financial Corporation,Financial,Credit Services,USA,144.91,8.6,31273
+533,SNX,SYNNEX Corporation,Technology,Information Technology Services,USA,4359.32,81.62,433469
+534,SOHO,Sotherly Hotels Inc.,Real Estate,REIT - Hotel & Motel,USA,40.89,2.69,102385
+535,SOL,ReneSola Ltd,Technology,Solar,USA,1469.7,20.7,5135193
+536,SONA,"Southern National Bancorp of Virginia, Inc.",Financial,Banks - Regional,USA,292.21,12.07,82608
+537,SOR,"Source Capital, Inc.",Financial,Closed-End Fund - Equity,USA,339.9,40.1,5611
+538,SPLP,Steel Partners Holdings L.P.,Industrials,Conglomerates,USA,338.04,13.5,46782
+539,SPOK,"Spok Holdings, Inc.",Communication Services,Telecom Services,USA,224.51,11.12,130871
+540,SPTN,SpartanNash Company,Consumer Defensive,Food Distribution,USA,663.02,18.52,339242
+541,SQBG,"Sequential Brands Group, Inc.",Consumer Cyclical,Apparel Manufacturing,USA,29.43,17.01,14208
+542,STBA,"S&T Bancorp, Inc.",Financial,Banks - Regional,USA,1042.16,25.4,189387
+543,STFC,State Auto Financial Corporation,Financial,Insurance - Property & Casualty,USA,729.91,16.54,51742
+544,STL,Sterling Bancorp,Financial,Banks - Regional,USA,3709.91,18.46,3640374
+545,STRR,"Star Equity Holdings, Inc.",Healthcare,Medical Devices,USA,15.72,3.54,464073
+546,SUNS,Solar Senior Capital Ltd.,Financial,Asset Management,USA,226.93,14.14,84529
+547,SVBI,"Severn Bancorp, Inc.",Financial,Banks - Regional,USA,99.2,7.75,6344
+548,SVC,Service Properties Trust,Real Estate,REIT - Hotel & Motel,USA,1834.47,10.61,1295742
+549,SVT,"Servotronics, Inc.",Industrials,Electrical Equipment & Parts,USA,22.26,9.05,6285
+550,SVVC,"Firsthand Technology Value Fund, Inc.",Financial,Asset Management,USA,42.05,6.1,54685
+551,SWZ,The Swiss Helvetia Fund Inc.,Financial,Closed-End Fund - Foreign,USA,120.15,9.06,33242
+552,SXC,"SunCoke Energy, Inc.",Basic Materials,Coking Coal,USA,424.62,4.93,656590
+553,SYNL,Synalloy Corporation,Basic Materials,Steel,USA,75.84,8,32150
+554,TA,TravelCenters of America Inc.,Consumer Cyclical,Specialty Retail,USA,400.25,27.49,182914
+555,TARA,"Protara Therapeutics, Inc.",Healthcare,Biotechnology,USA,211.62,17.98,301751
+556,TAYD,"Taylor Devices, Inc.",Industrials,Specialty Industrial Machinery,USA,36.47,10.42,8717
+557,TBNK,Territorial Bancorp Inc.,Financial,Banks - Regional,USA,238.12,23.86,20818
+558,TCFC,The Community Financial Corporation,Financial,Banks - Regional,USA,144.94,23.8,8909
+559,TCI,"Transcontinental Realty Investors, Inc.",Real Estate,REIT - Diversified,USA,186.73,21.39,2732
+560,TCPC,BlackRock TCP Capital Corp.,Financial,Asset Management,USA,667.23,11.39,330928
+561,TDS,"Telephone and Data Systems, Inc.",Communication Services,Telecom Services,USA,2061.75,18.75,2166325
+562,TDW,Tidewater Inc.,Energy,Oil & Gas Equipment & Services,USA,407.88,9.49,224914
+563,TEI,Templeton Emerging Markets Income Fund,Financial,Closed-End Fund - Debt,USA,366.71,7.64,141867
+564,TESS,TESSCO Technologies Incorporated,Technology,Communication Equipment,USA,68.5,7.74,30272
+565,THFF,First Financial Corporation,Financial,Banks - Regional,USA,535.16,38.39,55076
+566,TIPT,Tiptree Inc.,Financial,Insurance - Specialty,USA,166.21,4.87,89532
+567,TMHC,Taylor Morrison Home Corporation,Consumer Cyclical,Residential Construction,USA,3529.38,25.98,1623532
+568,TMST,TimkenSteel Corporation,Basic Materials,Steel,USA,225.29,5.03,598287
+569,TOWN,TowneBank,Financial,Banks - Regional,USA,1726.31,23.2,166821
+570,TPC,Tutor Perini Corporation,Industrials,Engineering & Construction,USA,767.95,14.9,428377
+571,TRC,Tejon Ranch Co.,Industrials,Conglomerates,USA,420.07,15.93,102639
+572,TREC,Trecora Resources,Basic Materials,Specialty Chemicals,USA,162.1,6.31,46209
+573,TRT,Trio-Tech International,Technology,Semiconductor Equipment & Materials,USA,16.91,4.9,174351
+574,TSC,"TriState Capital Holdings, Inc.",Financial,Banks - Regional,USA,600.41,18.35,212383
+575,TSI,"TCW Strategic Income Fund, Inc.",Financial,Closed-End Fund - Debt,USA,267.39,5.6,94317
+576,TTP,"Tortoise Pipeline & Energy Fund, Inc.",Financial,Asset Management,USA,44.1,17.61,15156
+577,TURN,180 Degree Capital Corp.,Financial,Asset Management,USA,65.98,6.32,27358
+578,TWIN,"Twin Disc, Incorporated",Industrials,Specialty Industrial Machinery,USA,122.18,8.3,30659
+579,TWN,"The Taiwan Fund, Inc.",Financial,Closed-End Fund - Foreign,USA,200.45,26.85,10229
+580,TWO,Two Harbors Investment Corp.,Real Estate,REIT - Mortgage,USA,1707.92,6.07,9463638
+581,TYG,Tortoise Energy Infrastructure Corporation,Financial,Closed-End Fund - Equity,USA,285.89,21.44,59006
+582,UAN,"CVR Partners, LP",Basic Materials,Agricultural Inputs,USA,171.63,15.66,29272
+583,UBFO,United Security Bancshares,Financial,Banks - Regional,USA,118.57,6.83,31145
+584,UBOH,"United Bancshares, Inc.",Financial,Banks - Regional,USA,79.92,24,1082
+585,UBSI,"United Bankshares, Inc.",Financial,Banks - Regional,USA,4370.35,31.66,1743042
+586,UFCS,"United Fire Group, Inc.",Financial,Insurance - Property & Casualty,USA,712.18,27.54,117249
+587,UFS,Domtar Corporation,Basic Materials,Paper & Paper Products,USA,1621.68,29.97,1012374
+588,UIHC,United Insurance Holdings Corp.,Financial,Insurance - Property & Casualty,USA,223.62,5.08,101069
+589,ULBI,Ultralife Corporation,Industrials,Specialty Industrial Machinery,USA,93.51,5.87,120530
+590,UNM,Unum Group,Financial,Insurance - Life,USA,4951.01,23.23,5632167
+591,USAP,"Universal Stainless & Alloy Products, Inc.",Basic Materials,Steel,USA,64.98,7.26,64675
+592,USM,United States Cellular Corporation,Communication Services,Telecom Services,USA,2741.03,31.18,153155
+593,UVE,"Universal Insurance Holdings, Inc.",Financial,Insurance - Property & Casualty,USA,433.7,13.39,359630
+594,UVSP,Univest Financial Corporation,Financial,Banks - Regional,USA,661.38,22.45,1196127
+595,UVV,Universal Corporation,Consumer Defensive,Tobacco,USA,1168.31,45.87,413582
+596,VBF,Invesco Bond Fund,Financial,Closed-End Fund - Debt,USA,226.59,19.9,16718
+597,VCF,"Delaware Investments Colorado Municipal Income Fund, Inc.",Financial,Asset Management,USA,68.74,14.21,4663
+598,VCV,Invesco California Value Municipal Income Trust,Financial,Closed-End Fund - Debt,USA,626.08,13.08,60165
+599,VFL,Delaware Investments National Municipal Income Fund,Financial,Asset Management,USA,60.77,13.42,9596
+600,VGM,Invesco Trust for Investment Grade Municipals,Financial,Closed-End Fund - Debt,USA,719.03,13.26,72379
+601,VHI,"Valhi, Inc.",Basic Materials,Chemicals,USA,456.07,16.07,5136
+602,VIRC,Virco Mfg. Corporation,Consumer Cyclical,"Furnishings, Fixtures & Appliances",USA,43.89,2.75,13440
+603,VIVE,"Viveve Medical, Inc.",Healthcare,Medical Devices,USA,27.78,3.78,13737653
+604,VKI,Invesco Advantage Municipal Income Trust II,Financial,Closed-End Fund - Debt,USA,514.94,11.6,70176
+605,VKQ,Invesco Municipal Trust,Financial,Closed-End Fund - Debt,USA,718.61,12.99,53238
+606,VLGEA,"Village Super Market, Inc.",Consumer Defensive,Grocery Stores,USA,308.68,21.07,46813
+607,VLT,Invesco High Income Trust II,Financial,Closed-End Fund - Debt,USA,88.78,13.67,13260
+608,VLY,Valley National Bancorp,Financial,Banks - Regional,USA,4184.16,10.21,4965061
+609,VMM,"Delaware Investments Minnesota Municipal Income Fund II, Inc.",Financial,Asset Management,USA,152.79,13.28,3675
+610,VMO,Invesco Municipal Opportunity Trust,Financial,Closed-End Fund - Debt,USA,883.8,13.11,125190
+611,VOYA,"Voya Financial, Inc.",Financial,Financial Conglomerates,USA,7165.43,55.46,1673572
+612,VPV,Invesco Pennsylvania Value Municipal Income Trust,Financial,Closed-End Fund - Debt,USA,305.73,12.83,59089
+613,VRA,"Vera Bradley, Inc.",Consumer Cyclical,Footwear & Accessories,USA,284.43,8.45,315077
+614,VRTV,Veritiv Corporation,Industrials,Business Equipment & Supplies,USA,298.43,18.32,106197
+615,VTN,Invesco Trust for Investment Grade New York Municipals,Financial,Closed-End Fund - Debt,USA,257.69,13.23,15485
+616,VTOL,Bristow Group Inc.,Energy,Oil & Gas Equipment & Services,USA,747.6,24.21,85100
+617,VVR,Invesco Senior Income Trust,Financial,Closed-End Fund - Debt,USA,635.08,4.15,663366
+618,WAFD,"Washington Federal, Inc.",Financial,Banks - Regional,USA,2055.13,26.18,298485
+619,WEYS,"Weyco Group, Inc.",Consumer Cyclical,Footwear & Accessories,USA,169.67,17.26,23568
+620,WHF,"WhiteHorse Finance, Inc.",Financial,Asset Management,USA,278.4,13.55,52618
+621,WHG,"Westwood Holdings Group, Inc.",Financial,Capital Markets,USA,99.57,11.84,25090
+622,WIA,Western Asset Inflation-Linked Income Fund,Financial,Closed-End Fund - Debt,USA,298.31,12.79,42597
+623,WLFC,Willis Lease Finance Corporation,Industrials,Rental & Leasing Services,USA,168.54,27.72,12736
+624,WLL,Whiting Petroleum Corporation,Energy,Oil & Gas E&P,USA,811.97,20.34,823868
+625,WMC,Western Asset Mortgage Capital Corporation,Real Estate,REIT - Mortgage,USA,184.91,2.95,1026209
+626,WNEB,"Western New England Bancorp, Inc.",Financial,Banks - Regional,USA,166.4,6.41,118471
+627,WPG,Washington Prime Group Inc.,Real Estate,REIT - Retail,USA,295.96,14.1,553133
+628,WSBC,"WesBanco, Inc.",Financial,Banks - Regional,USA,2004.48,29,381231
+629,WTFC,Wintrust Financial Corporation,Financial,Banks - Regional,USA,3590.94,60.19,304196
+630,WVFC,WVS Financial Corp.,Financial,Banks - Regional,USA,27.93,14.7,129
+631,XAN,Exantas Capital Corp.,Real Estate,REIT - Mortgage,USA,130.58,3.98,701338
+632,XRX,Xerox Holdings Corporation,Technology,Information Technology Services,USA,4209.79,21.03,3618107
+633,Y,Alleghany Corporation,Financial,Insurance - Property & Casualty,USA,8179.65,566.85,61111
+634,ZEUS,"Olympic Steel, Inc.",Basic Materials,Steel,USA,156.29,13.65,52777
+635,ZTR,Virtus Total Return Fund Inc.,Financial,Closed-End Fund - Equity,USA,407.9,8.61,140182

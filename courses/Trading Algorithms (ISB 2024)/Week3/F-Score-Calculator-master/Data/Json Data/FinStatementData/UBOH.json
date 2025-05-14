@@ -1,0 +1,44 @@
+{
+    "ticker": "UBOH",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 3850000.0,
+            "Total Assets": 780500000.0,
+            "Operating Cash Flow": 2960000.0,
+            "Beginning Year Total Assets": 633100000.0,
+            "Long Term Debt": 12800000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 691900000.0,
+            "Weighted Average Shares Out": 3270000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 28760000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 5530000.0,
+            "Total Assets": 633100000.0,
+            "Operating Cash Flow": 6980000.0,
+            "Beginning Year Total Assets": 608700000.0,
+            "Long Term Debt": 12800000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 547800000.0,
+            "Weighted Average Shares Out": 3270000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 24300000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 5910000.0,
+            "Total Assets": 608700000.0,
+            "Operating Cash Flow": 5369999.999999999,
+            "Beginning Year Total Assets": 650200000.0,
+            "Long Term Debt": 12800000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 524300000.0,
+            "Weighted Average Shares Out": 3320000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 25390000.0
+        }
+    ]
+}

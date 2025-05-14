@@ -1,0 +1,44 @@
+{
+    "ticker": "ESTE",
+    "financials": [
+        {
+            "Date": "2017-09-30",
+            "Net Income": -47880000.0,
+            "Total Assets": 834400000.0,
+            "Operating Cash Flow": 24200000.0,
+            "Beginning Year Total Assets": 316500000.0,
+            "Long Term Debt": 25000000.0,
+            "Current Assets": 47100000.0,
+            "Current Liabilities": 68900000.0,
+            "Weighted Average Shares Out": 22910000.0,
+            "Gross Margin": 0.7311497499999999,
+            "Revenue": 87400000.0
+        },
+        {
+            "Date": "2016-09-30",
+            "Net Income": -138000000.0,
+            "Total Assets": 316500000.0,
+            "Operating Cash Flow": -13000000.0,
+            "Beginning Year Total Assets": 264900000.0,
+            "Long Term Debt": 12700000.0,
+            "Current Assets": 27300000.0,
+            "Current Liabilities": 38800000.0,
+            "Weighted Average Shares Out": 22290000.0,
+            "Gross Margin": 0.41752924999999996,
+            "Revenue": 33450000.0
+        },
+        {
+            "Date": "2015-09-30",
+            "Net Income": -32170000.0,
+            "Total Assets": 264900000.0,
+            "Operating Cash Flow": 73900000.0,
+            "Beginning Year Total Assets": 451400000.0,
+            "Long Term Debt": 11200000.0,
+            "Current Assets": 45900000.0,
+            "Current Liabilities": 48600000.0,
+            "Weighted Average Shares Out": 13840000.0,
+            "Gross Margin": 0.66638175,
+            "Revenue": 73920000.0
+        }
+    ]
+}

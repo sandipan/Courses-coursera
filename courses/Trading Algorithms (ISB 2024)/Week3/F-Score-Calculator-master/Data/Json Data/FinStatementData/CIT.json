@@ -1,0 +1,44 @@
+{
+    "ticker": "CIT",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 468200000.0,
+            "Total Assets": 49279000000.0,
+            "Operating Cash Flow": 534200000.0,
+            "Beginning Year Total Assets": 64170000000.0,
+            "Long Term Debt": 5279000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 36680000000.0,
+            "Weighted Average Shares Out": 131100000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 2489500000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -848000000.0,
+            "Total Assets": 64170000000.0,
+            "Operating Cash Flow": 2399200000.0,
+            "Beginning Year Total Assets": 67392000000.0,
+            "Long Term Debt": 12525000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 41643000000.0,
+            "Weighted Average Shares Out": 204700000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 2340500000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 1034100000.0,
+            "Total Assets": 67392000000.0,
+            "Operating Cash Flow": 1189800000.0,
+            "Beginning Year Total Assets": 47880000000.0,
+            "Long Term Debt": 13259000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 43188000000.0,
+            "Weighted Average Shares Out": 205900000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 1881500000.0
+        }
+    ]
+}

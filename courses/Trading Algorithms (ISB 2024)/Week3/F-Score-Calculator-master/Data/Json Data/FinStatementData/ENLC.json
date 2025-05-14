@@ -1,0 +1,44 @@
+{
+    "ticker": "ENLC",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 212800000.0,
+            "Total Assets": 10538000000.0,
+            "Operating Cash Flow": 700100000.0,
+            "Beginning Year Total Assets": 10276000000.0,
+            "Long Term Debt": 3542000000.0,
+            "Current Assets": 809000000.0,
+            "Current Liabilities": 1040000000.0,
+            "Weighted Average Shares Out": 182100000.0,
+            "Gross Margin": 0.2420805,
+            "Revenue": 5739600000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -460000000.0,
+            "Total Assets": 10276000000.0,
+            "Operating Cash Flow": 666400000.0,
+            "Beginning Year Total Assets": 9541000000.0,
+            "Long Term Debt": 3295000000.0,
+            "Current Assets": 773000000.0,
+            "Current Liabilities": 888000000.0,
+            "Weighted Average Shares Out": 180000000.0,
+            "Gross Margin": 0.29421075,
+            "Revenue": 4252400000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -353500000.0,
+            "Total Assets": 9541000000.0,
+            "Operating Cash Flow": 628400000.0,
+            "Beginning Year Total Assets": 10207000000.0,
+            "Long Term Debt": 3066000000.0,
+            "Current Assets": 494000000.0,
+            "Current Liabilities": 432000000.0,
+            "Weighted Average Shares Out": 164200000.0,
+            "Gross Margin": 0.27362349999999996,
+            "Revenue": 4452100000.0
+        }
+    ]
+}

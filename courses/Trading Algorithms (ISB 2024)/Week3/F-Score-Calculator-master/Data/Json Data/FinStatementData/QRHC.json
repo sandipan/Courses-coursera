@@ -1,0 +1,44 @@
+{
+    "ticker": "QRHC",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -5820276.0,
+            "Total Assets": 83515798.0,
+            "Operating Cash Flow": -1652251.0,
+            "Beginning Year Total Assets": 108069468.0,
+            "Long Term Debt": 6763497.0,
+            "Current Assets": 18826571.0,
+            "Current Liabilities": 14582581.0,
+            "Weighted Average Shares Out": 15292000.0,
+            "Gross Margin": 0.1169089362621501,
+            "Revenue": 138346327.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -8045586.0,
+            "Total Assets": 108069468.0,
+            "Operating Cash Flow": -4390915.0,
+            "Beginning Year Total Assets": 109009366.0,
+            "Long Term Debt": 4750000.0,
+            "Current Assets": 38827671.0,
+            "Current Liabilities": 35711616.0,
+            "Weighted Average Shares Out": 15268000.0,
+            "Gross Margin": 0.07840980466055768,
+            "Revenue": 183811398.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -7445930.0,
+            "Total Assets": 109009366.0,
+            "Operating Cash Flow": 2659034.0,
+            "Beginning Year Total Assets": 107676815.0,
+            "Long Term Debt": 4000000.0,
+            "Current Assets": 37235436.0,
+            "Current Liabilities": 35176188.0,
+            "Weighted Average Shares Out": 0.0,
+            "Gross Margin": 0.0802295285141517,
+            "Revenue": 170139049.0
+        }
+    ]
+}

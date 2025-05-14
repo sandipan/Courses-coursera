@@ -1,0 +1,44 @@
+{
+    "ticker": "ANF",
+    "financials": [
+        {
+            "Date": "2017-10-28",
+            "Net Income": -18300000.0,
+            "Total Assets": 2297900000.0,
+            "Operating Cash Flow": 193900000.0,
+            "Beginning Year Total Assets": 2336500000.0,
+            "Long Term Debt": 263900000.0,
+            "Current Assets": 1177200000.0,
+            "Current Liabilities": 566900000.0,
+            "Weighted Average Shares Out": 69400000.0,
+            "Gross Margin": 0.60029575,
+            "Revenue": 3335900000.0
+        },
+        {
+            "Date": "2016-10-29",
+            "Net Income": 12913000.0,
+            "Total Assets": 2336500000.0,
+            "Operating Cash Flow": 264917000.0,
+            "Beginning Year Total Assets": 2512744000.0,
+            "Long Term Debt": 285000000.0,
+            "Current Assets": 1150300000.0,
+            "Current Liabilities": 526100000.0,
+            "Weighted Average Shares Out": 68300000.0,
+            "Gross Margin": 0.6148571502167085,
+            "Revenue": 3403283000.0
+        },
+        {
+            "Date": "2015-10-31",
+            "Net Income": 22279000.0,
+            "Total Assets": 2512744000.0,
+            "Operating Cash Flow": 349509000.0,
+            "Beginning Year Total Assets": 2575600000.0,
+            "Long Term Debt": 288091000.0,
+            "Current Assets": 1213155000.0,
+            "Current Liabilities": 644410000.0,
+            "Weighted Average Shares Out": 68866000.0,
+            "Gross Margin": 0.6124498483708087,
+            "Revenue": 3525316000.0
+        }
+    ]
+}

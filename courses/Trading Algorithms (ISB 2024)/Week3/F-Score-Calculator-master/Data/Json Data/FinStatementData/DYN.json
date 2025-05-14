@@ -1,0 +1,44 @@
+{
+    "ticker": "DYN",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -1243000000.0,
+            "Total Assets": 11771000000.0,
+            "Operating Cash Flow": 585000000.0,
+            "Beginning Year Total Assets": 13053000000.0,
+            "Long Term Debt": 8328000000.0,
+            "Current Assets": 1524000000.0,
+            "Current Liabilities": 1049000000.0,
+            "Weighted Average Shares Out": 162000000.0,
+            "Gross Margin": 0.18899186086550426,
+            "Revenue": 1008000000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -1244000000.0,
+            "Total Assets": 13053000000.0,
+            "Operating Cash Flow": 676000000.0,
+            "Beginning Year Total Assets": 11539000000.0,
+            "Long Term Debt": 8778000000.0,
+            "Current Assets": 2987000000.0,
+            "Current Liabilities": 916000000.0,
+            "Weighted Average Shares Out": 129000000.0,
+            "Gross Margin": -0.26265214966175676,
+            "Revenue": 1366000000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 50000000.0,
+            "Total Assets": 11539000000.0,
+            "Operating Cash Flow": 94000000.0,
+            "Beginning Year Total Assets": 11232000000.0,
+            "Long Term Debt": 7206000000.0,
+            "Current Assets": 1945000000.0,
+            "Current Liabilities": 812000000.0,
+            "Weighted Average Shares Out": 125000000.0,
+            "Gross Margin": 0.23564625862889227,
+            "Revenue": 2464000000.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "ticker": "BBG",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -138225000.0,
+            "Total Assets": 1390706000.0,
+            "Operating Cash Flow": 121990000.0,
+            "Beginning Year Total Assets": 1385341000.0,
+            "Long Term Debt": 617744000.0,
+            "Current Assets": 367663000.0,
+            "Current Liabilities": 148934000.0,
+            "Weighted Average Shares Out": 76859000.0,
+            "Gross Margin": 0.7855706181389522,
+            "Revenue": 252839000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -170378000.0,
+            "Total Assets": 1385341000.0,
+            "Operating Cash Flow": 121736000.0,
+            "Beginning Year Total Assets": 1515229000.0,
+            "Long Term Debt": 711808000.0,
+            "Current Assets": 318452000.0,
+            "Current Liabilities": 85018000.0,
+            "Weighted Average Shares Out": 55384000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 178819000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -487771000.0,
+            "Total Assets": 1515229000.0,
+            "Operating Cash Flow": 193678000.0,
+            "Beginning Year Total Assets": 2244484000.0,
+            "Long Term Debt": 803361000.0,
+            "Current Assets": 274317000.0,
+            "Current Liabilities": 145231000.0,
+            "Weighted Average Shares Out": 48303276.0,
+            "Gross Margin": 1.0,
+            "Revenue": 207892000.0
+        }
+    ]
+}

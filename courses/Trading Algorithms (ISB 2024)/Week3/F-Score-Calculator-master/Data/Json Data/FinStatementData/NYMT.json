@@ -1,0 +1,44 @@
+{
+    "ticker": "NYMT",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 91979000.0,
+            "Total Assets": 12056285000.0,
+            "Operating Cash Flow": 29332000.0,
+            "Beginning Year Total Assets": 8951631000.0,
+            "Long Term Debt": 9572177000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 86000000.0,
+            "Weighted Average Shares Out": 111871000.0,
+            "Gross Margin": 0.0,
+            "Revenue": 131257000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 67551000.0,
+            "Total Assets": 8951631000.0,
+            "Operating Cash Flow": 53844000.0,
+            "Beginning Year Total Assets": 9252944000.0,
+            "Long Term Debt": 6920426000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 218000000.0,
+            "Weighted Average Shares Out": 109911000.0,
+            "Gross Margin": 0.25,
+            "Revenue": 160807000.0
+        },
+        {
+            "Date": "2016-03-31",
+            "Net Income": 71421000.0,
+            "Total Assets": 9252944000.0,
+            "Operating Cash Flow": 48865000.0,
+            "Beginning Year Total Assets": 9584793000.0,
+            "Long Term Debt": 7195787000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 376000000.0,
+            "Weighted Average Shares Out": 109402000.0,
+            "Gross Margin": 0.0,
+            "Revenue": 114178000.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "ticker": "LM",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 351700000.0,
+            "Total Assets": 8075000000.0,
+            "Operating Cash Flow": 479600000.0,
+            "Beginning Year Total Assets": 8260000000.0,
+            "Long Term Debt": 2222000000.0,
+            "Current Assets": 1849000000.0,
+            "Current Liabilities": 933000000.0,
+            "Weighted Average Shares Out": 90400000.0,
+            "Gross Margin": 0.8397645,
+            "Revenue": 3078300000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 106000000.0,
+            "Total Assets": 8260000000.0,
+            "Operating Cash Flow": 495100000.0,
+            "Beginning Year Total Assets": 6838000000.0,
+            "Long Term Debt": 2222000000.0,
+            "Current Assets": 1768000000.0,
+            "Current Liabilities": 747000000.0,
+            "Weighted Average Shares Out": 99600000.0,
+            "Gross Margin": 0.81907375,
+            "Revenue": 2783400000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 103200000.0,
+            "Total Assets": 6838000000.0,
+            "Operating Cash Flow": 493500000.0,
+            "Beginning Year Total Assets": 7043000000.0,
+            "Long Term Debt": 1057000000.0,
+            "Current Assets": 1761000000.0,
+            "Current Liabilities": 689000000.0,
+            "Weighted Average Shares Out": 106400000.0,
+            "Gross Margin": 0.7943255,
+            "Revenue": 2743700000.0
+        }
+    ]
+}

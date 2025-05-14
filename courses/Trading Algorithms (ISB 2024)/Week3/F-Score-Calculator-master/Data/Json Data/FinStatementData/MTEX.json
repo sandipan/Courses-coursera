@@ -1,0 +1,44 @@
+{
+    "ticker": "MTEX",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -1787000.0,
+            "Total Assets": 76242000.0,
+            "Operating Cash Flow": 9998000.0,
+            "Beginning Year Total Assets": 71188000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 56248000.0,
+            "Current Liabilities": 33445000.0,
+            "Weighted Average Shares Out": 2707000.0,
+            "Gross Margin": 0.7977327892309323,
+            "Revenue": 176696000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -587000.0,
+            "Total Assets": 71188000.0,
+            "Operating Cash Flow": -23000.0,
+            "Beginning Year Total Assets": 68642000.0,
+            "Long Term Debt": 567000.0,
+            "Current Assets": 50762000.0,
+            "Current Liabilities": 29981000.0,
+            "Weighted Average Shares Out": 0.0,
+            "Gross Margin": 0.7973029912460547,
+            "Revenue": 180304000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 5839000.0,
+            "Total Assets": 68642000.0,
+            "Operating Cash Flow": 4386000.0,
+            "Beginning Year Total Assets": 67398000.0,
+            "Long Term Debt": 1069000.0,
+            "Current Assets": 49885000.0,
+            "Current Liabilities": 26379000.0,
+            "Weighted Average Shares Out": 0.0,
+            "Gross Margin": 0.8107193474505995,
+            "Revenue": 180267000.0
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "ticker": "RFP",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -84000000.0,
+            "Total Assets": 4147000000.0,
+            "Operating Cash Flow": 158000000.0,
+            "Beginning Year Total Assets": 4277000000.0,
+            "Long Term Debt": 788000000.0,
+            "Current Assets": 1044000000.0,
+            "Current Liabilities": 421000000.0,
+            "Weighted Average Shares Out": 90700000.0,
+            "Gross Margin": 0.26694775989873476,
+            "Revenue": 3513000000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -81000000.0,
+            "Total Assets": 4277000000.0,
+            "Operating Cash Flow": 81000000.0,
+            "Beginning Year Total Assets": 4220000000.0,
+            "Long Term Debt": 761000000.0,
+            "Current Assets": 1081000000.0,
+            "Current Liabilities": 467000000.0,
+            "Weighted Average Shares Out": 90100000.0,
+            "Gross Margin": 0.23382147047056576,
+            "Revenue": 3545000000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -257000000.0,
+            "Total Assets": 4220000000.0,
+            "Operating Cash Flow": 138000000.0,
+            "Beginning Year Total Assets": 4921000000.0,
+            "Long Term Debt": 590000000.0,
+            "Current Assets": 1111000000.0,
+            "Current Liabilities": 437000000.0,
+            "Weighted Average Shares Out": 89400000.0,
+            "Gross Margin": 0.22442818442459925,
+            "Revenue": 3645000000.0
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "CADC",
+        "open": 2.2,
+        "high": 2.2,
+        "low": 2,
+        "close": 2.0493,
+        "volume": 2618,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "CADC",
+        "open": 4.5,
+        "high": 4.799,
+        "low": 4.3,
+        "close": 4.3,
+        "volume": 47632,
+        "from": "2018-01-04"
+    }
+]

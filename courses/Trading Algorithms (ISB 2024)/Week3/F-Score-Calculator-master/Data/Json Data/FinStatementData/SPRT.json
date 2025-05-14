@@ -1,0 +1,44 @@
+{
+    "ticker": "SPRT",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -1540000.0,
+            "Total Assets": 64400000.0,
+            "Operating Cash Flow": -4200000.0,
+            "Beginning Year Total Assets": 67200000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 62000000.0,
+            "Current Liabilities": 7000000.0,
+            "Weighted Average Shares Out": 18740000.0,
+            "Gross Margin": 0.21244439378633423,
+            "Revenue": 60120000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -15960000.0,
+            "Total Assets": 67200000.0,
+            "Operating Cash Flow": -11450000.0,
+            "Beginning Year Total Assets": 81500000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 64200000.0,
+            "Current Liabilities": 9300000.0,
+            "Weighted Average Shares Out": 18520000.0,
+            "Gross Margin": 0.17744713507718476,
+            "Revenue": 61670000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -27040000.0,
+            "Total Assets": 81500000.0,
+            "Operating Cash Flow": -5470000.0,
+            "Beginning Year Total Assets": 108000000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 77200000.0,
+            "Current Liabilities": 9400000.0,
+            "Weighted Average Shares Out": 18270000.0,
+            "Gross Margin": 0.19667608201895076,
+            "Revenue": 77340000.0
+        }
+    ]
+}

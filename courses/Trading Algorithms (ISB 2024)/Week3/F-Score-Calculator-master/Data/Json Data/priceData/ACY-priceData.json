@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "ACY",
+        "open": 9.7,
+        "high": 10.2,
+        "low": 9.7,
+        "close": 10,
+        "volume": 13041,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "ACY",
+        "open": 15.6,
+        "high": 15.6,
+        "low": 15.3765,
+        "close": 15.55,
+        "volume": 928,
+        "from": "2018-01-04"
+    }
+]

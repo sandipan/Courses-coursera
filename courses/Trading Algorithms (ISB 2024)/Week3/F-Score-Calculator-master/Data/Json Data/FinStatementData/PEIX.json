@@ -1,0 +1,44 @@
+{
+    "ticker": "PEIX",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -34964000.0,
+            "Total Assets": 720296000.0,
+            "Operating Cash Flow": 36509000.0,
+            "Beginning Year Total Assets": 708238000.0,
+            "Long Term Debt": 221091000.0,
+            "Current Assets": 203246000.0,
+            "Current Liabilities": 90706000.0,
+            "Weighted Average Shares Out": 42911000.0,
+            "Gross Margin": 0.0027817171324366345,
+            "Revenue": 1632255000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 1419000.0,
+            "Total Assets": 708238000.0,
+            "Operating Cash Flow": 40397000.0,
+            "Beginning Year Total Assets": 675143000.0,
+            "Long Term Debt": 188028000.0,
+            "Current Assets": 235201000.0,
+            "Current Liabilities": 78841000.0,
+            "Weighted Average Shares Out": 42258000.0,
+            "Gross Margin": 0.03016397715539253,
+            "Revenue": 1624758000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -18786000.0,
+            "Total Assets": 675143000.0,
+            "Operating Cash Flow": -26842000.0,
+            "Beginning Year Total Assets": 299502000.0,
+            "Long Term Debt": 204324000.0,
+            "Current Assets": 197942000.0,
+            "Current Liabilities": 72909000.0,
+            "Weighted Average Shares Out": 42052000.0,
+            "Gross Margin": 0.007143812025446679,
+            "Revenue": 1191176000.0
+        }
+    ]
+}

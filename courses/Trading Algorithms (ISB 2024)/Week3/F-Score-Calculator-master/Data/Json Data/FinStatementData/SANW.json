@@ -1,0 +1,44 @@
+{
+    "ticker": "SANW",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -11981234.0,
+            "Total Assets": 161993581.0,
+            "Operating Cash Flow": -20983590.0,
+            "Beginning Year Total Assets": 141342536.0,
+            "Long Term Debt": 13203191.0,
+            "Current Assets": 102692220.0,
+            "Current Liabilities": 63627208.0,
+            "Weighted Average Shares Out": 21130960.0,
+            "Gross Margin": 0.22480598554763498,
+            "Revenue": 70143005.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -1180522.0,
+            "Total Assets": 141342536.0,
+            "Operating Cash Flow": -4526895.0,
+            "Beginning Year Total Assets": 124228641.0,
+            "Long Term Debt": 1018361.0,
+            "Current Assets": 71345226.0,
+            "Current Liabilities": 65887744.0,
+            "Weighted Average Shares Out": 17821547.0,
+            "Gross Margin": 0.1982320320523415,
+            "Revenue": 96123402.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -1258596.0,
+            "Total Assets": 124228641.0,
+            "Operating Cash Flow": 12380985.0,
+            "Beginning Year Total Assets": 141416495.0,
+            "Long Term Debt": 14728572.0,
+            "Current Assets": 56412411.0,
+            "Current Liabilities": 45679502.0,
+            "Weighted Average Shares Out": 14120650.0,
+            "Gross Margin": 0.19436381422989524,
+            "Revenue": 95647072.0
+        }
+    ]
+}

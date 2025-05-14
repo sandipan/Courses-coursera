@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "NYMT",
+        "open": 6.68,
+        "high": 6.7,
+        "low": 6.58,
+        "close": 6.63,
+        "volume": 857876,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "NYMT",
+        "open": 6.06,
+        "high": 6.12,
+        "low": 6.06,
+        "close": 6.08,
+        "volume": 945617,
+        "from": "2018-01-04"
+    }
+]

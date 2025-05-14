@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "RBCN",
+        "open": 5.9,
+        "high": 6.19,
+        "low": 5.5,
+        "close": 5.501,
+        "volume": 11642,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "RBCN",
+        "open": 8.28,
+        "high": 8.28,
+        "low": 8.1155,
+        "close": 8.28,
+        "volume": 2557,
+        "from": "2018-01-04"
+    }
+]

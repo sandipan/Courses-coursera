@@ -1,0 +1,44 @@
+{
+    "ticker": "TIS",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 5895000.0,
+            "Total Assets": 346535000.0,
+            "Operating Cash Flow": 13446000.0,
+            "Beginning Year Total Assets": 319880000.0,
+            "Long Term Debt": 33000.0,
+            "Current Assets": 39393000.0,
+            "Current Liabilities": 187880000.0,
+            "Weighted Average Shares Out": 10399074.0,
+            "Gross Margin": 0.05331356537566808,
+            "Revenue": 162484000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 12811000.0,
+            "Total Assets": 319880000.0,
+            "Operating Cash Flow": 27827000.0,
+            "Beginning Year Total Assets": 251379000.0,
+            "Long Term Debt": 133989000.0,
+            "Current Assets": 47137000.0,
+            "Current Liabilities": 20142000.0,
+            "Weighted Average Shares Out": 10286373.0,
+            "Gross Margin": 0.18005522022132397,
+            "Revenue": 164494000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 13557000.0,
+            "Total Assets": 251379000.0,
+            "Operating Cash Flow": 18791000.0,
+            "Beginning Year Total Assets": 170739000.0,
+            "Long Term Debt": 71699000.0,
+            "Current Assets": 39613000.0,
+            "Current Liabilities": 18860000.0,
+            "Weighted Average Shares Out": 9778167.0,
+            "Gross Margin": 0.17876513536237376,
+            "Revenue": 168446000.0
+        }
+    ]
+}

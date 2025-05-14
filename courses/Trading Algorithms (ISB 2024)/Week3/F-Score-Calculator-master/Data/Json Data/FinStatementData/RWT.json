@@ -1,0 +1,44 @@
+{
+    "ticker": "RWT",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 140406000.0,
+            "Total Assets": 7039822000.0,
+            "Operating Cash Flow": -1713163000.0,
+            "Beginning Year Total Assets": 5483477000.0,
+            "Long Term Debt": 3739608000.0,
+            "Current Assets": 144663000.0,
+            "Current Liabilities": 2088000000.0,
+            "Weighted Average Shares Out": 76600000.0,
+            "Gross Margin": 0.0,
+            "Revenue": 229314000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 131252000.0,
+            "Total Assets": 5483477000.0,
+            "Operating Cash Flow": -545653000.0,
+            "Beginning Year Total Assets": 6231027000.0,
+            "Long Term Debt": 3394145000.0,
+            "Current Assets": 212844000.0,
+            "Current Liabilities": 940000000.0,
+            "Weighted Average Shares Out": 76835000.0,
+            "Gross Margin": 0.0,
+            "Revenue": 216644000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 102088000.0,
+            "Total Assets": 6231027000.0,
+            "Operating Cash Flow": -1250210000.0,
+            "Beginning Year Total Assets": 5918966000.0,
+            "Long Term Debt": 3088132000.0,
+            "Current Assets": 5567000.0,
+            "Current Liabilities": 1997000000.0,
+            "Weighted Average Shares Out": 0.0,
+            "Gross Margin": 0.0,
+            "Revenue": 188803000.0
+        }
+    ]
+}

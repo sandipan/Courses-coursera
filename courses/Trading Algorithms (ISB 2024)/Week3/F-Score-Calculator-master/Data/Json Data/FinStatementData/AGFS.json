@@ -1,0 +1,44 @@
+{
+    "ticker": "AGFS",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 23471000.0,
+            "Total Assets": 983300000.0,
+            "Operating Cash Flow": 35390000.0,
+            "Beginning Year Total Assets": 965800000.0,
+            "Long Term Debt": 402900000.0,
+            "Current Assets": 178800000.0,
+            "Current Liabilities": 94700000.0,
+            "Weighted Average Shares Out": 49808600.0,
+            "Gross Margin": 0.7958778052742411,
+            "Revenue": 164026000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -111560000.0,
+            "Total Assets": 965800000.0,
+            "Operating Cash Flow": 30480000.0,
+            "Beginning Year Total Assets": 1082700000.0,
+            "Long Term Debt": 393000000.0,
+            "Current Assets": 170500000.0,
+            "Current Liabilities": 96900000.0,
+            "Weighted Average Shares Out": 49462205.0,
+            "Gross Margin": 0.48347720048400933,
+            "Revenue": 159669000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -416000.0,
+            "Total Assets": 1082700000.0,
+            "Operating Cash Flow": 13180000.0,
+            "Beginning Year Total Assets": 337500000.0,
+            "Long Term Debt": 406300000.0,
+            "Current Assets": 180700000.0,
+            "Current Liabilities": 67600000.0,
+            "Weighted Average Shares Out": 49718153.0,
+            "Gross Margin": 0.08462545949999026,
+            "Revenue": 111081000.0
+        }
+    ]
+}

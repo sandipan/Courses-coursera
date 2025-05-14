@@ -1,0 +1,44 @@
+{
+    "ticker": "JVA",
+    "financials": [
+        {
+            "Date": "2017-10-31",
+            "Net Income": 470000.0,
+            "Total Assets": 40000000.0,
+            "Operating Cash Flow": 1480000.0,
+            "Beginning Year Total Assets": 37020000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 33320000.0,
+            "Current Liabilities": 13050000.0,
+            "Weighted Average Shares Out": 5850000.0,
+            "Gross Margin": 0.15683275,
+            "Revenue": 77130000.0
+        },
+        {
+            "Date": "2016-10-31",
+            "Net Income": 2220000.0,
+            "Total Assets": 37020000.0,
+            "Operating Cash Flow": 1610000.0,
+            "Beginning Year Total Assets": 35270000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 32690000.0,
+            "Current Liabilities": 11020000.0,
+            "Weighted Average Shares Out": 5980000.0,
+            "Gross Margin": 0.15292825,
+            "Revenue": 78950000.0
+        },
+        {
+            "Date": "2015-10-31",
+            "Net Income": -1410000.0,
+            "Total Assets": 35270000.0,
+            "Operating Cash Flow": -2290000.0,
+            "Beginning Year Total Assets": 38950000.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 31990000.0,
+            "Current Liabilities": 10060000.0,
+            "Weighted Average Shares Out": 6200000.0,
+            "Gross Margin": 0.0539445,
+            "Revenue": 118150000.0
+        }
+    ]
+}

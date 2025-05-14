@@ -1,0 +1,44 @@
+{
+    "ticker": "TWO",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 348600000.0,
+            "Total Assets": 24789000000.0,
+            "Operating Cash Flow": 606800000.0,
+            "Beginning Year Total Assets": 20112000000.0,
+            "Long Term Debt": 1518000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 19700000000.0,
+            "Weighted Average Shares Out": 229300000.0,
+            "Gross Margin": 0.399536,
+            "Revenue": 701900000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 353300000.0,
+            "Total Assets": 20112000000.0,
+            "Operating Cash Flow": 239700000.0,
+            "Beginning Year Total Assets": 14576000000.0,
+            "Long Term Debt": 7107000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 9604000000.0,
+            "Weighted Average Shares Out": 173800000.0,
+            "Gross Margin": 6.150972749999999,
+            "Revenue": 682400000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 492200000.0,
+            "Total Assets": 14576000000.0,
+            "Operating Cash Flow": -1936700000.0,
+            "Beginning Year Total Assets": 21084000000.0,
+            "Long Term Debt": 5785000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 5214000000.0,
+            "Weighted Average Shares Out": 180000000.0,
+            "Gross Margin": 0.36733925,
+            "Revenue": 760700000.0
+        }
+    ]
+}

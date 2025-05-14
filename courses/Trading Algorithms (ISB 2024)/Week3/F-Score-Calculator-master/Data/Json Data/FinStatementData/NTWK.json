@@ -1,0 +1,44 @@
+{
+    "ticker": "NTWK",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -2158602.0,
+            "Total Assets": 104537337.0,
+            "Operating Cash Flow": -1670022.0,
+            "Beginning Year Total Assets": 92627643.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 51464501.0,
+            "Current Liabilities": 27864068.0,
+            "Weighted Average Shares Out": 11159075.0,
+            "Gross Margin": 0.4140467595337133,
+            "Revenue": 59696224.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 187329.0,
+            "Total Assets": 92627643.0,
+            "Operating Cash Flow": -303184.0,
+            "Beginning Year Total Assets": 87231010.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 40669421.0,
+            "Current Liabilities": 14637155.0,
+            "Weighted Average Shares Out": 10877446.0,
+            "Gross Margin": 0.4678563298228875,
+            "Revenue": 67693062.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -1879586.0,
+            "Total Assets": 87231010.0,
+            "Operating Cash Flow": 3085758.0,
+            "Beginning Year Total Assets": 92159318.0,
+            "Long Term Debt": 0.0,
+            "Current Assets": 33584811.0,
+            "Current Liabilities": 13309439.0,
+            "Weighted Average Shares Out": 10308186.0,
+            "Gross Margin": 0.39857725825732504,
+            "Revenue": 57965624.0
+        }
+    ]
+}

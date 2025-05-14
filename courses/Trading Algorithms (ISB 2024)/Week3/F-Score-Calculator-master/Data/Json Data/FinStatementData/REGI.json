@@ -1,0 +1,44 @@
+{
+    "ticker": "REGI",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -79100000.0,
+            "Total Assets": 1005600000.0,
+            "Operating Cash Flow": 29800000.0,
+            "Beginning Year Total Assets": 1136600000.0,
+            "Long Term Debt": 211900000.0,
+            "Current Assets": 355700000.0,
+            "Current Liabilities": 204900000.0,
+            "Weighted Average Shares Out": 38900000.0,
+            "Gross Margin": 0.04000675,
+            "Revenue": 2154700000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 44300000.0,
+            "Total Assets": 1136600000.0,
+            "Operating Cash Flow": 87900000.0,
+            "Beginning Year Total Assets": 1223600000.0,
+            "Long Term Debt": 238800000.0,
+            "Current Assets": 462800000.0,
+            "Current Liabilities": 233500000.0,
+            "Weighted Average Shares Out": 38600000.0,
+            "Gross Margin": 0.08130675,
+            "Revenue": 2039200000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -151400000.0,
+            "Total Assets": 1223600000.0,
+            "Operating Cash Flow": 80200000.0,
+            "Beginning Year Total Assets": 1367700000.0,
+            "Long Term Debt": 264600000.0,
+            "Current Assets": 475600000.0,
+            "Current Liabilities": 294000000.0,
+            "Weighted Average Shares Out": 43900000.0,
+            "Gross Margin": 0.06402025,
+            "Revenue": 1387400000.0
+        }
+    ]
+}

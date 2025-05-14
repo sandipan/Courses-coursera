@@ -1,0 +1,44 @@
+{
+    "ticker": "BBOX",
+    "financials": [
+        {
+            "Date": "2017-11-03",
+            "Net Income": -21647000.0,
+            "Total Assets": 439219000.0,
+            "Operating Cash Flow": 8676000.0,
+            "Beginning Year Total Assets": 454502000.0,
+            "Long Term Debt": 123409000.0,
+            "Current Assets": 287306000.0,
+            "Current Liabilities": 171850000.0,
+            "Weighted Average Shares Out": 15020000.0,
+            "Gross Margin": 0.31714446555668524,
+            "Revenue": 734172000.0
+        },
+        {
+            "Date": "2016-10-01",
+            "Net Income": -48544000.0,
+            "Total Assets": 454502000.0,
+            "Operating Cash Flow": 66776000.0,
+            "Beginning Year Total Assets": 543672000.0,
+            "Long Term Debt": 101734000.0,
+            "Current Assets": 285842000.0,
+            "Current Liabilities": 180539000.0,
+            "Weighted Average Shares Out": 15088000.0,
+            "Gross Margin": 0.2844765081219375,
+            "Revenue": 883810000.0
+        },
+        {
+            "Date": "2015-09-26",
+            "Net Income": -120917000.0,
+            "Total Assets": 543672000.0,
+            "Operating Cash Flow": 23446000.0,
+            "Beginning Year Total Assets": 706994000.0,
+            "Long Term Debt": 151288000.0,
+            "Current Assets": 342235000.0,
+            "Current Liabilities": 163178000.0,
+            "Weighted Average Shares Out": 15345000.0,
+            "Gross Margin": 0.30519905723282525,
+            "Revenue": 964346000.0
+        }
+    ]
+}

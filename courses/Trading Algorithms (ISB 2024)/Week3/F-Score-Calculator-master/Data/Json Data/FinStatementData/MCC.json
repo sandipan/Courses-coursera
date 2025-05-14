@@ -1,0 +1,44 @@
+{
+    "ticker": "MCC",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -53340000.0,
+            "Total Assets": 900000000.0,
+            "Operating Cash Flow": 31400000.0,
+            "Beginning Year Total Assets": 1032900000.0,
+            "Long Term Debt": 466700000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 13600000.0,
+            "Weighted Average Shares Out": 54470000.0,
+            "Gross Margin": 0.47525625000000005,
+            "Revenue": 90840000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 17570000.0,
+            "Total Assets": 1032900000.0,
+            "Operating Cash Flow": 216200000.0,
+            "Beginning Year Total Assets": 1167100000.0,
+            "Long Term Debt": 506700000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 15000000.0,
+            "Weighted Average Shares Out": 54470000.0,
+            "Gross Margin": 0.514485,
+            "Revenue": 112380000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -35650000.0,
+            "Total Assets": 1167100000.0,
+            "Operating Cash Flow": 84100000.0,
+            "Beginning Year Total Assets": 1298500000.0,
+            "Long Term Debt": 587500000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 16900000.0,
+            "Weighted Average Shares Out": 56300000.0,
+            "Gross Margin": 0.5461445,
+            "Revenue": 143780000.0
+        }
+    ]
+}

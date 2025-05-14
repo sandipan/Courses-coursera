@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "AGFS",
+        "open": 2.68,
+        "high": 2.71,
+        "low": 2.53,
+        "close": 2.55,
+        "volume": 190615,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "AGFS",
+        "open": 7.25,
+        "high": 7.5,
+        "low": 7.22,
+        "close": 7.38,
+        "volume": 132202,
+        "from": "2018-01-04"
+    }
+]

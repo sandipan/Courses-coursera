@@ -1,0 +1,44 @@
+{
+    "ticker": "CVEO",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -105700000.0,
+            "Total Assets": 853900000.0,
+            "Operating Cash Flow": 58800000.0,
+            "Beginning Year Total Assets": 910400000.0,
+            "Long Term Debt": 278000000.0,
+            "Current Assets": 132200000.0,
+            "Current Liabilities": 75600000.0,
+            "Weighted Average Shares Out": 130900000.0,
+            "Gross Margin": 0.327888,
+            "Revenue": 382200000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": -96300000.0,
+            "Total Assets": 910400000.0,
+            "Operating Cash Flow": 60300000.0,
+            "Beginning Year Total Assets": 1066500000.0,
+            "Long Term Debt": 337800000.0,
+            "Current Assets": 82600000.0,
+            "Current Liabilities": 60400000.0,
+            "Weighted Average Shares Out": 107100000.0,
+            "Gross Margin": 0.34469500000000003,
+            "Revenue": 397100000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": -131800000.0,
+            "Total Assets": 1066500000.0,
+            "Operating Cash Flow": 257700000.0,
+            "Beginning Year Total Assets": 1829200000.0,
+            "Long Term Debt": 379400000.0,
+            "Current Assets": 90000000.0,
+            "Current Liabilities": 66200000.0,
+            "Weighted Average Shares Out": 106700000.0,
+            "Gross Margin": 0.361468,
+            "Revenue": 517900000.0
+        }
+    ]
+}

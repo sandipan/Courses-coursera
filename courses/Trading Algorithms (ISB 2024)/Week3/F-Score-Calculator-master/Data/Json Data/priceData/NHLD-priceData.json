@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "NHLD",
+        "open": 2.7,
+        "high": 2.75,
+        "low": 2.7,
+        "close": 2.71,
+        "volume": 2483,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "NHLD",
+        "open": 3.0942,
+        "high": 3.1255,
+        "low": 2.9,
+        "close": 2.9986,
+        "volume": 95427,
+        "from": "2018-01-04"
+    }
+]

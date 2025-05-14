@@ -1,0 +1,44 @@
+{
+    "ticker": "CMO",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 79600000.0,
+            "Total Assets": 13733000000.0,
+            "Operating Cash Flow": 212100000.0,
+            "Beginning Year Total Assets": 13577000000.0,
+            "Long Term Debt": 98000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 12397000000.0,
+            "Weighted Average Shares Out": 95700000.0,
+            "Gross Margin": 0.37482125,
+            "Revenue": 233300000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 82900000.0,
+            "Total Assets": 13577000000.0,
+            "Operating Cash Flow": 215100000.0,
+            "Beginning Year Total Assets": 14446000000.0,
+            "Long Term Debt": 98000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 12231000000.0,
+            "Weighted Average Shares Out": 95900000.0,
+            "Gross Margin": 0.45555049999999997,
+            "Revenue": 213300000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 108400000.0,
+            "Total Assets": 14446000000.0,
+            "Operating Cash Flow": 244200000.0,
+            "Beginning Year Total Assets": 14387000000.0,
+            "Long Term Debt": 98000000.0,
+            "Current Assets": 0.0,
+            "Current Liabilities": 13050000000.0,
+            "Weighted Average Shares Out": 94300000.0,
+            "Gross Margin": 0.5633345000000001,
+            "Revenue": 216300000.0
+        }
+    ]
+}

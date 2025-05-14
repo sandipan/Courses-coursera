@@ -1,0 +1,44 @@
+{
+    "ticker": "OCC",
+    "financials": [
+        {
+            "Date": "2017-10-31",
+            "Net Income": -1738771.0,
+            "Total Assets": 40139180.0,
+            "Operating Cash Flow": -687071.0,
+            "Beginning Year Total Assets": 40665788.0,
+            "Long Term Debt": 12119607.0,
+            "Current Assets": 27103378.0,
+            "Current Liabilities": 4196877.0,
+            "Weighted Average Shares Out": 6494000.0,
+            "Gross Margin": 0.32531049324177175,
+            "Revenue": 64092848.0
+        },
+        {
+            "Date": "2016-10-31",
+            "Net Income": -1778822.0,
+            "Total Assets": 40665788.0,
+            "Operating Cash Flow": 3155480.0,
+            "Beginning Year Total Assets": 45028818.0,
+            "Long Term Debt": 11651780.0,
+            "Current Assets": 26321883.0,
+            "Current Liabilities": 4126109.0,
+            "Weighted Average Shares Out": 7105000.0,
+            "Gross Margin": 0.3023551148923932,
+            "Revenue": 64616001.0
+        },
+        {
+            "Date": "2015-10-31",
+            "Net Income": -4255665.0,
+            "Total Assets": 45028818.0,
+            "Operating Cash Flow": 1202348.0,
+            "Beginning Year Total Assets": 50038614.0,
+            "Long Term Debt": 12946008.0,
+            "Current Assets": 29147426.0,
+            "Current Liabilities": 5643152.0,
+            "Weighted Average Shares Out": 6241000.0,
+            "Gross Margin": 0.29722577501413877,
+            "Revenue": 73568738.0
+        }
+    ]
+}

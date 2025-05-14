@@ -1,0 +1,44 @@
+{
+    "ticker": "RDC",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": -38700000.0,
+            "Total Assets": 8458300000.0,
+            "Operating Cash Flow": 299800000.0,
+            "Beginning Year Total Assets": 8675600000.0,
+            "Long Term Debt": 2510300000.0,
+            "Current Assets": 1560400000.0,
+            "Current Liabilities": 257400000.0,
+            "Weighted Average Shares Out": 126100000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 1282800000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 320000000.0,
+            "Total Assets": 8675600000.0,
+            "Operating Cash Flow": 900600000.0,
+            "Beginning Year Total Assets": 8347267000.0,
+            "Long Term Debt": 2553400000.0,
+            "Current Assets": 1580300000.0,
+            "Current Liabilities": 483800000.0,
+            "Weighted Average Shares Out": 125300000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 1843200000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 93311000.0,
+            "Total Assets": 8347267000.0,
+            "Operating Cash Flow": 996992000.0,
+            "Beginning Year Total Assets": 8411192000.0,
+            "Long Term Debt": 2692000000.0,
+            "Current Assets": 921275000.0,
+            "Current Liabilities": 328671000.0,
+            "Weighted Average Shares Out": 124508000.0,
+            "Gross Margin": 1.0,
+            "Revenue": 2137018000.0
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "ACTG",
+        "open": 6.5,
+        "high": 6.8,
+        "low": 6.5,
+        "close": 6.75,
+        "volume": 354158,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "ACTG",
+        "open": 3.85,
+        "high": 4,
+        "low": 3.75,
+        "close": 3.95,
+        "volume": 520705,
+        "from": "2018-01-04"
+    }
+]

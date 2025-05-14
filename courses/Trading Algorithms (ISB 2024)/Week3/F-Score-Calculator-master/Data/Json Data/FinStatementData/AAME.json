@@ -1,0 +1,44 @@
+{
+    "ticker": "AAME",
+    "financials": [
+        {
+            "Date": "2017-12-31",
+            "Net Income": 4528000.0,
+            "Total Assets": 343239000.0,
+            "Operating Cash Flow": 2634000.0,
+            "Beginning Year Total Assets": 318600000.0,
+            "Long Term Debt": 33738000.0,
+            "Current Assets": 24547000.0,
+            "Current Liabilities": 196600000.0,
+            "Weighted Average Shares Out": 21183333.0,
+            "Gross Margin": 0.0,
+            "Revenue": 181114000.0
+        },
+        {
+            "Date": "2016-12-31",
+            "Net Income": 2636000.0,
+            "Total Assets": 318600000.0,
+            "Operating Cash Flow": 1316000.0,
+            "Beginning Year Total Assets": 314603000.0,
+            "Long Term Debt": 33738000.0,
+            "Current Assets": 13252000.0,
+            "Current Liabilities": 179400000.0,
+            "Weighted Average Shares Out": 22466667.0,
+            "Gross Margin": 0.0,
+            "Revenue": 166077000.0
+        },
+        {
+            "Date": "2015-12-31",
+            "Net Income": 4388000.0,
+            "Total Assets": 314603000.0,
+            "Operating Cash Flow": 2209000.0,
+            "Beginning Year Total Assets": 317008000.0,
+            "Long Term Debt": 33738000.0,
+            "Current Assets": 15622000.0,
+            "Current Liabilities": 178400000.0,
+            "Weighted Average Shares Out": 20426536.0,
+            "Gross Margin": 0.0,
+            "Revenue": 165937000.0
+        }
+    ]
+}

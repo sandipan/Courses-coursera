@@ -1,0 +1,20 @@
+[
+    {
+        "symbol": "TUES",
+        "open": 5.45,
+        "high": 5.6,
+        "low": 5.15,
+        "close": 5.4,
+        "volume": 249983,
+        "from": "2017-01-03"
+    },
+    {
+        "symbol": "TUES",
+        "open": 2.9,
+        "high": 2.95,
+        "low": 2.65,
+        "close": 2.925,
+        "volume": 184621,
+        "from": "2018-01-04"
+    }
+]
