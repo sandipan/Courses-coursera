@@ -1,4 +1,0 @@
->Rosalind_79
-CAGCACTTGGATTCTCGG
->Rosalind_98
-CAGCGTGG

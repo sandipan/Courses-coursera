@@ -1,0 +1,233 @@
+
+<!-- saved from url=(0078)https://inst.eecs.berkeley.edu/~cs194-26/fa17/upload/files/proj1/cs194-26-abq/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Colorizing the Prokudin-Gorskii Photo Collection</title>
+<link rel="stylesheet" type="text/css" href="./Colorizing the Prokudin-Gorskii Photo Collection_files/style.css">
+</head>
+
+<body>
+	<h1 class="title">CS 194-26: Image Manipulation and Computational Photography</h1>
+	<br>
+	<h2 class="title">Images of the Russian Empire:</h2>
+	<h3 class="title">Colorizing the Prokudin-Gorskii photo collection</h3>
+	<p class="name">By: Alex Pan</p>
+	<br>
+	<h2>Overview</h2>
+	<p>Before the 20th century, color photography had not yet become widespread - developments in the field were still rudimentary, at best. Sergei Mikhailovich Prokudin-Gorskii (1863-1944), a Russian photographer, was the one responsible for spearheading work in color photography with his implementation of the Three-color principle.</p>
+	<p>Starting in 1907, he traveled through the Russian Empire, documenting the vast landscapes in color for the first time. Over 10,000 pictures were taken in the form of RGB glass plate negatives, which have luckily survived the years. Recently, the Library of Congress has digitized and hosted the images online <a href="http://www.loc.gov/exhibits/empire/gorskii.html">here</a>.</p>
+	<br>
+
+	<h2>Approach</h2>
+	<p>In this project, we will use image processing techniques to automatically colorize the glass plate images taken by Prokudin-Goskii. In each image, a special camera is used to record the scene with three exposures: a red, a green and a blue filter. The process of colorization is simple. We extract the three color channel images, lay them on top of each other, and align them so they form a single RGB color image. Here's an example of a camera and a glass plate image: </p>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/camera.jpg" alt="Camera" class="camera"><img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/original_monastery.jpg" alt="Monastery" class="full_plate">
+	<br><br><br>
+
+	<h2>Naive Implementation</h2>
+	<p>The most basic approach is to divide each image into thirds and directly place them on top of each other. As you can tell below, this doesn't always work out too well. The borders and angles between each filtered image cause discrepancies that result in a slightly misaligned final picture.</p>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/naive_monastery.jpg" alt="Naive Monastery" class="colorized_image">
+	<br><br><br>
+
+	<h2>Exhaustive Search Alignment</h2>
+	<p>The easiest way to align the parts is to do an exhaustive search over a window of possible displacements, score each displacement, and find the displacement values with the best score. We arbitrarily choose the blue filter to be the base image, so we align the other two filters to it.</p>
+	<p>First, we crop out the outer parts of the image, because we don't want the borders to interfere with our alignments. For our purposes, a window of [-15, 15] pixels in both the x and y directions seemed to be large enough to find the corret alignment. A larger window is less computationally efficient, so we want it to be as small as possible. Two possible scoring metrics were considered: the <a href="https://en.wikipedia.org/wiki/Mean_squared_error">Sum of Squared Distances (SSD)</a>, and the <a href="https://en.wikipedia.org/wiki/Cross-correlation">normalized cross-correlation (NCC)</a>. Both of these performed equally well, so we will use SSD for simplicity's sake.</p>
+	<p>Here's the same example as above, aligned using exhaustive search. As you can see, the clarity is much better.</p>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/exhaustive_monastery.jpg" alt="Monastery" class="colorized_image">
+	<br><br><br>
+
+	<h2>Image Pyramid Aligment</h2>
+	<p>As mentioned before, exhaustive search can get quite expensive as the window of possible displacements increases. For large images where correct alignments may be displaced by hunders of pixels, exhaustive search is much too slow.</p>
+	<p>An image pyramid represents the image at multiple scales, and the processing is done sequentially starting from the coarsest scale (smallest image). We recursively go down the pyramid to larger images, updating the estimate as we go. This allows us to try a very large window of displacements without manually calculating scores for each configuration.</p>
+	<p>Base Case: If the image is 400px by 400px or smaller, we use regular exhaustive search over a window of [-15, 15]. Otherwise, we resize the image by 1/2 and recursively call the function and apply changes found at a smaller scale. To account for small inaccuracies with resizing, we search over a [-5, 5] window in each middle layer.</p>
+	<p>Here's an example of a a large image being aligned with an image pyramid. It takes less than a minute to colorize, as opposed to the several minutes it would have taken to complete had we used exhaustive search.</p>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/pyramid_train.jpg" alt="Train" class="colorized_image">
+	<br><br><br>
+
+	<h2>Problems</h2>
+	Of course, this strategy doesn't work perfectly for all cases. Here are some issues I ran into with the test set, and how I tackled them.
+
+	<h3><i>Emir</i></h3>
+	<p>As you can see from the glass plate image of Emir below (on the left), the brightness of each filter image is drastically different. In particular, the blue (top) filter is significantly brighter than the rest - Emir's robe is much brighter than his skin and appear almost white. Naturally, aligning the images to the blue filter doesn't work well. The SSD score is thrown off because of the brightness values, and the alignment does not work properly (shown in the middle). The solution to this is simple - align to a different filter other than blue. Running the same algorithm using green as the base filter produces a much better result (shown on the right).</p>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/emir.jpg" alt="Emir" class="full_plate">
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/bad_emir.jpg" alt="Misaligned Emir" class="colorized_image">
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/good_emir.jpg" alt="Correctly Aligned Emir" class="colorized_image">
+	<br><br>
+
+	<h3><i>Self Portrait</i></h3>
+	<p>Although not as drastic as the example of Emir before, the self portrait image also did not align as it should have (displayed on the right). My guess for why this happened is because of the color distribution of the image. The landscape is dense, mostly green, and has a lot of miniscule grass/foliage details. The blue filter most likely doesn't hold enough information to be able to align the two other colors to it properly, resulting in a slightly skewed image. Fortunately, this image can be fixed in the same way as Emir's image. Because the majority of the picture is green, we use green as the base image and align the other colors to it. The result is much nicer (shown left).</p>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/bad_self_portrait.jpg" alt="Misaligned Self Portrait" class="colorized_image">
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/good_self_portrait.jpg" alt="Correctly Aligned Self Portrait" class="colorized_image">
+	<br><br><br>
+
+	<h2>Bells and Whistles</h2>
+	<p>A proper colorization involves more than just simple filter alignment and there are several factors to play around with to recreate the best image possible. Adjusting color levels, removing blemishes, adding contrast - these fine-tune adjustments can be done automatically as well.</p>
+
+	<h3><i>Auto Cropping</i></h3>
+	<p>One of the more notable features of the colorized images is the strange border around the edges, caused by misalignments and minute differences between filters in the original glass plate image.</p>
+	<p>I took two steps in attempting to automatically crop the borders out of the images. The pre-crop step crops out parts of the image where not all 3 of the color channels exist. When we use np.roll to shift images, we have overflow from the opposite side of the roll. These values are basically meaningless, so we get rid of them.</p>
+	<p>Next, we try to remove the borders themselves. The digitized glass plates are on a white background and have black borders, so we need to get rid of both. There are also lines of colors at the very edges where the pictures don't exactly line up, so we want to remove these as well. We do this by taking the average pixel value of each row and column, starting from each side. If the average value for any filter is very close to white or dark, we remove it. We continue along each edge until we (hopefully) reach the actual scene.</p>
+	<p>Some of the images crop better than others, but all of them show significant improvements. We want to be on the safe side and would rather crop out less than more, since the overall goal is to see the whole image. Here are a few before-and-after examples where this technique worked decently well (left is before, right is after):</p>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/uncropped_cathedral.jpg" alt="Uncropped Cathedral" class="colorized_image">
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/cropped_cathedral.jpg" alt="Cropped Cathedral" class="colorized_image">
+	<br>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/uncropped_village.jpg" alt="Uncropped Village" class="colorized_image">
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/cropped_village.jpg" alt="Cropped Village" class="colorized_image">
+	<br><br><br>
+
+	<h2>Final Results</h2>
+	<p>Here are the final results of the colorization algorithm on the test set, along with the displacements of each non-base filter. The small .jpg images took an average of around 1 second to run, while the .tif images finished in about half a minute each.</p>
+
+	<div class="final">
+	<h3><i>Cathedral</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_cathedral.jpg" alt="Cathedral" class="colorized_image_final">
+	<p>Green: (5, 2)
+	   Red: (12, 3)</p>
+	<br>
+	</div>
+	
+	<div class="final">
+	<h3><i>Monastery</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_monastery.jpg" alt="Monastery" class="colorized_image_final">
+	<p>Green: (-3, 2)
+	   Red: (3, 2)</p>
+	<br>
+	</div>
+
+	<div class="final">
+	<h3><i>Nativity</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_nativity.jpg" alt="Nativity" class="colorized_image_final">
+    <p>Green: (3, 1)
+	   Red: (8, 0)</p>
+	<br>
+	</div>
+
+	<div class="final">
+	<h3><i>Settlers</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_settlers.jpg" alt="Settlers" class="colorized_image_final">
+	<p>Green: (7, 0)
+	   Red: (15, -1)</p>
+	<br>
+	</div>
+
+	<div class="final">
+	<h3><i>Emir</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_emir.jpg" alt="Emir" class="colorized_image_final">
+	<p>Blue: (-49, -24)
+	   Red: (57, 17)</p>
+	<br>
+	</div>
+
+	<div class="final">
+	<h3><i>Harvesters</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_harvesters.jpg" alt="Harvesters" class="colorized_image_final">
+	<p>Green: (59, 17)
+	   Red: (123, 14)</p>
+	<br>
+	</div>
+
+	<div class="final">
+	<h3><i>Icon</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_icon.jpg" alt="Icon" class="colorized_image_final">
+	<p>Green: (40, 17)
+	   Red: (89, 23)</p>
+	<br>
+	</div>
+
+	<div class="final">
+	<h3><i>Lady</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_lady.jpg" alt="Lady" class="colorized_image_final">
+	<p>Green: (49, 8)
+	   Red: (109, 11)</p>
+	<br>
+	</div>
+
+	<div class="final">
+	<h3><i>Self Portrait</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_self_portrait.jpg" alt="Self Portrait" class="colorized_image_final">
+	<p>Blue: (-78, -29)
+	   Red: (98, 8)</p>
+	<br>
+	</div>
+
+	<div class="final">
+	<h3><i>Three Generations</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_three_generations.jpg" alt="Three Generations" class="colorized_image_final">
+	<p>Green: (50, 14)
+	   Red: (110, 12)</p>
+	<br>
+	</div>	
+	
+	<div class="final">
+	<h3><i>Train</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_train.jpg" alt="Train" class="colorized_image_final">
+	<p>Green: (42, 6)
+	   Red: (87, 32)</p>
+	<br>
+	</div>	
+
+	<div class="final">
+	<h3><i>Turkmen</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_turkmen.jpg" alt="Turkmen" class="colorized_image_final">
+	<p>Green: (55, 20)
+	   Red: (116, 28)</p>
+	<br>
+	</div>	
+	
+	<div class="final">
+	<h3><i>Village</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_village.jpg" alt="Village" class="colorized_image_final">
+	<p>Green: (64, 12)
+	   Red: (137, 22)</p>
+	<br>
+	</div>	
+	
+
+	<h2>Additional Images</h2>
+	<p>Here are some additional images taken from the Prokudin-Gorskii collection, colorized using the same method. </p>
+
+	<div class="final">
+	<h3><i>Eclipse Viewing</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_eclipse_viewing.jpg" alt="Eclipse Viewing" class="colorized_image_final">
+	<p>Green: (5, 1)
+	   Red: (11, -1)</p>
+	<br>
+	</div>
+
+	<div class="final">
+	<h3><i>Bukhara</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_bukhara.jpg" alt="Bukhara" class="colorized_image_final">
+	<p>Green: (5, 1)
+	   Red: (12, 1)</p>
+	<br>
+	</div>	
+
+	<div class="final">
+	<h3><i>Church Doors</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_church_doors.jpg" alt="Church Doors" class="colorized_image_final">
+	<p>Green: (7, 2)
+	   Red: (14, 3)</p>
+	<br>
+	</div>	
+	
+	<div class="final">
+	<h3><i>Peasant Hut</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_peasant_hut.jpg" alt="Peasant Hut" class="colorized_image_final">
+	<p>Green: (5, 1)
+	   Red: (11, -1)</p>
+	<br>
+	</div>
+	
+	<div class="final">
+	<h3><i>Saliuktin Mines</i></h3>
+	<img src="./Colorizing the Prokudin-Gorskii Photo Collection_files/out_saliuktin_mines.jpg" alt="Saliuktin Mines" class="colorized_image_final">
+	<p>Green: (5, 0)
+	   Red: (10, -1)</p>
+	<br>
+	</div>
+	
+	
+
+
+
+
+
+</body></html>

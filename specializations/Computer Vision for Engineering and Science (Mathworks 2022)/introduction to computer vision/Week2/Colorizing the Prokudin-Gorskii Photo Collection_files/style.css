@@ -1,0 +1,35 @@
+.title {
+	text-align: center;
+}
+
+.name {
+	text-align: center;
+}
+
+.camera {
+	height: 300px;
+	margin-right: 100px;
+	margin-bottom: 50px;
+
+}
+
+.full_plate {
+	height: 350px;
+	margin-top: 20px;
+	margin-right: 100px;
+}	
+
+.colorized_image {
+	height: 300px;
+	margin-right: 100px;
+	margin-top: 30px;
+}
+
+.colorized_image_final {
+	height: 300px;
+	margin-right: 50px;
+}
+
+.final {
+	display: inline-block;
+}

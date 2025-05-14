@@ -1,5 +1,0 @@
-(cat)dog;
-dog cat
-
-(dog,cat);
-dog cat
