@@ -2,7 +2,7 @@ import os
 import openai
 import secret
 import requests
-openai.api_key='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'
+#openai.api_key='xxxxx'
 
 # WRITE YOUR CODE HERE
 response = openai.Image.create(
@@ -21,7 +21,7 @@ import os
 import openai
 import secret
 import requests
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 
 def imageGen(txt):
   # WRITE YOUR CODE HERE
@@ -46,7 +46,7 @@ import os
 import openai
 import secret
 import requests
-openai.api_key='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'
+#openai.api_key='xxxxx'
 # Keep CODE ABOVE
 # WRITE YOUR CODE HERE
 response = openai.Image.create_variation(
@@ -86,7 +86,7 @@ img_data = requests.get(image_url2).content
 with open('bunny_var.png', 'wb') as handler:
     handler.write(img_data)
 	
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 
 # WRITE YOUR CODE HERE
 def variationMaker(image_name):
@@ -111,7 +111,7 @@ import openai
 import requests
 import secret
 
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 
 # Set the prompts
 prompts = ["robot dog in a lab", "robot dog exploring the city", "robot dog watching the sunset"]
@@ -137,7 +137,7 @@ import openai
 import requests
 import secret
 
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 
 # Set the prompts
 prompts = ["robot dog in a lab", "robot dog exploring the city", "robot dog watching the sunset"]
@@ -188,7 +188,7 @@ import requests
 import secret
 import time
 
-openai.api_key='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'
+# openai.api_key='xxxxx'
 
 # Set the prompts
 prompts = ["robot dog in a lab", "robot dog exploring the city", "robot dog watching the sunset"]
@@ -279,7 +279,7 @@ import asyncio
 import secret
 import time
 
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 
 # Set the prompts
 prompts = ["robot dog in a lab", "robot dog exploring the city", "robot dog watching the sunset"]
@@ -339,7 +339,7 @@ import requests
 import secret
 import time
 
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 
 # Generate and save the images
 def chain(prompts):
@@ -370,7 +370,7 @@ from PIL import Image, ImageOps
 from io import BytesIO
 import requests
 
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 
 # Generate the base image
 def generate_base_image(prompt):
@@ -480,7 +480,7 @@ import secret
 from PIL import Image, ImageFilter
 from io import BytesIO
 import requests
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 	
 # Generate the base image
 def generate_base_image(prompt):
@@ -548,7 +548,7 @@ import secret
 from PIL import Image, ImageOps
 from io import BytesIO
 import requests
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 	
 # Generate the base image
 def generate_base_image(prompt):
@@ -582,7 +582,7 @@ import requests
 import secret
 
 # Set API key and prompt
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 user_input = "Create an image of a car"
 """
 # Generate more descriptive text with GPT-3
@@ -622,7 +622,7 @@ import requests
 import secret
 
 # Set API key and prompt
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 
 
 def generate_image(prompt):
@@ -669,7 +669,7 @@ import requests
 
 # Set environment variables
 #openai.api_key =  os.getenv('OPENAI_KEY')
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 
 # Generate the base image
 def generate_base_image(prompt):
@@ -787,7 +787,7 @@ import requests
 
 # Set environment variables
 #openai.api_key =  os.getenv('OPENAI_KEY')
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 
 # Generate the base image
 def generate_base_image(prompt):
