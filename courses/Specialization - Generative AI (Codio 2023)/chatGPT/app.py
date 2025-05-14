@@ -7,7 +7,7 @@ import os
 
 #api_key = keys
 
-openai.api_key='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'
+#openai.api_key='xxxxxx'
 app = Flask(__name__)
 
 # Function to generate chatbot response

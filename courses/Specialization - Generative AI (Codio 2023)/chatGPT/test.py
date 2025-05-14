@@ -1,9 +1,9 @@
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 
 import os
 import openai
 import secret
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 
 # WRITE YOUR CODE HERE
 prompts ="Write a tagline for an ice cream shop"
@@ -39,7 +39,7 @@ print(response['choices'][0]['text'].strip())
 import os
 import openai
 import secret
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 # WRITE YOUR CODE HERE
 response=openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
@@ -59,7 +59,7 @@ for i in (response["choices"]):
 import os
 import openai
 import secret
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 
 # WRITE YOUR CODE HERE
 response = openai.ChatCompletion.create(
@@ -81,7 +81,7 @@ for i in (response["choices"]):
 import os
 import openai
 import secret
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 
 response=openai.ChatCompletion.create(
   model="gpt-3.5-turbo",
@@ -122,7 +122,7 @@ import os
 import openai
 import secret
 
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 
 def chatfunctions(prompts: List[str], temp: float, max_t: int) -> List[str]:
   # WRITE YOUR CODE HERE
@@ -173,7 +173,7 @@ def user_experience(prompt: str, temp: float, max_t: int):
 import os
 import openai
 import secret
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 # WRITE YOUR CODE HERE
 
 response=openai.ChatCompletion.create(
@@ -190,7 +190,7 @@ print(response['choices'][0]['message']['content'].strip())
 import os
 import openai
 import secret
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 
 message=[
         {"role": "system", "content": "You are a coding assistant with expertise in JavaScript."},
@@ -230,7 +230,7 @@ These optimizations may not be necessary depending on the specific use case, but
 import os
 import openai
 import secret
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 
 message=[ 
 {"role": "system", "content": "You are a coding assistant with expertise in Python."},
@@ -265,7 +265,7 @@ message =[
 import openai
 import os
 
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 # WRITE YOUR CODE HERE
 
 response=openai.ChatCompletion.create(
@@ -283,7 +283,7 @@ print(response['choices'][0]['message']['content'].strip())
 import openai
 import os
 
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 message=[{"role": "system", "content": "You are a collaborative programming assistant with expertise in Python."},
         {"role": "user", "content": "Alice: I'm having trouble understanding how to use Python decorators. Can you explain them to me?"},
         {"role": "user", "content": "Bob: I think I understand decorators, but I could use some help with a specific example. Can you provide one?"}
@@ -368,7 +368,7 @@ import os
 import openai
 import secret
 
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 # WRITE YOUR CODE HERE
 
 def collaborative_chat_gpt(prompt: str) -> str:
@@ -388,7 +388,7 @@ print(collaborative_chat_gpt("What is the capital of France?"))
 import os
 import openai
 import secret
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 # WRITE YOUR CODE HERE
 
 def chatgpt_code_review(file_path):
@@ -487,7 +487,7 @@ Please note that in this example, I have used the `python-dotenv` package to loa
 import os
 import openai
 import secret
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 # WRITE YOUR CODE HERE
 
 response=openai.ChatCompletion.create(
@@ -528,7 +528,7 @@ import os
 import openai
 import secret
 import time
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 # WRITE YOUR CODE HERE
 
 def Generate(prompts):
@@ -571,7 +571,7 @@ Time Taken: 0.197035551071167 seconds
 
 import os
 import openai
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 # WRITE YOUR CODE HERE
 prompts = [
     "Write a summary of a book about artificial intelligence.",
@@ -660,7 +660,7 @@ print(f"Error rate: {error_rate}")
 import time
 import openai
 import os
-openai.api_key='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'
+# openai.api_key='xxxxxx'
 
 # WRITE YOUR CODE HERE
 def GenerateBatch(prompts: list) -> list:
