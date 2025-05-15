@@ -1,0 +1,19 @@
+This assignment was graded with Grader version
+2017.09.14a. If you don't understand the grader
+message, or believe the message to be inaccurate,
+please see the discussion forums for details on
+the grader limitations. See the course resource
+Jupyter Notebook FAQ page for more details on
+limitations of the autograder.  NOTE: If you have
+the line %matplotlib notebook or you are using
+import matplotlib.pyplot as plt in your solution
+you MUST REMOVE IT or comment it out before
+submitting for grading. This is the number one
+issue with autograding errors, please check your
+work closely.  Detected Jupyter notebook
+submission.   ----------  Function
+graph_identification was answered incorrectly, 0.2
+points were not awarded. Incorrect. Your AUC
+0.8879894838798948 was awarded a value of 1.0 out
+of 1.0 total grades Your AUC 0.9092234578731337
+was awarded a value of 1.0 out of 1.0 total grades

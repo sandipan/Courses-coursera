@@ -1,0 +1,4 @@
+digraph emailnet {
+	node [shape=plaintext]
+	node [color=lightblue2 shape=circle style=filled]
+}

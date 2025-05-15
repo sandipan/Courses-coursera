@@ -1,0 +1,170 @@
+
+I shall give you some context in several chunks, from which you need to answer to a question regarding misleading data visualization.
+
+Here is some context below:
+
+Hiding Relevant Data to Highlight What Benefits Us Any parameter can tell us something about a population, the same way that any
+properly obtained statistic can tell us something about a sample from that population. Most datasets are too complex to be scrutinized directly (try to extract meaning from a table with hundreds of numbers), so we use and manipulate statistics—mean, median, standard deviation, etc.—to analyze them. However, no parameter or statistic can reveal the entire truth of a dataset. Most visual liars are
+very aware of this fact, and they take advantage of it.
+To give you a perfect example of this strategy, stick with me through a short detour which will become relevant in Part 2 of this chapter.
+In the first decade of the Twenty-first century, the marketing and P.R industry hijacked the very word “infographics” (Cairo 2012b). This word has a long and noble tradition in the news, where it is used to define visuals that display rich data, maps to locate stories, and diagrams and illustrations to explain complex processes and procedures. 
+News infographics are, or should be, subjected to professional standards also applied to news stories. Marketing and promotional infographics are not, as you will notice if you do a little exercise: Go to your favorite search engine and type “best
+infographics” or “cool infographics.” Go ahead, try it out. You will be shown piles of bad and uncool junk—and perhaps some gems; I’m willing to concede that it is possible to find shiny needles in any damp haystack, but hope weakens when one
+stumbles upon statements like this, common among the enthusiasts of these aberrations: “All online infographics are a form of content marketing link bait.” (Krum 2013)
+To what I say: Baloney. If producing “link bait,” instead of something truthful, accurate, and deep is your goal, then you are not designing an infographic, but a poster, a flyer, or an ad. End of detour for now. Lies in this kind of so-called “infographics” usually come in the form of cherrypicked statistics. Many of them are made of isolated figures surrounded by cutesy illustrations and colorful special effects. See the first man in Fig. 5.1, a graphic that mimics the style I’m describing. He proudly holds the average sales increase of his company over the last year: 12 %. Not bad, right?
+But see what happens when we offer a more nuanced picture of what hides behind that figure (man on the right): Among the ten markets in which this company operates, five improved, but the other five shrank. Why would you hide this important bit of information from customers or investors? That was a rhetorical question, in case you did not notice. The first “infographic” is good “link bait.” The
+second one is true.
+
+Have you understood the context? answer in yes or no.
+
+Some more context:
+
+Displaying Too Much Data to Obscure Reality
+
+If extreme simplification and biased data selection are reliable strategies to obfuscate
+data, extreme and unnecessary detail may also be effective. Compare the two maps
+in Fig. 5.2 (data aren’t real.) Neither of them is intrinsically wrong, but the first one
+is much better if our goal is to give readers a quick and clear overview of the data.
+The second one might be appropriate if the designer wants readers to explore poor
+areas in detail, perhaps with the help of interactive tools, such as zooms and filters.
+But, if the second one is reproduced at a small size on a printed page, it will become
+meaningless.
+
+ Using Graphic Forms in Inappropriate Ways
+(Distorting the Data)
+This is my favorite strategy and, by far, the most common one. Many lies in this
+category are grossly conspicuous, but may go unnoticed if shown quickly on a
+screen, or if the viewer is distracted by visual bells and whistles.
+State-owned media in countries ravaged by corruption and clientelism, like
+Venezuela or Spain, are reliable sources of joy for visualization professors who
+need to gather examples for class. A more colorful version of Fig. 5.3 was used by
+Venezolana de Televisión after the 2013 Presidential elections, in which President
+Hugo Chavez’s successor, Nicolás Maduro, was challenged by an emerging leader
+of the coalition of opposing parties, Henrique Capriles. I redrew the graphic to
+be able to print it in B/W, so try to imagine it in all its original tacky tricolor
+magnificence (use the colors of the Venezuelan flag: Pure red, blue, and yellow).
+
+When adding a zero-baseline, the picture becomes much more interesting—and
+discouraging if you are a fan of Maduro’s (Fig. 5.4). I have heard designers defend
+graphics like that one arguing that viewers could just read the numbers. Right but,
+then, what are the damn bars for? Are they just ornaments? And I could add that
+most people won’t have enough time to make up for the distortion if the chart stays
+on the TV screen for just a few seconds.
+The next example is much more amusing. The original graphic was shown by
+TVE, the Spanish public broadcasting system, in September 2013. In this case, it’s
+not just the Y-axis that was truncated; that’s almost a trivial misdemeanor here. The
+problem is where the X-axis begins. See it in Fig. 5.5 (redrawn based on the original
+chart):
+To understand why the designer is lying, you need to know that Spain’s job
+market follows regular seasonal variations. A notable chunk of the country’s wealth
+comes from the millions of tourists who visit it every year. Thus, unemployment
+tends to increase during the winter and falls sharply during the summer, something
+that becomes clear when 12-month data are displayed (Fig. 5.6). The most newsworthy bit of information revealed by this chart is that unemployment was higher in
+August 2013 than in July 2012, something that TVE did not mention. Maybe a
+smart government-appointed managing editor thought that she would not be able to
+use the right headline if data were correctly depicted.
+Another very recent example was released by Partido Popular (PP), Spain’s
+ruling party, in December 2013. Notice the inconsistent intervals on the horizontal
+axis: Until 2012, the graphic displays yearly data. Then, suddenly, it shows monthly
+change, but the choice of months seems arbitrary. The reason why the designer did
+this is not clear, but it may be related to the fact that President Mariano Rajoy
+approved a sharp increase in electricity prices for January 2014. Who knows?
+This bar graph is interesting not just because it is a good example of how sneaky
+politicians try to deceive citizens. It also leads us to the second part of this essay
+because it was uncritically reproduced by at least two of the main Spanish newspapers. The graphic passed through all the filters that journalists, designers, and the
+organizations they work for supposedly have to verify before they publish.
+
+
+Have you understood the above context? answer in yes or no.
+
+
+Some more ontext again, provided below:
+
+The Ignorance of Evidence-Driven Communicators
+In section 1 of this essay, I explained that a single, isolated statistic can misrepresent reality. Nonetheless, allow me to cite this one, taken from a talk by Robert
+W. McChesney and John Nichols, authors of The Death and Life of American
+Journalism (McChesney and Nichols 2010): “The ratio of P.R professionals to
+journalists has climbed from 1.2-to-1 in 1980 to 4-to-1.” If that fact doesn’t worry
+you, it should.
+It is true that many news organizations are not up to their own foundational
+ideals nowadays, but journalists, scientists, and information designers, people who I
+would propose to call evidence-driven communicators, are still the main line of
+defense against increasingly pervasive spin and bias in democratic societies:
+“Journalism is literally being rolled over by propaganda,” said Nichols, who is a contributing writer for The Progressive and the associate editor of Capital Times, the daily
+newspaper in Madison, Wis. Eighty-six percent of all news stories that were printed or aired
+by Baltimore media in 2008 originated from what Nichols called “higher authorities,” such
+as public relations firms or corporate press releases. That study, which was conducted by
+the Pew Research Center for the People and the Press, shows that traditional journalism has
+been reduced to “stenography.”
+
+John Nichols
+The scarcity of honest communicators is not the only problem. Many journalists
+and designers are not prepared to identify sophisticated propaganda. This is a point
+made in the last few years in books like (Goldacre 2009) and (Patterson 2013), and
+in numerous media criticism Web sites,5 although it is hardly a new discussion
+topic (Paulos 1988). On average, journalists and information designers are not
+seriously trained in the scientific method, research techniques, and data. And even
+those few who do use data regularly—computer-assisted reporters, particularly
+those outside of the USA and the UK—usually apply just techniques based on
+simple descriptive statistics (Defleur 1997).
+Moreover, most journalists and designers lack a basic “bullshit detector,” to use
+a term coined by Michael Shermer (Shermer 2011). To understand why this is
+problematic, remember that those professionals are responsible for holding the
+powerful in check, and for filtering out noise so only signals will reach the public, at
+least in theory. If these evidence-driven communicators don’t possess solid critical
+thinking skills, they won’t be able to fight the kinds of lies outlined in Sect. 5.2.
+Finally, not being versed in basic science and statistics may lead journalists and
+information designers to make mistakes that fall into categories that exactly match
+those of lies (hiding data, obfuscating data, and distorting data). The situation
+described in the previous paragraphs represents a huge challenge for modern
+democracies.
+Let me exemplify my case with a story published by Wired magazine in August
+2010. It was titled “The Web is Dead: Long Live the Internet” (Shermer 2011), and
+was written by Chris Anderson and Michael Wolff. The main point of the story was
+that the World Wide Web was in decline as a means to accessing content from the
+Internet: In 2010, according to the story, citizens were accessing digital content not
+just through their Web browsers, but mostly through smartphone apps and other
+services. The story was illustrated with a graphic similar to the one in Fig. 5.8, in
+which the decline of the WWW is s striking: In 2000, it accounted for more than half
+of the traffic from the Internet. In 2010, it was barely 23 %.
+Do you notice something fishy? Rob Beschizza, from the blog BoingBoing, did:
+“Without commenting on the article’s argument, I nonetheless found this graph
+immediately suspect, because it doesn’t account for the increase in internet traffic
+over the same period. The use of proportion of the total as the vertical axis instead
+of the actual total is an interesting editorial choice. You can probably guess that
+total use increases so rapidly that the web is not declining at all” (Anderson and
+Wolff 2010). It is not indeed, as Beschizza, proved with a graph in which the Y-axis
+corresponds to Internet traffic measured in exabytes (Fig. 5.9).
+Now, ask yourself if you would call this a lie or a mistake. I don’t really know
+what my answer would be. This could be the result of an overzealous editor trying to
+sell more copies of the magazine with an eye-catching and slightly controversial
+headline (Wired did receive a lot of attention thanks to this story). But were this a lie,
+a mistake, or a dubious editorial choice, does it really matter? The results are the
+same: Noise and a misled audience.
+Another related challenge democratic societies face is that many designers of
+visualizations tend to yield to aesthetic preferences instead of striving for accuracy,
+precision, and depth first. Michael Babwahsingh, a designer based in New York
+City, has written:
+(The) growing popularization of information design techniques reduces the practice of
+information design to a “look,” and may free creators of information design from any
+obligation to think deeply about the content and make sense of it first. What’s more,
+the emphasis in many websites and publications has increasingly (and maddeningly)
+shifted from information that is logical and meaningful to information that is beautiful.
+(Babwahsingh 2013)
+Michael Babwahsingh
+Visual appeal is undoubtedly a value worth pursuing, but not at the cost of
+hurting the integrity of the information, as this is one of the main sources for
+misleading infographics. The design of information graphics is as much an art as it is a form of engineering. There are certain guidelines and principles—I’m wary of
+calling them “rules”—grounded in visual perception and cognition that designers
+must learn an apply if they wish to communicate effectively; see (Few 2012;
+Kosslyn 2006; Ware 2012), among others. Unfortunately, judging by the work
+commonly seen in print publications, Web sites and, blogs that use infographics and
+data visualizations on a regular basis, many designers either are unaware of these
+principles or, worse, they willingly ignore them.
+
+Have you understood the above context? answer in yes or no.
+
+Use the above contexts provided to answer to the question: 
+
+Locate an example of a misleading visual (data visualization) that uses one or more of the mechanisms for misleading e.g., hiding relevant data, displaying too much data and obscuring reality, and distorting data through graphic forms. Locate and identify a visual that displays misleading information. You will interpret the features of the visual in order to identify the mechanism(s) that is/are used by the "encoder" to mislead the "decoder." For each mechanism that you identify, you will explain how it was used to mislead. 
+
