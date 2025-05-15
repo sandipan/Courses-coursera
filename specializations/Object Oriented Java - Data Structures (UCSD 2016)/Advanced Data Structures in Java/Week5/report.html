@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>Caching the Computed Shortest Paths with Dijkstra</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+<!-- MathJax scripts -->
+<script type="text/javascript" src="https://c328740.ssl.cf1.rackcdn.com/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+
+</head>
+
+<body>
+<h1>Caching the Computed Shortest Paths with Dijkstra</h1>
+
+<h2>Problem Statement</h2>
+
+<p>The aim of the project extension is to speedup the computation of the shortest routes when multiple people search Google Maps to find shortest routes between multiple possibly different start and destination points. In this case, it&#39;s likely to have some commonality in the searches between different people. For example, if there&#39;s a concert in downtown San Diego on Friday night, there will be a number of people searching for directions to the concert venue on Friday afternoon. Each person probably has a unique starting address, but there&#39;s likely commonalities in the paths (e.g., multiple paths to get to the main freeway to downtown, followed by the same path from the freeway to downtown). Rather than redoing the entire search (recomputing the shortest paths from scratch) every time, we shall remember (store) previously found shortest routes between the nodes (so that we don&#39;t need to recompute the already-computed paths again and again for different people, thus we shall be able to find routes between source and destination much faster). As a result, the first search downtown may take a while, but when the next person searches, they&#39;ll use part of a previous solution already computed for some other person.</p>
+
+<p>The obvious way to implement this is to remember (cache) the already-computed shortest paths between the node pairs and use them for future search, avoiding any re-computation.  We shall keep a (hash) map data structure (implementing the cache) that will store the shortest paths between two vertices as and when they get computed. We shall use Dijkstra&#39;s shortest path algorithm with the following modification: (1) First, while computing the shortest path between a source and a goal node, at every iteration, when a node is popped from the priority queue, the cache will be searched to check if there is a pre-existing path between the current node and the goal node. If one exists (was computed in some past search), it will be reused and appropriately concatenated (if required) with the shortest path to be returned. If such a path does not exist then Dijkstra&#39;s algorithm will proceed as usually by relaxing the distances. (2) At the end of each search,  for all the vertex pairs present on the shortest path computed, we shall cache the shortest path in between any two such vertices. The only problem in this approach is the space complexity. If the graph has n nodes, there will be \( O(n^2) \) pairs and eventually there will be that many entries in the cache. Each of the path will be of length \( O(n) \) the the worst case, so total memory needed to store the cache will O(n<sup>3).</sup> One resolution is to use dynamic programming algorithms such as all-pair-shortest-path  (Floyd-Warshall) algorithm, that will pre-compute the shortest paths between all possible vertex pairs (it has \( O(n^3) \) worst case complexity, but need to be run only once), but the worst space complexity is \( O(n^2) \).</p>
+
+<h2>San Diego Map</h2>
+
+<p><img src="C:/courses/Coursera/Current/Advanced DS/Week5/san_diego.png" alt="Device File Format"/></p>
+
+<h3>Experiment 1</h3>
+
+<ol>
+<li><p>First Compute the shortest path 
+from A to B (took ~ 80 ms) using 
+Dijkstra and cache all the shortest 
+paths between every pairs of 
+nodes on the path from A to B. 
+This path contains 49 nodes.</p></li>
+<li><p>Now Compute the shortest path<br/>
+from C to D using the cached 
+shortest paths (if present) 
+while running Dijkstra. This time 
+it took ~ 4ms, although without 
+caching it took ~70 ms.</p></li>
+</ol>
+
+<h3>Experiment 2</h3>
+
+<ol>
+<li><p>First Compute the shortest path 
+from C to D (took ~ 70 ms) using 
+Dijkstra and cache all the shortest 
+paths between every pairs of 
+nodes on the path from C to D.
+This path contains 41 nodes.</p></li>
+<li><p>Now Compute the shortest path<br/>
+from A to B using the cached 
+ shortest paths (if present) 
+while running Dijkstra. This time 
+it took ~ 7ms, although without 
+caching it took ~80 ms.</p></li>
+</ol>
+
+<h2>Hollywood Large Map</h2>
+
+<p><img src="C:/courses/Coursera/Current/Advanced DS/Week5/hollywood_large.png" alt="Device File Format"/></p>
+
+<h3>Experiment 1</h3>
+
+<ol>
+<li><p>First Compute the shortest path 
+from A to B (took ~ 55 ms) using 
+Dijkstra and cache all the shortest 
+paths between every pairs of 
+nodes on the path from A to B. 
+This path contains 24 nodes.</p></li>
+<li><p>Now Compute the shortest path<br/>
+from C to D using the cached 
+shortest paths (if present) 
+while running Dijkstra. This time 
+it took ~ 10 ms, although without 
+caching it took ~64 ms.</p></li>
+</ol>
+
+<h3>Experiment 2</h3>
+
+<ol>
+<li><p>First Compute the shortest path 
+from C to D (took ~ 64 ms) using 
+Dijkstra and cache all the shortest 
+paths between every pairs of 
+nodes on the path from C to D.
+This path contains 26 nodes.</p></li>
+<li><p>Now Compute the shortest path<br/>
+from A to B using the cached 
+shortest paths (if present) 
+while running Dijkstra. This time 
+it took ~ 2 ms, although without 
+caching it took ~55 ms.</p></li>
+</ol>
+
+</body>
+
+</html>
+

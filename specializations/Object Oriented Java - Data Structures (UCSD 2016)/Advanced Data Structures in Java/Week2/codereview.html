@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>README File for Code Design Peer Review</title>
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 12px;
+   margin: 8px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 { 
+   font-size:2.2em; 
+}
+
+h2 { 
+   font-size:1.8em; 
+}
+
+h3 { 
+   font-size:1.4em; 
+}
+
+h4 { 
+   font-size:1.0em; 
+}
+
+h5 { 
+   font-size:0.9em; 
+}
+
+h6 { 
+   font-size:0.8em; 
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre {	
+   margin-top: 0;
+   max-width: 95%;
+   border: 1px solid #ccc;
+   white-space: pre-wrap;
+}
+
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code.r, code.cpp {
+   background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * { 
+      background: transparent !important; 
+      color: black !important; 
+      filter:none !important; 
+      -ms-filter: none !important; 
+   }
+
+   body { 
+      font-size:12pt; 
+      max-width:100%; 
+   }
+       
+   a, a:visited { 
+      text-decoration: underline; 
+   }
+
+   hr { 
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote { 
+      padding-right: 1em; 
+      page-break-inside: avoid; 
+   }
+
+   tr, img { 
+      page-break-inside: avoid; 
+   }
+
+   img { 
+      max-width: 100% !important; 
+   }
+
+   @page :left { 
+      margin: 15mm 20mm 15mm 10mm; 
+   }
+     
+   @page :right { 
+      margin: 15mm 10mm 15mm 20mm; 
+   }
+
+   p, h2, h3 { 
+      orphans: 3; widows: 3; 
+   }
+
+   h2, h3 { 
+      page-break-after: avoid; 
+   }
+}
+
+</style>
+
+
+
+
+
+</head>
+
+<body>
+<h1>README File for Code Design Peer Review</h1>
+
+<p><strong>Class</strong>: <em>MapGraph</em></p>
+
+<p>Modifications made to MapGraph (what and why):</p>
+
+<h3>Class added:</h3>
+
+<ul>
+<li><p>Class name: <strong>Road</strong></p></li>
+<li><p>Purpose and description of class: </p>
+
+<ul>
+<li>This class is added as an <em>inner</em> class inside the <em>MapGraph</em> class.</li>
+<li>This class represents a road (corresponding to an edge) in between two intersection points.</li>
+<li>This class will be <em>private</em> and only accessible to the MapGraph class.</li>
+<li>This class will store the information (such as name, type, length) about a road connecting two intersections, which will be stored as private 
+member variables.</li>
+<li>This class will also contain public getter methods to access its member variables (will be useful in future).</li>
+<li>A new <em>instance</em> of a road class (a road <em>object</em>) can only be created using a 3-argument constructor that will provide all information 
+required to create a road.</li>
+<li>The class is shown below.</li>
+</ul>
+
+<p><img src="C:/courses/Coursera/Current/Advanced DS/Week2/roaddoc.png" alt="Device File Format"/></p></li>
+</ul>
+
+<h3>Member Variables added:</h3>
+
+<ol>
+<li><strong>numVertices</strong>: to store the <em>number of vertices</em> in the <em>MapGraph</em>, to return the value stored in this variable when asked for.</li>
+<li><strong>numEdges</strong>: to store the <em>number of edges</em> in the <em>MapGraph</em>, to return the value stored in this variable when asked for.</li>
+<li><strong>adjListsMap</strong>: the <em>MapGraph</em> is stored as <em>adjacency list</em> rpresentation and this variable will store the adjacency list.</li>
+<li><strong>roadMap</strong>: to store all the roads in between the pairs of nodes (intersection points) that have an edge in between them.</li>
+</ol>
+
+<h3>Overall Design Justification</h3>
+
+<ol>
+<li>The <em>MapGraph</em> is stored as <em>adjacency list</em>, since it will need much less space (because the MapGraph in general will be sparse - not every 
+pair of nodes will have an edge between them).</li>
+<li>For each <em>edge</em> in the <em>MapGraph</em> we need to have a corresponding <em>road</em>. Each road should also have its name, type and length information 
+associated with it. So, it makes sense to create a new class <em>Road</em> altogether (<em>abstracted out</em>) that will have those information as its 
+member variables.</li>
+<li>This <em>Road</em> class needs to be only accessed (and <em>encapsulated</em>) by the <em>MapGraph</em> class and the outer world need not know about 
+this, hence it&#39;s <em>private</em> to the <em>MapGraph</em> class. This <em>road</em> class also contains public getter methods to access its private member 
+variables (will be useful in future).</li>
+<li>Also, there needs to be a <em>one-to-one</em> correspondence between the roads and edges in the <em>MapGraph</em>. This will be accomplished by the map
+<em>roadMap</em> which will store the road object created in between two intersection points (nodes) when a new edge between those two nodes gets 
+created.</li>
+</ol>
+
+</body>
+
+</html>
+

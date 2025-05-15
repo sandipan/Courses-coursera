@@ -1,0 +1,82 @@
+Caching the Computed Shortest Paths with Dijkstra
+============================================================
+
+## Problem Statement
+
+The aim of the project extension is to speedup the computation of the shortest routes when multiple people search Google Maps to find shortest routes between multiple possibly different start and destination points. In this case, it's likely to have some commonality in the searches between different people. For example, if there's a concert in downtown San Diego on Friday night, there will be a number of people searching for directions to the concert venue on Friday afternoon. Each person probably has a unique starting address, but there's likely commonalities in the paths (e.g., multiple paths to get to the main freeway to downtown, followed by the same path from the freeway to downtown). Rather than redoing the entire search (recomputing the shortest paths from scratch) every time, we shall remember (store) previously found shortest routes between the nodes (so that we don't need to recompute the already-computed paths again and again for different people, thus we shall be able to find routes between source and destination much faster). As a result, the first search downtown may take a while, but when the next person searches, they'll use part of a previous solution already computed for some other person.
+
+The obvious way to implement this is to remember (cache) the already-computed shortest paths between the node pairs and use them for future search, avoiding any re-computation.  We shall keep a (hash) map data structure (implementing the cache) that will store the shortest paths between two vertices as and when they get computed. We shall use Dijkstra's shortest path algorithm with the following modification: (1) First, while computing the shortest path between a source and a goal node, at every iteration, when a node is popped from the priority queue, the cache will be searched to check if there is a pre-existing path between the current node and the goal node. If one exists (was computed in some past search), it will be reused and appropriately concatenated (if required) with the shortest path to be returned. If such a path does not exist then Dijkstra's algorithm will proceed as usually by relaxing the distances. (2) At the end of each search,  for all the vertex pairs present on the shortest path computed, we shall cache the shortest path in between any two such vertices. The only problem in this approach is the space complexity. If the graph has n nodes, there will be \(O(n^2)\) pairs and eventually there will be that many entries in the cache. Each of the path will be of length \(O(n)\) the the worst case, so total memory needed to store the cache will O(n^3). One resolution is to use dynamic programming algorithms such as all-pair-shortest-path  (Floyd-Warshall) algorithm, that will pre-compute the shortest paths between all possible vertex pairs (it has \(O(n^3)\) worst case complexity, but need to be run only once), but the worst space complexity is \(O(n^2)\).
+## San Diego Map
+
+![Device File Format](C:/courses/Coursera/Current/Advanced DS/Week5/san_diego.png)
+
+### Experiment 1
+
+1. First Compute the shortest path 
+    from A to B (took ~ 80 ms) using 
+    Dijkstra and cache all the shortest 
+    paths between every pairs of 
+    nodes on the path from A to B. 
+    This path contains 49 nodes.
+
+2. Now Compute the shortest path  
+    from C to D using the cached 
+    shortest paths (if present) 
+    while running Dijkstra. This time 
+    it took ~ 4ms, although without 
+    caching it took ~70 ms.
+
+
+### Experiment 2
+
+1. First Compute the shortest path 
+    from C to D (took ~ 70 ms) using 
+    Dijkstra and cache all the shortest 
+    paths between every pairs of 
+    nodes on the path from C to D.
+    This path contains 41 nodes.
+
+2. Now Compute the shortest path  
+    from A to B using the cached 
+     shortest paths (if present) 
+    while running Dijkstra. This time 
+    it took ~ 7ms, although without 
+    caching it took ~80 ms.
+
+
+## Hollywood Large Map
+
+![Device File Format](C:/courses/Coursera/Current/Advanced DS/Week5/hollywood_large.png)
+
+### Experiment 1
+
+1.  First Compute the shortest path 
+    from A to B (took ~ 55 ms) using 
+    Dijkstra and cache all the shortest 
+    paths between every pairs of 
+    nodes on the path from A to B. 
+    This path contains 24 nodes.
+
+2.  Now Compute the shortest path  
+    from C to D using the cached 
+    shortest paths (if present) 
+    while running Dijkstra. This time 
+    it took ~ 10 ms, although without 
+    caching it took ~64 ms.
+
+
+### Experiment 2
+
+1.  First Compute the shortest path 
+    from C to D (took ~ 64 ms) using 
+    Dijkstra and cache all the shortest 
+    paths between every pairs of 
+    nodes on the path from C to D.
+    This path contains 26 nodes.
+
+2.  Now Compute the shortest path  
+    from A to B using the cached 
+    shortest paths (if present) 
+    while running Dijkstra. This time 
+    it took ~ 2 ms, although without 
+    caching it took ~55 ms.
