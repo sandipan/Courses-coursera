@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        ".lift/stdlib.jar",
+        ".lift/introcs.jar"
+    ]
+}
