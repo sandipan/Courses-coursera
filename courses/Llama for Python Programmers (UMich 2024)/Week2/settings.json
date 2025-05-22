@@ -1,0 +1,43 @@
+{
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "window.menuBarVisibility": "visible",
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.renderControlCharacters": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "**/.Trash*": true
+    },
+    "workbench.startupEditor": "none",
+    "workbench.colorTheme": "Default Dark+",
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "none",
+    "extensions.autoUpdate": false,
+    "extensions.autoCheckUpdates": false,
+    "extensions.ignoreRecommendations": true,
+    "launchButtons": {
+        "reloadButton": null
+    },
+    "http.proxySupport": "off",
+    "github.gitAuthentication": false,
+    // This allows for debugging into our libraries be default
+    "jupyter.justMyCode": false,
+    // Set the non-system python interpreter we want to use
+    "python.pythonPath": "~/project/labs/.venv/bin/python3.12",
+    "python.defaultInterpreterPath": "~/project/labs/.venv/bin/python3.12",
+    // This will exclude other known install python environments, then
+    // jupyter will autopick the default one as listed above
+    "jupyter.kernels.excludePythonEnvironments": [
+        "/bin/python3",
+        "/usr/bin/python3",
+        "/bin/python3.12",
+        "/usr/bin/python3.12",
+    ],
+    // This gets rid of more nags
+    "security.workspace.trust.enabled": false,
+    "security.workspace.trust.startupPrompt": "never",
+}

@@ -1,0 +1,244 @@
+#from transformers import AutoTokenizer, AutoModelForCausalLM   
+
+from llama import Tokenizer
+
+tokenizer = Tokenizer("tokenizer.model")
+model: Llama = Llama(model_path=os.environ["LLAMA_13B"], verbose=False, n_ctx=2048)
+
+prompt = """
+CONTEXT: Harvard University is a private Ivy League research university in Cambridge, Massachusetts. 
+Founded in 1636 as Harvard College and named for its first benefactor, the Puritan clergyman John Harvard, it is the oldest institution of higher learning in the United States. Its influence, wealth, and rankings have made it one of the most prestigious universities in the world.
+
+QUESTION: Which year was Harvard University found?
+"""
+
+input_ids = tokenizer(prompt, return_tensors="pt").input_ids
+outputs = model.generate(input_ids, max_new_tokens=200)
+print(tokenizer.decode(outputs[0]))
+
+from transformers import AutoTokenizer, AutoModelForCausalLM   
+
+tokenizer = Tokenizer("tokenizer.model")
+model: Llama = Llama(model_path=os.environ["LLAMA_13B"], verbose=False, n_ctx=2048)
+
+prompt = """<s>[INST]
+CONTEXT: Harvard University is a private Ivy League research university in Cambridge, Massachusetts. 
+Founded in 1636 as Harvard College and named for its first benefactor, the Puritan clergyman John Harvard, it is the oldest institution of higher learning in the United States. Its influence, wealth, and rankings have made it one of the most prestigious universities in the world.
+
+QUESTION: Which year was Harvard University found?[/INST]
+"""
+
+input_ids = tokenizer(prompt, return_tensors="pt").input_ids
+outputs = model.generate(input_ids, max_new_tokens=200)
+print(tokenizer.decode(outputs[0]))
+
+ '''
+    # Our prompt will just be a list of Mushroom questions in Aiken format
+    prompt=\'''<s> [INST] Assistant is a expert JSON builder designed to assist with a wide range of tasks.
+              All of Assistant's communication is performed using this JSON format.
+              
+              Here is an example conversations between the Assistant and User:
+
+              User: Generate for me a US-based address.
+              Assistant:  ```json
+              {{"Name": "Dr. Christopher Brooks", 
+              "School": "School of Information, University of Michigan",
+              "Street": "105 S. State Street",
+              "City": "Ann Arbor, MI",
+              "Pin": "48109-1285"}}```
+
+              Here is the latest conversation between Assistant and User.
+              User: Generate for me five US-based addresses.
+              Assistant: [/INST]"""
+    '''
+
+def generate_names() -> list[str]:
+    results: list[str] = []
+
+    # YOUR CODE HERE
+    model_path: str = os.environ["LLAMA_13B"]
+    # Import the llama.cpp python bindings and load the model
+    from llama_cpp import Llama
+    model: Llama = Llama(model_path=os.environ["LLAMA_13B"], verbose=False, temperature=0)
+    import json
+
+    prompt = '''<s> [INST] Generate for me a list of ten fictitious names, where the first name is a single word, and the last (family) name may be
+                         (but doesn't have to be!) up to two words separated by a hyphen. Don't include titles, honorifics, or middle names. 
+                         
+                         An example name is shown below--
+                         Sandipan Dey [/INST]'''
+
+    out = ''
+    for response in model.create_completion(prompt, max_tokens=2048, stream=True):
+        result = response["choices"][0]
+        out += result["text"]
+
+    return out #re.findall('\d+\.\s+(\w+\s+\w+)\s+', out)
+    #raise NotImplementedError()
+
+print(generate_names())
+
+
+ model_path: str = os.environ["LLAMA_13B"]
+    # Import the llama.cpp python bindings and load the model
+    from llama_cpp import Llama
+    model: Llama = Llama(model_path=os.environ["LLAMA_13B"], verbose=False, temperature=0)
+   
+    prompt = "Consider the example output answers in response to Generate for me a list of 2 things to do in Ann Arbor Michigan. Each of these things should start with a number and should not be more than three sentences long. " + \
+    "Here is a good example for an item in the answer:" + \
+    "1. Go to the Henry Ford Museum. The Henry Ford Museum has all sorts of wonderful exhibits for all ages. One particular highlight includes giants trains!" + \
+    "Here is a bad example for an item in the answer:" + \
+    "A. Go to the University of Michigan. The University of Michigan is a school with more than 50,000 students in Ann Arbor, MI. The University of Michigan is a public School." + \
+    "Based on the example items above, generate an answer as a list of 5 things."
+
+    out = ''
+    for response in model.create_completion(prompt, max_tokens=2048, stream=True):
+        result = response["choices"][0]
+        out += result["text"]
+
+    return re.findall('(\d+\.\s+.+)', out)
+
+        prompt = ''' 
+    1. Go to the Henry Ford Museum. The Henry Ford Museum has all sorts of wonderful exhibits for all ages. One particular highlight includes giants trains.
+    2. Go to the University of Michigan. The University of Michigan is a school with more than 50000 students in Ann Arbor MI. The University of Michigan is a public School.
+    '''
+    grammar= r'''
+    root ::= ("1. " item "\n" "2. " item "\n" "3. " item "\n" "4. " item "\n" "5. " item "\n")
+    word ::= [A-Z][a-z]* " "
+    sentence ::= word+
+    # A name should be a sentence space sentence - sentence.
+    item ::= sentence "." sentence "." sentence "."
+    ''' 
+    office ::= (word)+ ", " (word)+ 
+
+
+def generate_addresses() -> list[MailingAddress]:
+    results: list[MailingAddress] = []
+
+    model: Llama = Llama(model_path=os.environ["LLAMA_13B_CHAT"], verbose=False, temperature=0.5, n_ctx=2048) # 
+
+    messages = []
+    message = ChatCompletionMessage()
+    message["role"] = "system"
+    message["content"] = (
+        'You are a US expert for residents".'
+    )
+    messages.append(message)
+
+    # Now let's add a user query
+    message = ChatCompletionMessage()
+    message["role"] = "user"
+    message["content"] = "Generate five US-based addresses with person's name, company name, street address, city and state, and postal zip code."
+    messages.append(message)
+    # Now let's get the result
+    result = model.create_chat_completion(messages=messages)
+    think= result['choices'][0]['message']['content']
+    # Now retrieve the addresses
+    retrieve_address = re.findall(r'\d+\..*', think) 
+    for address in retrieve_address:
+        removed_numbers = re.sub(r'^\d+\.\s',"", address, flags=re.MULTILINE)
+        text_by_idx = removed_numbers.split(',')
+        street_nr = text_by_idx[2].split(' ', 2)[1:]
+        state_zip = text_by_idx[-1].split()
+        text_by_idx[2] = street_nr
+        text_by_idx[-1] = state_zip
+        results.append(MailingAddress(text_by_idx[0], text_by_idx[1], text_by_idx[2][0], text_by_idx[2][1], text_by_idx[3], text_by_idx[4][0], text_by_idx[4][1], None))
+        
+    return results
+
+
+
+def generate_addresses() -> list[MailingAddress]:
+    results: list[MailingAddress] = []
+
+    # YOUR CODE HERE
+    model: Llama = Llama(model_path=os.environ["LLAMA_13B"], verbose=False, n_ctx=2048)
+
+    # Our prompt will just be a list of Mushroom questions in Aiken format
+    prompt='''       
+        1. Address:
+        Name: Dr. Christopher Brooks
+        School: School of Information, University of Michigan
+        Street: 105 San State Street
+        City: Ann Arbor, MI
+        Pin: 48109-1285
+        
+        2. Address:
+        Name: Mr. Sandipan Dey
+        School: School of Computer Science, University of Baltimore County
+        Street: 20 Hellthorpe Street
+        City: Baltimore, MD
+        Pin: 12345-1122
+    '''
+
+    grammar= r'''
+    root ::= ("1. " address "\n" "2. " address "\n" "3. " address "\n" "4. " address "\n" "5. " address "\n")
+    # A sentence is just alphanumerica latin values, plus punctuation and whitespace
+    # No parentheticals are allowed in a sentence, but a comma and hyphen are
+    address ::= "Address: \n" "Name: " name "\n" "School: " office "\n" "Street: " street "\n" "City: " city "\n" "Pin: " pin "\n"
+    word ::= ([A-Z][a-z]+ " ")
+    # A question should be a sentence or two, no more.
+    name ::= ("Dr." | "Mr." | "Ms.") " " (word)+ 
+    # An answer is a capital letter followed by a close parens and then a sentence
+    office ::= [A-Z][a-z, ]+ 
+    # The question closes with an epilog telling us the question has finished
+    street ::= [0-9]+ " " (word)+
+    city ::= (word)+ ", " state
+    state ::= [A-Z][A-Z]
+    pin ::=  [0-9]+ "-" [0-9]+
+    '''
+
+    # Finally, let's invoke a completion
+    result = model.create_completion(prompt,
+        grammar=LlamaGrammar.from_string(grammar=grammar), 
+        stream=True, 
+        max_tokens=4096)
+    out = ''
+    for item in result:
+        out += item['choices'][0]['text']
+    #print(out)
+    results = []
+    for s in out.split('\n\n'):
+        print(s)
+        a = re.findall('Address: .*Name: ([A-Za-z\s\.]+).*School: ([A-Za-z\s,]+).*Street: (\d+)\s+([A-Za-z\s,]+).*City: ([A-Za-z\s]+),\s+([A-Z][A-Z]).*Pin: (\d+)\-(\d+)', s, re.DOTALL)
+        if a:
+            a = a[0]
+            #print(a)
+            results.append(MailingAddress(a[0].strip(), a[1].strip(), int(a[2].strip()), a[3].strip(), a[4].strip(), a[5].strip(), int(a[6].strip()), a[6].strip() + '-' + a[7].strip())) 
+    return results
+    #raise NotImplementedError()
+
+
+    def generate_addresses() -> list[MailingAddress]:
+    results: list[MailingAddress] = []
+
+    model: Llama = Llama(model_path=os.environ["LLAMA_13B_CHAT"], verbose=False, temperature=0.5, n_ctx=2048) # 
+
+    messages = []
+    message = ChatCompletionMessage()
+    message["role"] = "system"
+    message["content"] = (
+        'You are a US expert for residents".'
+    )
+    messages.append(message)
+
+    # Now let's add a user query
+    message = ChatCompletionMessage()
+    message["role"] = "user"
+    message["content"] = "Generate five US-based addresses containing a person's name, company name, street address, city and state, and postal zip code."
+    messages.append(message)
+    # Now let's get the result
+    result = model.create_chat_completion(messages=messages)
+    out = result['choices'][0]['message']['content']
+    # Now retrieve the addresses
+    out = re.findall(r'\d+\..*', out) 
+    for address in out:
+        address = re.sub(r'^\d+\.\s',"", address, flags=re.MULTILINE)
+        attrs = address.split(',')
+        street_num = attrs[2].split(' ', 2)[1:]
+        state_zip = attrs[-1].split()
+        attrs[2] = street_num
+        attrs[-1] = state_zip
+        results.append(MailingAddress(attrs[0], attrs[1], attrs[2][0], attrs[2][1], attrs[3], attrs[4][0], attrs[4][1], None))
+        
+    return results
