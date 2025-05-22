@@ -1,0 +1,88 @@
+# sudo easy_install numpy==1.4.1
+
+PYSPARK_DRIVER_PYTHON=ipython pyspark
+exec(open('doweathclass.py').read())
+
+dir()
+
+datax_rdd.take(5)
+
+dir(datax_rdd)
+
+exec(open('doweathclass_naivebayes.py').read())
+
+#[[ 3.  2.]
+# [ 0.  9.]]
+#0.857142857143
+
+exec(open('doweathclass_dectree.py').read())
+
+#[[ 5.  0.]
+# [ 2.  7.]]
+#0.857142857143
+
+dt_model
+dir(dt_model)
+
+print dt_model.toDebugString()
+
+gedit doweathclass.py
+
+rawdata=[['sunny',85,85,'FALSE',0,    1],  
+         ['sunny',80,90,'TRUE',0,     1],
+         ['overcast',83,86,'FALSE',1, 1],
+         ['rainy',70,96,'FALSE',1,    1],
+
+Now to process this rawdata list I have to change the rest of code a bit as follows. First change the dataframe creation to include a 'mydummy' field:
+
+data_df=sqlContext.createDataFrame(rawdata,   
+['outlook','temp','humid','windy','play','mydummy']) #<--add field
+
+Next, change the function that creates labeled points. The function should have 1 more line of code (see the 'add this' marked line) that just includes the new column in the labeled point vector.
+
+#make RDD of labeled vectors
+def newrow(dfrow):    
+    outrow = list(out2index.get((dfrow[0])))  #get dictionary entry
+    outrow.append(dfrow[1])   #temp    
+    outrow.append(dfrow[2])   #humidity    
+    if dfrow[3]=='TRUE':      #windy        
+        outrow.append(1)    
+    else:        
+        outrow.append(0)    
+    outrow.append(dfrow[5])  # <---- add this     
+    return (LabeledPoint(dfrow[4],outrow))
+
+Now rerun the NaiveBayes and DecisionTree scripts, and observe the impact on the percent correct.
+7. Lets add a new test point.
+
+7.1. Create an numpy array with the following values:
+[1,0,0,68,79,0,1]
+
+newpoint  = np.array([1,0,0,68,79,0,1])
+
+This for the outlook binary indicator variables, sunny,overcast,rainy,
+
+the temperature = 68,
+
+the humidy = 79,
+
+windy = 0
+
+useless-constant dummy variable = 1
+
+7.2. Now run that test point through the NaiveBayes and DecisionTree model using the predict functions.
+
+(sorry for the slight inconsistency in my model result naming conventions)
+
+my_nbmodel.predict(newpoint)
+print dt_model.toDebugString()
+dt_model.predict(newpoint)
+
+exec(open('dokmeans.py').read())
+
+# k = 1 SSE 10.5679450644
+# (count: 48, mean: [ 3.22923238  3.81929245], stdev: [ 2.05035446  2.52269532], max: [ 6.95641707  8.46783831], min: [-1.08338413 -0.49359456])
+# k = 3 SSE 2.02555464501
+# (count: 48, mean: [ 3.22923238  3.81929245], stdev: [ 2.05035446  2.52269532], max: [ 6.95641707  8.46783831], min: [-1.08338413 -0.49359456])
+# k = 4 SSE 1.65506591499
+# (count: 48, mean: [ 3.22923238  3.81929245], stdev: [ 2.05035446  2.52269532], max: [ 6.95641707  8.46783831], min: [-1.08338413 -0.49359456])

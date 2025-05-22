@@ -1,0 +1,28 @@
+Assignment: Kaggle Competition Predict the Sales of the Rossmann Store 
+======================================================================
+
+Part 1: Problem Description
+---------------------------
+
+* The task is to predict the **Sales** (the output variable representing turnover for any given day) of a given store based on various input variables including Store id, Day of week, Date, the number of customers on a given day, an indicator for whether the store was open, StateHoliday (indicating a state holiday), SchoolHoliday (indicates if the (Store, Date) was affected by the closure of public schools), a binary variable Promo (indicating whether a store is running a promo on that day) and some other information. Some additional information on store types, assortment levels (basic, extra or extended) along with the sales information. Solutions are evaluated by root mean square percentage error on a test dataset (the lower the better, ideally it should be close to zero), since Sales is a continuous valued variable.
+
+Part 2: Analysis Approach
+--------------------------
+
+* First I preprocessed the dataset. The stores that have the Opened variable set to 0 (are closed) are always going to have 0 sales ( since it was closed) on that particular day. So dividing the training dataset into 2 parts, one being the stores that are closed on a particular day (this does not need any model, so it's filtered out) and the other being the ones that are open on a particular day (this data serves as our training dataset and a regression model needs to be trained on this part). 
+
+Part 3: Initial Solution
+-------------------------
+
+* I partitioned the data by the variable **Open** using **R** and concentrated building regression models o. Next, processed the dates to extract out the days months and years from them. Then joined the stores information that were relevant with the train and test dataset and replaced all the NA values in a few variables.I used R to build the elastic net model (geenralized linear model with regularization, lasso and ridge regression penalties). I started with this model because because of its simplicity (it's linear) and also fast to build. Typically the training dataset was huge (contained 633295 tuples) and to build a non-linear model (such as random forest) typically was very time / resuoruce intensive.
+
+Part 4: Initial Solution Analysis
+---------------------------------
+
+* My approach did not work so well, achieving a score of 0.60874. I suspect the linear model is not a good choice for this dataset and we need to use non-linear mdoels. Also, it's better to use some KNN based imputation techinues for the test dataset (since the Open variable contained some NA values), instead of using mean to replace them.
+
+Part 5: Revised Solution and Analysis
+-------------------------------------
+
+* I tried a non-linear model. My score improved to 0.68.
+

@@ -1,0 +1,47 @@
+# pyspark --packages com.databricks:spark-csv_2.10:1.2.0
+# hdfs dfs -put index_data.csv sparkin/index_data.csv 
+yelp_df = sqlCtx.load(source='com.databricks.spark.csv', header = 'true', inferSchema = 'true', path = '/user/cloudera/sparkin/index_data.csv') #'file:///home/cloudera/spark/index_data.csv')
+yelp_df
+yelp_df.select('cool').agg({'cool':'mean'}).collect()
+yelp_df.filter(yelp_df['review_count'] >= 10).groupBy('stars').avg('cool').show()
+yelp_df.filter(yelp_df['review_count'] >= 10).filter(yelp_df['open'] == u'True').groupBy('stars').avg('cool').show()
+#yelp_df.filter(yelp_df['review_count'] >= 10 and yelp_df['open'] == u'True').groupBy('stars').avg('cool').show()
+from pyspark.sql.functions import asc, desc
+yelp_df.filter(yelp_df['review_count'] >= 10).filter(yelp_df['open'] == u'True').groupBy('state').count().orderBy(desc('count')).show()
+yelp_df.groupBy('business_id').count().orderBy(desc('count')).show()
+
+# sudo cp /usr/lib/hive/conf/hive-site.xml /usr/lib/spark/conf/
+# hdfs dfs -rmr /user/hive/warehouse/orders/.metadata # delete the .metadata dir for the tables in hive
+orders_df = sqlCtx.sql("select * from orders")
+orders_df.show()
+orders_df.count()
+
+#orders_df.filter(orders_df['order_status'] == "SUSPECTED_FRAUD").count()
+from pyspark.sql.functions import asc, desc
+orders_df.groupBy('order_status').count().orderBy(desc('count')).show()
+fraud_orders_df = sqlCtx.sql("select * from orders where order_status=='SUSPECTED_FRAUD'")
+fraud_orders_df.count()
+
+# hdfs dfs -rmr /user/hive/warehouse/order_items/.metadata # delete the .metadata dir for the tables in hive
+order_items_df = sqlCtx.sql("select * from order_items")
+order_items_df.show()
+
+#order_items_df[['order_item_order_id', 'order_item_subtotal']].groupBy('order_item_order_id').sum('order_item_subtotal').orderBy(desc('sum')).show()
+sqlCtx.sql("select order_item_order_id, sum(order_item_subtotal) as sum_sub from order_items group by order_item_order_id order by sum_sub desc").show()
+
+order_items = sqlCtx.createDataFrame(order_items_df.rdd, order_items_df.schema)
+orders = sqlCtx.createDataFrame(orders_df.rdd, orders_df.schema)
+#orders.show()
+#order_items.show()
+
+orders.join(order_items, order_items.order_item_order_id == orders.order_id, "inner").cache().groupBy('order_status').avg('order_item_product_price').show()
+#sqlCtx.sql("select avg(order_item_product_price) from joined_df where order_status='COMPLETE'").show()
+
+orders.filter(orders["order_status"] == "COMPLETE").join(order_items, order_items.order_item_order_id == orders.order_id, "inner").cache().avg('order_item_product_price').show()
+
+import pyspark.sql.functions as func
+orders.filter(orders["order_status"] == "COMPLETE").join(order_items, order_items.order_item_order_id == orders.order_id, "inner").groupBy('order_customer_id').agg(func.sum('order_item_subtotal').alias('cust_sum')).orderBy(desc('cust_sum')).show()
+#orders.join(order_items, order_items.order_item_order_id == orders.order_id, "inner").groupBy('order_status', 'order_customer_id').sum('order_item_quantity').orderBy(desc('sum')).show()
+
+orders.filter(orders["order_status"] != "COMPLETE").join(order_items, order_items.order_item_order_id == orders.order_id, "inner").groupBy('order_id').agg(func.sum('order_item_subtotal').alias('order_sum')).orderBy(desc('order_sum')).show()
+

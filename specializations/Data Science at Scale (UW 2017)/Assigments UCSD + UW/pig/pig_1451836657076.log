@@ -1,0 +1,782 @@
+Pig Stack Trace
+---------------
+ERROR 1003: Unable to find an operator for alias word_cnt
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1003: Unable to find an operator for alias word_cnt
+	at org.apache.pig.PigServer$Graph.buildPlan(PigServer.java:1525)
+	at org.apache.pig.PigServer.storeEx(PigServer.java:985)
+	at org.apache.pig.PigServer.store(PigServer.java:954)
+	at org.apache.pig.PigServer.openIterator(PigServer.java:867)
+	at org.apache.pig.tools.grunt.GruntParser.processDump(GruntParser.java:774)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:372)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1003: Unable to find an operator for alias word_cnt
+
+org.apache.pig.impl.logicalLayer.FrontendException: ERROR 1003: Unable to find an operator for alias word_cnt
+	at org.apache.pig.PigServer$Graph.buildPlan(PigServer.java:1525)
+	at org.apache.pig.PigServer.storeEx(PigServer.java:985)
+	at org.apache.pig.PigServer.store(PigServer.java:954)
+	at org.apache.pig.PigServer.openIterator(PigServer.java:867)
+	at org.apache.pig.tools.grunt.GruntParser.processDump(GruntParser.java:774)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:372)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1000: Error during parsing. Encountered " <IDENTIFIER> "RANK "" at line 21, column 1.
+Was expecting one of:
+    <EOF> 
+    "cat" ...
+    "clear" ...
+    "fs" ...
+    "sh" ...
+    "cd" ...
+    "cp" ...
+    "copyFromLocal" ...
+    "copyToLocal" ...
+    "dump" ...
+    "\\d" ...
+    "describe" ...
+    "\\de" ...
+    "aliases" ...
+    "explain" ...
+    "\\e" ...
+    "help" ...
+    "history" ...
+    "kill" ...
+    "ls" ...
+    "mv" ...
+    "mkdir" ...
+    "pwd" ...
+    "quit" ...
+    "\\q" ...
+    "register" ...
+    "rm" ...
+    "rmf" ...
+    "set" ...
+    "illustrate" ...
+    "\\i" ...
+    "run" ...
+    "exec" ...
+    "scriptDone" ...
+    "" ...
+    "" ...
+    <EOL> ...
+    ";" ...
+    
+
+org.apache.pig.tools.pigscript.parser.ParseException: Encountered " <IDENTIFIER> "RANK "" at line 21, column 1.
+Was expecting one of:
+    <EOF> 
+    "cat" ...
+    "clear" ...
+    "fs" ...
+    "sh" ...
+    "cd" ...
+    "cp" ...
+    "copyFromLocal" ...
+    "copyToLocal" ...
+    "dump" ...
+    "\\d" ...
+    "describe" ...
+    "\\de" ...
+    "aliases" ...
+    "explain" ...
+    "\\e" ...
+    "help" ...
+    "history" ...
+    "kill" ...
+    "ls" ...
+    "mv" ...
+    "mkdir" ...
+    "pwd" ...
+    "quit" ...
+    "\\q" ...
+    "register" ...
+    "rm" ...
+    "rmf" ...
+    "set" ...
+    "illustrate" ...
+    "\\i" ...
+    "run" ...
+    "exec" ...
+    "scriptDone" ...
+    "" ...
+    "" ...
+    <EOL> ...
+    ";" ...
+    
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.generateParseException(PigScriptParser.java:1428)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.handle_invalid_command(PigScriptParser.java:1236)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:710)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1000: Error during parsing. Encountered " <PATH> "A=RANK "" at line 1, column 1.
+Was expecting one of:
+    <EOF> 
+    "cat" ...
+    "clear" ...
+    "fs" ...
+    "sh" ...
+    "cd" ...
+    "cp" ...
+    "copyFromLocal" ...
+    "copyToLocal" ...
+    "dump" ...
+    "\\d" ...
+    "describe" ...
+    "\\de" ...
+    "aliases" ...
+    "explain" ...
+    "\\e" ...
+    "help" ...
+    "history" ...
+    "kill" ...
+    "ls" ...
+    "mv" ...
+    "mkdir" ...
+    "pwd" ...
+    "quit" ...
+    "\\q" ...
+    "register" ...
+    "rm" ...
+    "rmf" ...
+    "set" ...
+    "illustrate" ...
+    "\\i" ...
+    "run" ...
+    "exec" ...
+    "scriptDone" ...
+    "" ...
+    "" ...
+    <EOL> ...
+    ";" ...
+    
+
+org.apache.pig.tools.pigscript.parser.ParseException: Encountered " <PATH> "A=RANK "" at line 1, column 1.
+Was expecting one of:
+    <EOF> 
+    "cat" ...
+    "clear" ...
+    "fs" ...
+    "sh" ...
+    "cd" ...
+    "cp" ...
+    "copyFromLocal" ...
+    "copyToLocal" ...
+    "dump" ...
+    "\\d" ...
+    "describe" ...
+    "\\de" ...
+    "aliases" ...
+    "explain" ...
+    "\\e" ...
+    "help" ...
+    "history" ...
+    "kill" ...
+    "ls" ...
+    "mv" ...
+    "mkdir" ...
+    "pwd" ...
+    "quit" ...
+    "\\q" ...
+    "register" ...
+    "rm" ...
+    "rmf" ...
+    "set" ...
+    "illustrate" ...
+    "\\i" ...
+    "run" ...
+    "exec" ...
+    "scriptDone" ...
+    "" ...
+    "" ...
+    <EOL> ...
+    ";" ...
+    
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.generateParseException(PigScriptParser.java:1428)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.handle_invalid_command(PigScriptParser.java:1236)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:710)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1000: Error during parsing. Encountered " <PATH> "A=RANK "" at line 2, column 1.
+Was expecting one of:
+    <EOF> 
+    "cat" ...
+    "clear" ...
+    "fs" ...
+    "sh" ...
+    "cd" ...
+    "cp" ...
+    "copyFromLocal" ...
+    "copyToLocal" ...
+    "dump" ...
+    "\\d" ...
+    "describe" ...
+    "\\de" ...
+    "aliases" ...
+    "explain" ...
+    "\\e" ...
+    "help" ...
+    "history" ...
+    "kill" ...
+    "ls" ...
+    "mv" ...
+    "mkdir" ...
+    "pwd" ...
+    "quit" ...
+    "\\q" ...
+    "register" ...
+    "rm" ...
+    "rmf" ...
+    "set" ...
+    "illustrate" ...
+    "\\i" ...
+    "run" ...
+    "exec" ...
+    "scriptDone" ...
+    "" ...
+    "" ...
+    <EOL> ...
+    ";" ...
+    
+
+org.apache.pig.tools.pigscript.parser.ParseException: Encountered " <PATH> "A=RANK "" at line 2, column 1.
+Was expecting one of:
+    <EOF> 
+    "cat" ...
+    "clear" ...
+    "fs" ...
+    "sh" ...
+    "cd" ...
+    "cp" ...
+    "copyFromLocal" ...
+    "copyToLocal" ...
+    "dump" ...
+    "\\d" ...
+    "describe" ...
+    "\\de" ...
+    "aliases" ...
+    "explain" ...
+    "\\e" ...
+    "help" ...
+    "history" ...
+    "kill" ...
+    "ls" ...
+    "mv" ...
+    "mkdir" ...
+    "pwd" ...
+    "quit" ...
+    "\\q" ...
+    "register" ...
+    "rm" ...
+    "rmf" ...
+    "set" ...
+    "illustrate" ...
+    "\\i" ...
+    "run" ...
+    "exec" ...
+    "scriptDone" ...
+    "" ...
+    "" ...
+    <EOL> ...
+    ";" ...
+    
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.generateParseException(PigScriptParser.java:1428)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.handle_invalid_command(PigScriptParser.java:1236)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:710)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1025: 
+<line 63, column 30> Invalid field projection. Projected field [lift] does not exist in schema: twt_d1_wdcnts::word:chararray,twt_d1_wdcnts::word_cnt:double,twt_dall_wdcnts::word_cnt:double,:double.
+
+org.apache.pig.impl.plan.PlanValidationException: ERROR 1025: 
+<line 63, column 30> Invalid field projection. Projected field [lift] does not exist in schema: twt_d1_wdcnts::word:chararray,twt_d1_wdcnts::word_cnt:double,twt_dall_wdcnts::word_cnt:double,:double.
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.findColNum(ProjectExpression.java:191)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.setColumnNumberFromAlias(ProjectExpression.java:174)
+	at org.apache.pig.newplan.logical.visitor.ColumnAliasConversionVisitor$1.visit(ColumnAliasConversionVisitor.java:53)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.accept(ProjectExpression.java:215)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visitAll(AllExpressionVisitor.java:72)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:155)
+	at org.apache.pig.newplan.logical.relational.LORank.accept(LORank.java:158)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1728)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 1025: 
+<line 63, column 30> Invalid field projection. Projected field [word_cnt] does not exist in schema: twt_d1_wdcnts::word:chararray,twt_d1_wdcnts::word_cnt:double,twt_dall_wdcnts::word_cnt:double,:double.
+
+org.apache.pig.impl.plan.PlanValidationException: ERROR 1025: 
+<line 63, column 30> Invalid field projection. Projected field [word_cnt] does not exist in schema: twt_d1_wdcnts::word:chararray,twt_d1_wdcnts::word_cnt:double,twt_dall_wdcnts::word_cnt:double,:double.
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.findColNum(ProjectExpression.java:191)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.setColumnNumberFromAlias(ProjectExpression.java:174)
+	at org.apache.pig.newplan.logical.visitor.ColumnAliasConversionVisitor$1.visit(ColumnAliasConversionVisitor.java:53)
+	at org.apache.pig.newplan.logical.expression.ProjectExpression.accept(ProjectExpression.java:215)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visitAll(AllExpressionVisitor.java:72)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:155)
+	at org.apache.pig.newplan.logical.relational.LORank.accept(LORank.java:158)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1728)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2999: Unexpected internal error. null
+
+java.lang.NullPointerException
+	at org.apache.pig.newplan.logical.visitor.ScalarVisitor$1.visit(ScalarVisitor.java:67)
+	at org.apache.pig.newplan.logical.expression.ScalarExpression.accept(ScalarExpression.java:109)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visitAll(AllExpressionVisitor.java:72)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:155)
+	at org.apache.pig.newplan.logical.relational.LORank.accept(LORank.java:158)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1730)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2999: Unexpected internal error. null
+
+java.lang.NullPointerException
+	at org.apache.pig.newplan.logical.visitor.ScalarVisitor$1.visit(ScalarVisitor.java:67)
+	at org.apache.pig.newplan.logical.expression.ScalarExpression.accept(ScalarExpression.java:109)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visitAll(AllExpressionVisitor.java:72)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:155)
+	at org.apache.pig.newplan.logical.relational.LORank.accept(LORank.java:158)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1730)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2999: Unexpected internal error. null
+
+java.lang.NullPointerException
+	at org.apache.pig.newplan.logical.visitor.ScalarVisitor$1.visit(ScalarVisitor.java:67)
+	at org.apache.pig.newplan.logical.expression.ScalarExpression.accept(ScalarExpression.java:109)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visitAll(AllExpressionVisitor.java:72)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:155)
+	at org.apache.pig.newplan.logical.relational.LORank.accept(LORank.java:158)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1730)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 101: file '/home/cloudera/incubator-datafu/datafu-pig/build/libs/datafu-pig-incubating-1.3.0-SNAPSHOT.jar' does not exist.
+
+org.apache.pig.backend.executionengine.ExecException: ERROR 101: file '/home/cloudera/incubator-datafu/datafu-pig/build/libs/datafu-pig-incubating-1.3.0-SNAPSHOT.jar' does not exist.
+	at org.apache.pig.impl.io.FileLocalizer.fetchFilesInternal(FileLocalizer.java:750)
+	at org.apache.pig.impl.io.FileLocalizer.fetchFiles(FileLocalizer.java:699)
+	at org.apache.pig.PigServer.registerJar(PigServer.java:522)
+	at org.apache.pig.tools.grunt.GruntParser.processRegister(GruntParser.java:473)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:546)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2999: Unexpected internal error. null
+
+java.lang.NullPointerException
+	at org.apache.pig.newplan.logical.visitor.ScalarVisitor$1.visit(ScalarVisitor.java:67)
+	at org.apache.pig.newplan.logical.expression.ScalarExpression.accept(ScalarExpression.java:109)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visitAll(AllExpressionVisitor.java:72)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:155)
+	at org.apache.pig.newplan.logical.relational.LORank.accept(LORank.java:158)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1730)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 101: file 'datafu-pig-incubating-1.3.0-SNAPSHOT.jar' does not exist.
+
+org.apache.pig.backend.executionengine.ExecException: ERROR 101: file 'datafu-pig-incubating-1.3.0-SNAPSHOT.jar' does not exist.
+	at org.apache.pig.impl.io.FileLocalizer.fetchFilesInternal(FileLocalizer.java:750)
+	at org.apache.pig.impl.io.FileLocalizer.fetchFiles(FileLocalizer.java:699)
+	at org.apache.pig.PigServer.registerJar(PigServer.java:522)
+	at org.apache.pig.tools.grunt.GruntParser.processRegister(GruntParser.java:473)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:546)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2999: Unexpected internal error. null
+
+java.lang.NullPointerException
+	at org.apache.pig.newplan.logical.visitor.ScalarVisitor$1.visit(ScalarVisitor.java:67)
+	at org.apache.pig.newplan.logical.expression.ScalarExpression.accept(ScalarExpression.java:109)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visitAll(AllExpressionVisitor.java:72)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:155)
+	at org.apache.pig.newplan.logical.relational.LORank.accept(LORank.java:158)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1730)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2999: Unexpected internal error. null
+
+java.lang.NullPointerException
+	at org.apache.pig.newplan.logical.visitor.ScalarVisitor$1.visit(ScalarVisitor.java:67)
+	at org.apache.pig.newplan.logical.expression.ScalarExpression.accept(ScalarExpression.java:109)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visitAll(AllExpressionVisitor.java:72)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:155)
+	at org.apache.pig.newplan.logical.relational.LORank.accept(LORank.java:158)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1730)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2999: Unexpected internal error. null
+
+java.lang.NullPointerException
+	at org.apache.pig.newplan.logical.visitor.ScalarVisitor$1.visit(ScalarVisitor.java:67)
+	at org.apache.pig.newplan.logical.expression.ScalarExpression.accept(ScalarExpression.java:109)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visitAll(AllExpressionVisitor.java:72)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:155)
+	at org.apache.pig.newplan.logical.relational.LORank.accept(LORank.java:158)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1730)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2999: Unexpected internal error. null
+
+java.lang.NullPointerException
+	at org.apache.pig.newplan.logical.visitor.ScalarVisitor$1.visit(ScalarVisitor.java:67)
+	at org.apache.pig.newplan.logical.expression.ScalarExpression.accept(ScalarExpression.java:109)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visitAll(AllExpressionVisitor.java:72)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:155)
+	at org.apache.pig.newplan.logical.relational.LORank.accept(LORank.java:158)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1730)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2999: Unexpected internal error. null
+
+java.lang.NullPointerException
+	at org.apache.pig.newplan.logical.visitor.ScalarVisitor$1.visit(ScalarVisitor.java:67)
+	at org.apache.pig.newplan.logical.expression.ScalarExpression.accept(ScalarExpression.java:109)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visitAll(AllExpressionVisitor.java:72)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:155)
+	at org.apache.pig.newplan.logical.relational.LORank.accept(LORank.java:158)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1730)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================
+Pig Stack Trace
+---------------
+ERROR 2999: Unexpected internal error. null
+
+java.lang.NullPointerException
+	at org.apache.pig.newplan.logical.visitor.ScalarVisitor$1.visit(ScalarVisitor.java:67)
+	at org.apache.pig.newplan.logical.expression.ScalarExpression.accept(ScalarExpression.java:109)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visitAll(AllExpressionVisitor.java:72)
+	at org.apache.pig.newplan.logical.optimizer.AllExpressionVisitor.visit(AllExpressionVisitor.java:155)
+	at org.apache.pig.newplan.logical.relational.LORank.accept(LORank.java:158)
+	at org.apache.pig.newplan.DependencyOrderWalker.walk(DependencyOrderWalker.java:75)
+	at org.apache.pig.newplan.PlanVisitor.visit(PlanVisitor.java:52)
+	at org.apache.pig.PigServer$Graph.compile(PigServer.java:1730)
+	at org.apache.pig.PigServer$Graph.validateQuery(PigServer.java:1661)
+	at org.apache.pig.PigServer$Graph.registerQuery(PigServer.java:1633)
+	at org.apache.pig.PigServer.registerQuery(PigServer.java:587)
+	at org.apache.pig.tools.grunt.GruntParser.processPig(GruntParser.java:1093)
+	at org.apache.pig.tools.pigscript.parser.PigScriptParser.parse(PigScriptParser.java:501)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:198)
+	at org.apache.pig.tools.grunt.GruntParser.parseStopOnError(GruntParser.java:173)
+	at org.apache.pig.tools.grunt.Grunt.run(Grunt.java:69)
+	at org.apache.pig.Main.run(Main.java:541)
+	at org.apache.pig.Main.main(Main.java:156)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.util.RunJar.run(RunJar.java:221)
+	at org.apache.hadoop.util.RunJar.main(RunJar.java:136)
+================================================================================

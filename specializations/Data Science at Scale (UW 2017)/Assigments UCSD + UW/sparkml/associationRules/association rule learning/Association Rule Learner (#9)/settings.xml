@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="TRANSACTION_COLUMN_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="TRANSACTION_COLUMN" type="xstring" value="COL1,COL2,COL3,COL4_SplitResultSet"/>
+<config key="MIN_SUPPORT_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="MIN_SUPPORT" type="xdouble" value="0.1"/>
+<config key="UNDERLYING_STRUCT_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="UNDERLYING_STRUCT" type="xstring" value="ARRAY"/>
+<config key="ITEMSET_TYPE_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="ITEMSET_TYPE" type="xstring" value="CLOSED"/>
+<config key="MAX_ITEMSET_LENGTH_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_integer"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="MAX_ITEMSET_LENGTH" type="xint" value="10"/>
+<config key="ASSOCIATION_RULES_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="ASSOCIATION_RULES" type="xboolean" value="false"/>
+<config key="CONFIDENCE_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_double"/>
+<entry key="EnabledStatus" type="xboolean" value="false"/>
+</config>
+<entry key="CONFIDENCE" type="xdouble" value="0.8"/>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.mine.subgroupminer.SubgroupMinerFactory2"/>
+<entry key="node-name" type="xstring" value="Association Rule Learner"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME GmbH, Konstanz, Germany"/>
+<entry key="node-bundle-version" type="xstring" value="2.10.3.0044467"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Association Rule Learner"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 5, Cols: 2"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="3a86fb6c-7664-4f92-aec0-0d303bd6f4ea"/>
+</config>
+</config>

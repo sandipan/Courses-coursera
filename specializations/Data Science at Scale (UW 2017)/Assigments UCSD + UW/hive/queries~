@@ -1,0 +1,66 @@
+#sqoop
+
+sqoop import-all-tables \
+    -m 1 \
+    --connect jdbc:mysql://quickstart:3306/retail_db \
+    --username=retail_dba \
+    --password=cloudera \
+    --compression-codec=snappy \
+    --as-parquetfile \
+    --warehouse-dir=/user/hive/warehouse \
+    --hive-import
+
+# hive
+
+SELECT product_name, product_price
+FROM products
+WHERE ( product_price > 10)
+ORDER BY product_price DESC
+LIMIT 1000
+
+SELECT code, description, salary
+FROM sample_08
+ORDER BY salary DESC
+LIMIT 1000
+
+SELECT code, description, salary
+FROM sample_08
+where salary > 50000
+ORDER BY salary ASC
+LIMIT 1000	
+
+SELECT product_name, product_price
+FROM products
+WHERE ( product_price <= 10)
+ORDER BY product_price DESC
+LIMIT 1000
+
+SELECT startstation, duration
+FROM 201402_trip_data
+ORDER BY duration DESC
+LIMIT 1000
+
+SELECT startstation, COUNT(*) FROM
+(SELECT startstation
+FROM 201402_trip_data
+UNION ALL
+SELECT startstation
+FROM 201408_trip_data
+UNION ALL
+SELECT startstation
+FROM 201508_trip_data) stations
+GROUP BY startstation
+
+SELECT startstation, COUNT(*) AS CNT FROM
+201402_trip_data
+GROUP BY startstation
+ORDER BY CNT
+
+SELECT endstation, COUNT(*) AS CNT FROM
+(SELECT startstation
+FROM 201402_trip_data
+UNION ALL
+SELECT startstation
+FROM 201408_trip_data) stations
+GROUP BY startstation
+ORDER BY CNT DESC

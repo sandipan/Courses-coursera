@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<title>Overview</title>
+
+<script type="text/javascript">
+window.onload = function() {
+  var imgs = document.getElementsByTagName('img'), i, img;
+  for (i = 0; i < imgs.length; i++) {
+    img = imgs[i];
+    // center an image if it is the only element of its parent
+    if (img.parentElement.childElementCount === 1)
+      img.parentElement.style.textAlign = 'center';
+  }
+};
+</script>
+
+
+
+
+
+<style type="text/css">
+body, td {
+   font-family: sans-serif;
+   background-color: white;
+   font-size: 13px;
+}
+
+body {
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 20px;
+}
+
+tt, code, pre {
+   font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace;
+}
+
+h1 {
+   font-size:2.2em;
+}
+
+h2 {
+   font-size:1.8em;
+}
+
+h3 {
+   font-size:1.4em;
+}
+
+h4 {
+   font-size:1.0em;
+}
+
+h5 {
+   font-size:0.9em;
+}
+
+h6 {
+   font-size:0.8em;
+}
+
+a:visited {
+   color: rgb(50%, 0%, 50%);
+}
+
+pre, img {
+  max-width: 100%;
+}
+pre {
+  overflow-x: auto;
+}
+pre code {
+   display: block; padding: 0.5em;
+}
+
+code {
+  font-size: 92%;
+  border: 1px solid #ccc;
+}
+
+code[class] {
+  background-color: #F8F8F8;
+}
+
+table, td, th {
+  border: none;
+}
+
+blockquote {
+   color:#666666;
+   margin:0;
+   padding-left: 1em;
+   border-left: 0.5em #EEE solid;
+}
+
+hr {
+   height: 0px;
+   border-bottom: none;
+   border-top-width: thin;
+   border-top-style: dotted;
+   border-top-color: #999999;
+}
+
+@media print {
+   * {
+      background: transparent !important;
+      color: black !important;
+      filter:none !important;
+      -ms-filter: none !important;
+   }
+
+   body {
+      font-size:12pt;
+      max-width:100%;
+   }
+
+   a, a:visited {
+      text-decoration: underline;
+   }
+
+   hr {
+      visibility: hidden;
+      page-break-before: always;
+   }
+
+   pre, blockquote {
+      padding-right: 1em;
+      page-break-inside: avoid;
+   }
+
+   tr, img {
+      page-break-inside: avoid;
+   }
+
+   img {
+      max-width: 100% !important;
+   }
+
+   @page :left {
+      margin: 15mm 20mm 15mm 10mm;
+   }
+
+   @page :right {
+      margin: 15mm 10mm 15mm 20mm;
+   }
+
+   p, h2, h3 {
+      orphans: 3; widows: 3;
+   }
+
+   h2, h3 {
+      page-break-after: avoid;
+   }
+}
+</style>
+
+
+
+</head>
+
+<body>
+<h2>Overview</h2>
+
+<p>In this assignment, you will analyze criminal incident data from Seattle or San Francisco to visualize patterns and, if desired, contrast and compare patterns across the two cities.</p>
+
+<p>You will produce a blog-post-style visual narrative consisting of a series of visualizations interspersed with sufficient descriptive text to make a convincing argument.</p>
+
+<p>The assignment will be assessed by peer review. The rubric for assessment will include questions about the effectiveness and clarity of your argument, your use of visualization, and the completeness of your analysis. Reproducibility will also be considered, but will be evaluated subjectively &ndash; peer reviewers will not be asked to recreate your results.</p>
+
+<h2>Project Ideas</h2>
+
+<p>You may want to consider one or more of the following types of questions when developing your submission.</p>
+
+<ul>
+<li>For either city, how do incidents vary by time of day? Which incidents are most common in the evening? During what periods of the day are robberies most common?</li>
+<li>For either city, how do incidents vary by neighborhood? Which incidents are most common in the city center? In what areas or neighborhoods are robberies or thefts most common?</li>
+<li>For either city, how do incidents vary month to month in the Summer 2014 dataset?</li>
+<li>For either city, which incident types tend to correlate with each other on a day-by-day basis?</li>
+<li><strong>Advanced</strong>  What can we infer broadly about the differences in crime patterns between Seattle and San Francisco? Does one city tend to have more crime than the other, per capita? Do the relative frequencies of types of incidents change materially between the two cities? (NOTE: The two datasets do not have the same schema, so comparisons will require some work and some assumptions. This will require extra work, but you will be working at the forefront of what is known!)</li>
+<li><strong>Advanced</strong>  For either city, do certain crimes correlate with environmental factors such as temperature? (To answer this kind of question, you will need to identify and use external data sources!)</li>
+</ul>
+
+<h2>Data</h2>
+
+<p>You will use real crime data from Summer 2014 one or both of two US cities: Seattle and/or San Francisco.</p>
+
+<p>These reduced datasets are available on the course github repository:</p>
+
+<p><a href="https://github.com/uwescience/datasci_course_materials/tree/master/assignment6">https://github.com/uwescience/datasci_course_materials/tree/master/assignment6</a></p>
+
+<p><strong>Seattle Data</strong></p>
+
+<p><a href="https://github.com/uwescience/datasci_course_materials/blob/master/assignment6/seattle_incidents_summer_2014.csv"><strong>Seattle Summer 2014 dataset used in this assignment</strong></a></p>
+
+<p><em>Other Seattle data (not required; for information only):</em></p>
+
+<p><a href="https://data.seattle.gov/"><em>Seattle Data Portal</em></a></p>
+
+<p><a href="https://data.seattle.gov/Public-Safety/Seattle-Police-Department-Police-Report-Incident/7ais-f98f"><em>Full Seattle incident dataset</em></a></p>
+
+<p><strong>San Francisco Data</strong></p>
+
+<p><a href="https://github.com/uwescience/datasci_course_materials/blob/master/assignment6/sanfrancisco_incidents_summer_2014.csv"><strong>San Francisco Summer 2014 dataset used in this assignment</strong></a></p>
+
+<p><em>Other San Francisco Data (not required; for information only):</em></p>
+
+<p><a href="https://data.sfgov.org/"><em>San Francisco Data Portal</em></a></p>
+
+<p><a href="https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-yvry"><em>Full San Francisco incident dataset</em></a></p>
+
+<p>All datasets are provided through their respective cities data portals, all powered by  <a href="https://www.socrata.com/">Socrata</a>. The three portals and the links to the original datasets are</p>
+
+<p><strong>Integration</strong>  You are not required to use both datasets (though inter-city comparisons of crime data is an important topic &ndash; you will be working at the forefront of research in the area!) If you choose to use both datasets, note that these datasets do NOT agree on schema, and they do NOT agree on categories or descriptions for specific crimes. Real data is dirty! To draw comparisons and contrasts across cities, you will need to make some assumptions about correspondences. For example, LARCENY/THEFT is a category in San Francisco, but Seattle uses codes of the form THEFT-CARPROWL or THEFT-BUILDING.</p>
+
+<p>So you will need to make some reasonable assumptions to compare these data, and explain and justify those assumptions!</p>
+
+<p><strong>Scale</strong>  Since the goal is to focus on visualization and communication rather than algorithms and scale and many visualization tools struggle with even modestly large datasets, we have restricted all three datasets to the period Summer 2014. You are permitted to expand your analysis to the full datasets, which we also provide below.</p>
+
+<p>Note that the full Chicago dataset covering 2001 to present has 5M records and is about 1.3GB as a csv file &ndash; not a terribly large dataset, but enough to cause popular desktop tools and javascript libraries to struggle.</p>
+
+<h2>Review and Grading</h2>
+
+<p>You will be asked to review FOUR submissions.</p>
+
+<p>There are ten questions in the rubric, each with a scale of 0 to 4 points. In all cases, the first option, worth 0 points, is intended to be used only when the assignment is sufficiently broken as to make it impossible to review. The highest option, worth 4 points, is intended to be used when the assignment is exceptional and/or exemplary. The fourth option, worth 3 points, is intended to be used for quality submissions when there are no major problems. Scoring a 3 on every question means you have a very good submission; you are not expected to get a score of 4 for every question!</p>
+
+<p>A passing grade is 60%, which corresponds to achieving a score of 3 on four questions and a score of 2 on the remaining six. This grading is not especially strict, but do not get complacent; make sure your submission is coherent and readable, you should score well.</p>
+
+<p>The peer review itself is an important part of this assignment: Critique of other people&#39;s visualization is an important skill, as discussed in the lectures.</p>
+
+<p>One question pertains to reproducibility. You are not required to provide all your code, but if you have performed convoluted transformations of the data or used complicated visualizations, you had better explain them. If you use Jupyter notebooks, review are asked to automatically give you a 4/4 for this question.</p>
+
+<h2>What to Turn In</h2>
+
+<p>You will submit a url that must resolve to your submission.</p>
+
+<p>Your submission should consist of a primary finding, backed by 2-3 supporting visualizations.</p>
+
+<p>Your primary finding should be prominently displayed and obvious at the top of your submission, e.g., &ldquo;Violent Crime Increases at Night During Summer Months in San Francisco&rdquo; or &ldquo;Bike thefts are most common in the University District of Seattle&rdquo;</p>
+
+<p>This primary finding should be supported by evidence displayed in 2-3 visualizations. For example, your first visualization may be a timeseries of crime incidents by time of day, illustrating that crime increases at night. Your second visualization may be a histogram of specific crimes during peak hours. Your third visualization could show how the night-time pattern changes from month to month in the summer.</p>
+
+<p>Each visualization should be equipped with supporting text explaining the conclusion to be drawn &ndash; don&#39;t just &ldquo;dump data&rdquo; on your reviewer &ndash; explain the important takeaways. &ldquo;From the figure, we see that most armed robberies occur between 11 pm and 3 am.&rdquo;</p>
+
+<p>Read on for details about your submission:</p>
+
+<h3>Format</h3>
+
+<p>Your submission may either be a pdf file or a rendered html page. You must not assume that your peer reviewers will have access to any other technology to read or access your submission (e.g., microsoft office).</p>
+
+<h3>Accessibility</h3>
+
+<p>It is your responsibility to ensure that the url is publicly accessible and resolves and renders properly for typical browsers. You must not require your peer reviewers to login to any system or otherwise take steps to access your submission.</p>
+
+<h3>Hosting</h3>
+
+<p>We recommend the use of github for hosting. If you create a Jupyter notebook, it will be automatically rendered by github, and you need not take any additional steps. If you create a pdf, simlpy commit the pdf to a public repository and submit the url. Make sure to submit the url to the *specific* file representing your submission, not to the overall repository. If your peer reviewers have to &ldquo;guess&rdquo; where your submission can be found, they may take points off. There are many materials online to help you create a github repository, including the github documentation itself ( <a href="https://help.github.com/articles/create-a-repo/">https://help.github.com/articles/create-a-repo/).</a>.)</p>
+
+<h3>Tools</h3>
+
+<p>You are free to use whatever tool you wish.</p>
+
+<p>The data may require programmatic manipulation before visualization, depending on the nature of the question you are exploring and the functionality of the tool you select.</p>
+
+<p>You may consider programmatic tools such as Python with  <a href="http://bokeh.pydata.org/en/latest/">Bokeh</a> or  <a href="http://matplotlib.org/">matplotlib</a>, R with ggplot2, or javascript with  <a href="http://d3js.org/">D3</a> or  <a href="https://github.com/vega/vega-lite">vegalite</a>.</p>
+
+<p>You may consider desktop tools such as  <a href="http://www.tableau.com/">Tableau</a> (students can often get a free license). (We don&#39;t recommend Excel, but you can use it.)</p>
+
+<p>You may consider interactive online tools such as  <a href="https://sites.google.com/site/fusiontablestalks/stories">Google Fusion Tables</a>.</p>
+
+<p>Regardless of which tool you use, it is your responsibility to ensure that your submission is posted somewhere accessible for peer review!</p>
+
+<p><strong>Jupyter Notebooks</strong></p>
+
+<p>We encourage, but do not require, the use of Jupyter to create an online notebook as your submission. Several  <a href="http://jupyter-notebook-beginner-guide.readthedocs.org/en/latest/">tutorials</a> and  <a href="https://www.youtube.com/watch?v=Rc4JQWowG5I">videos</a> exist online. Jupyter has several benefits for a project of this type:</p>
+
+<ol>
+<li>The notebook can be hosted for free on <a href="http://blog.jupyter.org/2015/05/07/rendering-notebooks-on-github/">github</a> or <a href="http://nbviewer.ipython.org/">nbviewer</a></li>
+<li>Reproducibility will be automatically achieved, because all the code you use will be available as part of the notebook. Your peer reviewers will be instructed to give you full points for reproducibility.</li>
+<li>Visualizations, text descriptions, and code snippets can all be used interchangeably to explain your findings.</li>
+<li>Jupyter supports both Python and R, as well as other languages.</li>
+</ol>
+
+<p>All this said, we cannot provide a custom tutorial for how to use Jupyter, so you should use whatever technology with which you are most comfortable.</p>
+
+<h3>Collaboration</h3>
+
+<p>You are encouraged to discuss the project on the discussion boards to generate ideas and solve problems, but each student must turn in their own work. We will not accept duplicate submissions.</p>
+
+<h3>Examples to Consider when Scoping your Submission</h3>
+
+<p>These examples use data from the <a href="https://www.prontocycleshare.com/datachallenge">Pronto Data Challenge</a>.</p>
+
+<ul>
+<li><p>For illustration purposes, <a href="http://nbviewer.jupyter.org/github/jakevdp/ProntoData/blob/master/ProntoData.ipynb">this project</a> exhibits <em>much more</em> than you are expected to do for this assignment, but is otherwise a very nice example.  This project answer many questions instead of just identifying one key finding, and makes extensive use of machine learning.  You are only expected to explore one question and come up 2-3 supporting visualizations.</p></li>
+<li><p><a href="http://www.prontocycleshare.com/assets/pdf/document4.pdf">This project on the Pronto dataset</a> uses a literate programming style &ndash; text inteleaved with code samples and visualizations.  This is a reasonable approach to achieving reproducibility, but clarity is the priority for this assignment: make sure the code does not get in the way of communicating your primary finding.  Also, this project attempts to answer many questions; for this assignment, we expect 2-3 visualizations in support of a single primary finding.  And, you are not required to provide all of your code inline.</p></li>
+</ul>
+
+</body>
+
+</html>

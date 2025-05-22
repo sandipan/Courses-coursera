@@ -1,0 +1,10 @@
+#chmod 600 pig-test.pem
+
+chmod 400 pig-test.pem
+ssh -o "ServerAliveInterval 10" -i pig-test.pem hadoop@ec2-54-227-35-237.compute-1.amazonaws.com
+hdfs dfs -getmerge  /user/hadoop/example-results example-results
+
+scp -o "ServerAliveInterval 10" -i pig-test.pem -r hadoop@ec2-54-242-183-0.compute-1.amazonaws.com:/home/hadoop/example-results .
+#scp -o "ServerAliveInterval 10" -i pig-test.pem hadoop@ec2-54-242-183-0.compute-1.amazonaws.com:/home/hadoop/example-results .
+
+http://ec2-54-242-183-0.compute-1.amazonaws.com:9100/ # job tracker
