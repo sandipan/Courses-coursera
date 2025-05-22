@@ -1,0 +1,14 @@
+{
+  "actionButtons": {
+    "defaultColor": "white",
+    "commands": [
+      {
+        "cwd": "/home/coder/.local/share/code-server/User/coursera/",
+        "name": "Submit",
+        "color": "white",
+        "singleInstance": true,
+        "command": "python3 submit.py simple-cuda"
+      }
+    ]
+  }
+}

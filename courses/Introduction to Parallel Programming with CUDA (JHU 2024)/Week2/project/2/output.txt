@@ -1,0 +1,14 @@
+Parsing CLI arguments
+inputImage: sloth.png outputImage: sloth-gray.png currentPartId: test threadsPerBlock: 256
+Reading Image From File
+Rows: 1000 Columns: 1333
+Allocating GPU device memory
+Copying from Host to Device
+Executing kernel
+Copying from Device to Host
+Deallocating GPU device memory
+Cleaning CUDA device
+CPU converting image file to grayscale
+Comparing actual and test grayscale pixel arrays
+meanImagePixelDifference: 8.000000 scaledMeanDifferencePercentage: 0.031373
+Mean difference percentage: 3.13726
