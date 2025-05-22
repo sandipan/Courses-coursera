@@ -1,0 +1,8 @@
+digraph suffix_tree {
+	node [fillcolor="#996633" shape=circle size=1 style=filled]
+		0 [label=""]
+		1 [label=""]
+			0 -> 1 [label="TCTGAGCCCTACTGTCGAGAAATATGTATCTCGCCCCCGCAGCTT$"]
+		2 [label=""]
+			0 -> 2 [label="CTGAGCCCTACTGTCGAGAAATATGTATCTCGCCCCCGCAGCTT$"]
+}
