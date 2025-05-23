@@ -1,0 +1,32 @@
+Title
+========================================================
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring web pages (click the **Help** toolbar button for more details on using R Markdown).
+
+When you click the **Knit HTML** button a web page will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+
+```r
+knitr::opts_chunk$set(cache=TRUE)
+```
+
+
+```r
+x = rnorm(10)
+plot(x,pch=19,col="dodgerblue")
+```
+
+![plot of chunk unnamed-chunk-1](figure/unnamed-chunk-1-1.png) 
+You can also embed plots, for example:
+
+
+```r
+y = rbinom(20,size=1,prob=0.5)
+table(y)
+```
+
+```
+## y
+##  0  1 
+## 13  7
+```
