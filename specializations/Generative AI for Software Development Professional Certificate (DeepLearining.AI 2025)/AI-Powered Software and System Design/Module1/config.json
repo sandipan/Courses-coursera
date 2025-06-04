@@ -1,0 +1,15 @@
+{
+    "api_key": "sk-proj-XZwLmT9Kf3pRV6yS2qNbH8aEuFcGYxtrWQvszP71D_kMehb5ifdLnAObgC4c07EeHpsVJTfFN3U4ClckGJd6CsRPdqZmmmMynkFYIbxXZHe_eiUVmmIz0ZLzpW7D6SpnKeop2",
+    "url": "https://proxy.dlai.link/coursera_proxy/openai/images/generations",
+    "filename" : "generated_image",
+    "headers": {
+        "Content-Type": "application/json"
+    },
+    "payload": {
+        "prompt": "A futuristic cityscape at dusk with flying cars and neon lights",
+        "n": 1,
+        "size": "1024x1024",
+        "response_format": "url",
+        "user": "1234"
+    }
+}
