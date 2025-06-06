@@ -1,0 +1,58 @@
+---
+title: "Open Science Assignment"
+author: "Sandipan Dey"
+date: "15 July 2017"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Theoretical hypothesis
+
+My theoretical hypothesis is that **Satyajit Ray** (from Kolkata, India) and **Akira Kurosawa** (from Japan) are both great directors, both won the *academy award* for *lifetime achievement*. Because they are both great, the *movies they directed* are *equally good*. 
+
+## Dependent Variables to be measured
+
+* The dependent variables to be measured are the **IMDB ratings** (scores), **# Users rated each movie**. 
+
+* First IMDB search will be used separately for the two legendary directors separately to get all the hits.
+
+* Then the search results will be sorted based on the release date, and \(29\) most recent full movies (excluding documentaries / TV series) will be used.
+
+* So in my case, I will use the \(29\) last movies **Satyajit Ray** and **Akira Kurosawa**  directed in from today (excluding documentaries / TV series), the moment I did the IMDB search.
+
+* The following table shows the data collected for **Satyajit Ray** movies.
+
+```{r echo=FALSE}
+dfs <- read.csv('C:/courses/Coursera/Current/Statistical Inference/Week7/Satyajit_Ray.csv', check.names = FALSE)
+knitr::kable(dfs)
+```
+
+* The following table shows the data collected for **Akira Kurosawa** movies.
+
+```{r echo=FALSE}
+dfa <- read.csv('C:/courses/Coursera/Current/Statistical Inference/Week7/Akira_Kurosawa.csv', check.names=FALSE)
+knitr::kable(dfa)
+```
+
+## Justify the sample size
+
+* I predict **no difference**, and thus I'll do a **power analysis** for an **equivalence test**. I want to be pretty sure I can reject my **smallest effect size** of interest, so I'll design a study with \(84\%\) **power**. For this educational assignment, we do not collect a huge amount of data. 
+
+* As long as I can exclude a **large effect** (**Cohen's** \(d = 0.8\) or larger) I will be happy for this assignment. 
+
+* The **power analysis** estimates that the **sample size** we need to show the difference between the ratings for movies directed by **Satyajit Ray** and **Akira Kurosawa** is smaller than **Cohen's** \(d = 0.8\) (assuming the **true effect size** is \(0\), and with an \(\alpha\) of \(0.05\), when I aim for \(84\%\) **power**) is \(29\) movie ratings from **Satyajit Ray**, and \(29\) movie ratings from **Akira Kurosawa**, as can be seen from the following R code and the figures.
+
+* The \(\alpha\)-level I found acceptable is \(0.05\).
+* I performed a **two-sided** test. 
+* I used \(84\%\) **power** for this study. 
+* The effect size expected is \(0.78948 < 0.8\), as shown below.
+* Given that **Satyajit Ray** has total \(29\) full movies directed, we can only collect \(29\) observations for both the directors.
+
+## Specify the statistical test to conduct
+
+* We need to translate our **theoretical hypothesis** to a **statistical hypothesis**. 
+* Let's calculate the \(90\%) **CI** around the **effect size**. 
+* When the \(90\%\) **CI** falls below, and excludes a **Cohen's** \(d\) of \(0.8\), we can consider the ratings of the movies directed by **Satyajit Ray** and **Akira Kurosawa** as equivalent.
