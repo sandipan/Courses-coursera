@@ -1,0 +1,5 @@
+langchain==0.1.13
+openai==1.14.2
+streamlit==1.32.2
+langchain-openai==0.1.0
+gradio
