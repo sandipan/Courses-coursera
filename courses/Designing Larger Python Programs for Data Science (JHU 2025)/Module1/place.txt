@@ -1,0 +1,11 @@
+castle
+cave
+pond
+tower
+house
+forest
+city
+space station
+theater
+hotel
+dive bar

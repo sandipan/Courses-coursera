@@ -1,0 +1,8 @@
+fairy
+gnome
+wizard
+witch
+unicorn
+hobbit
+gryphon
+demon lord

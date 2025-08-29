@@ -1,0 +1,33 @@
+For ['As', 'Kh', 'Ks'] we estimate
+                 4card_mc.csv  3card_mc.csv  true_probs.csv  subset.csv
+high card            0.000000          0.00        0.000000    0.000000
+pair                36.668163         36.53       36.663898   34.739048
+two pair            40.905714         40.55       40.820102   41.588095
+three of a kind      9.698367         10.07        9.752874    9.839048
+straight             1.321020          1.27        1.307840    1.446190
+flush                3.337347          3.19        3.325530    3.352381
+full house           7.508571          7.83        7.569522    8.399048
+four of a kind       0.536531          0.54        0.537107    0.601429
+straight flush       0.024286          0.02        0.023127    0.034762
+For ['8c', '7c', '6s'] we estimate
+                 4card_mc.csv  3card_mc.csv  true_probs.csv  subset.csv
+high card           15.993469         15.16       15.990485   15.612857
+pair                38.564694         39.43       38.621647   38.520000
+two pair            18.862653         18.58       18.857256   19.020000
+three of a kind      3.493878          3.26        3.449187    3.469524
+straight            18.170000         18.51       18.167702   17.726667
+flush                3.270612          3.41        3.260870    3.920952
+full house           1.482245          1.53        1.495214    1.557619
+four of a kind       0.069796          0.05        0.069852    0.076667
+straight flush       0.092653          0.07        0.087787    0.095714
+For ['Kc', '0c', '4c'] we estimate
+                 4card_mc.csv  3card_mc.csv  true_probs.csv  subset.csv
+high card           16.944490         16.50       17.037796   16.277619
+pair                39.180816         39.56       39.096453   38.232381
+two pair            18.485510         18.07       18.477789   18.451905
+three of a kind      3.417959          3.49        3.419453    3.417619
+straight             2.346939          2.33        2.357511    2.620476
+flush               18.017143         18.56       18.000151   19.296667
+full house           1.500408          1.38        1.495214    1.568095
+four of a kind       0.065306          0.07        0.069852    0.070476
+straight flush       0.041429          0.04        0.045781    0.064762

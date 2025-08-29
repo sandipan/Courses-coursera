@@ -1,0 +1,70 @@
+Results from input0.txt:
+--------------------
+Hand 0 won 5384 / 10000 times
+Hand 1 won 4488 / 10000 times
+Hand 2 won 0 / 10000 times
+and there were 128 ties
+--------------------
+Results from input1.txt:
+--------------------
+Hand 0 won 3454 / 10000 times
+Hand 1 won 6459 / 10000 times
+and there were 87 ties
+--------------------
+Results from input2.txt:
+--------------------
+Hand 0 won 1432 / 10000 times
+Hand 1 won 6724 / 10000 times
+Hand 2 won 1807 / 10000 times
+and there were 37 ties
+--------------------
+Results from input3.txt:
+--------------------
+Hand 0 won 4533 / 10000 times
+Hand 1 won 1571 / 10000 times
+Hand 2 won 3845 / 10000 times
+and there were 51 ties
+--------------------
+Results from input4.txt:
+--------------------
+Hand 0 won 6749 / 10000 times
+Hand 1 won 2272 / 10000 times
+and there were 979 ties
+--------------------
+Results from input5.txt:
+--------------------
+Hand 0 won 1800 / 10000 times
+Hand 1 won 5447 / 10000 times
+Hand 2 won 1843 / 10000 times
+Hand 3 won 910 / 10000 times
+and there were 0 ties
+--------------------
+Results from input6.txt:
+--------------------
+Hand 0 won 4138 / 10000 times
+Hand 1 won 5862 / 10000 times
+and there were 0 ties
+--------------------
+Results from input7.txt:
+--------------------
+Hand 0 won 4698 / 10000 times
+Hand 1 won 5299 / 10000 times
+and there were 3 ties
+--------------------
+Results from input8.txt:
+--------------------
+Hand 0 won 1255 / 10000 times
+Hand 1 won 4027 / 10000 times
+Hand 2 won 4716 / 10000 times
+and there were 2 ties
+--------------------
+Results from input9.txt:
+--------------------
+Hand 0 won 399 / 10000 times
+Hand 1 won 390 / 10000 times
+Hand 2 won 1068 / 10000 times
+Hand 3 won 827 / 10000 times
+Hand 4 won 6215 / 10000 times
+Hand 5 won 1092 / 10000 times
+and there were 9 ties
+--------------------

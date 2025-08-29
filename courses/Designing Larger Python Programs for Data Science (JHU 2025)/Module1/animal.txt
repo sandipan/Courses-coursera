@@ -1,0 +1,10 @@
+cat
+dog
+bat
+chicken
+worm
+dragon
+frog
+fruit fly
+butterfly
+mouse
