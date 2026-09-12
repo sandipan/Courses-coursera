@@ -1,0 +1,5 @@
+Baseline (no optimization) : 0m0.022s
+Loop Interchange : 0m0.015s
+Loop Tiling : 0m0.014s
+Loop Vectorization : 0m0.015s
+OpenMP Paralleization : 0m0.014s

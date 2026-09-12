@@ -1,0 +1,8 @@
+# touch bash_notebook.ipynb
+#  chmod +x bash_assignment.sh 
+
+module load mpich
+make
+mv scale.out scale.fexe
+# sbatch strong_scaling.sh
+

@@ -1,0 +1,11 @@
+
+  Matrix A(1000, 1000)
+  Matrix B(1000, 1000)
+  Matrix C(1000, 1000)
+  Number of floating point operations = 2e+09
+
+  Method   Walltime [s]   MFLOPS          Checksum
+  ------  --------------  --------------  --------------
+  JIK               2.62          763.04    498070834.00
+  Lib               1.35         1480.04    498070834.00
+  DGEMM             0.68         2935.57    498070834.00
