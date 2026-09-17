@@ -1,0 +1,61 @@
+nvars = 3 % Dimensions of design variables
+lb = [0.5,0.5,0.5]; % Lower bound of design variables
+ub = [1.2,1.2,1.2]; % Upper bound of design variables
+options = optimoptions('ga', ...
+    'PlotFcn', @gaplotbestf, ...
+    'PopulationSize', 20, ...
+    'MaxGenerations', 200) % Please fill in the optimization options 
+[x, y] = ga(@objective_func, nvars, [], [], [], [], lb, ub, [], options); % Please fill in the ga function
+
+function  ff = objective_func(x)
+
+M=zeros(5,5);
+M(1,2)=x(1);
+M(2,1)=x(1);
+M(6,5)=x(1);
+M(5,6)=x(1);
+M(2,3)=x(2);
+M(3,2)=x(2);
+M(5,4)=x(2);
+M(4,5)=x(2);
+M(4,3)=x(3);
+M(3,4)=x(3);
+Qu=1000;
+freq_bp = [2200:1:2700];
+CM_Np2_by_NP2 = M;
+f0_MHz = 2450;
+BW_MHz = 100;
+sigma_k = 1 / (100*Qu);
+G_mat = sigma_k * eye(size(CM_Np2_by_NP2));
+G_mat(1,1) = 0;
+G_mat(end,end) = 0;
+CM = CM_Np2_by_NP2 - j*G_mat;
+U_matrix = eye(size(CM));
+U_matrix(1,1) = 0;
+U_matrix(end,end) = 0;
+R_matrix = zeros(size(CM));
+R_matrix(1,1) = 1;
+R_matrix(end,end) = 1;
+
+for var_1 =  1:1:length(freq_bp)
+    lamb_da(var_1) = (f0_MHz/BW_MHz) * ((freq_bp(var_1)/f0_MHz) - (f0_MHz/freq_bp(var_1)));
+    A_matrix = lamb_da(var_1)*U_matrix -j*R_matrix + CM;
+    A_inv = inv(A_matrix);
+    S11(var_1) = 1 + 2*j*A_inv(1,1);
+    S21(var_1) = -2*j*A_inv(end,1);
+end
+
+S11_dB = 20*log10(abs(S11));
+S21_dB = 20*log10(abs(S21));
+
+
+a=round((2400-2200)/(2700-2200)*length(freq_bp));
+b=round((2500-2200)/(2700-2200)*length(freq_bp));
+c=round((2300-2200)/(2700-2200)*length(freq_bp));
+d=round((2600-2200)/(2700-2200)*length(freq_bp));
+
+
+ff=sum(S11_dB(1,a:b)>-20)+...
+    sum(S21_dB(1,1:c)>-30)+sum(S21_dB(1,d:length(freq_bp))>-30);
+
+end

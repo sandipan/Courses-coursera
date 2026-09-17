@@ -1,0 +1,17 @@
+% Load data
+data = readtable('fruit_dataset.csv');
+X = data{:, 2:6};
+Y = data{:, 'name'};
+% Split into training and test data by the ratio 75% and 25%, respectively.
+cvObj = cvpartition(size(X, 1), 'HoldOut', 0.75);
+idx = cvObj.test;
+X_train = X(idx,  :); X_test  = X(~idx, :);
+Y_train = Y(idx,  :); Y_test  = Y(~idx, :);
+
+% Train a linear SVM, the data should be standarized, your code: 
+SVMModel_linear = fitcsvm(X_train, Y_train, 'KernelFunction', 'linear', 'Standardize', true);
+
+% Predict using the linear SM, your code: 
+Y_pred_linear = predict(SVMModel_linear, X_test);
+accuracy_linear = sum(Y_pred_linear == Y_test) / length(Y_test) * 100;
+

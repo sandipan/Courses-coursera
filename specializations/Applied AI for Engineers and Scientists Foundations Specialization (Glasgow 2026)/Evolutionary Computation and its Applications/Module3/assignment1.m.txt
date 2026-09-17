@@ -1,0 +1,23 @@
+T = readtable("Concrete_Data.xls", 'VariableNamingRule','preserve');
+values = table2array(T(:,9));
+% Visualize the data here if necessary
+histogram(values)
+xlabel('compressive strength');
+ylabel('Number of samples');
+
+X = values;
+
+% Calculating the z-score of every sample in the dataset; saving in z.
+% Your code: 
+z = (values - mean(values)) / std(values);
+
+% Plotting the distribution of z
+histogram(z);
+
+% Filtering out those samples using z-scores method
+% Removing outliers
+% Your code: 
+X = X(abs(z) <= 3);
+
+% Visualize at last
+histogram(X)

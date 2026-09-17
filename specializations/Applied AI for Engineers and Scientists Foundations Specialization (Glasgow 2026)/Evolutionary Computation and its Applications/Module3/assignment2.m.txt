@@ -1,0 +1,17 @@
+T = readtable("Concrete_Data.xls", 'VariableNamingRule','preserve');
+values = table2array(T(:,9));
+% Visualize the data here if necessary
+histogram(values)
+xlabel('compressive strength');
+ylabel('Number of samples');
+
+X = values;
+% Filtering out those samples lies outside the IQR
+% identify IQR, your code here:
+Q1 = prctile(X, 25);
+Q3 = prctile(X, 75);
+IQR = Q3 - Q1;
+% Remove outliers, your code here:
+X = X(X < Q3 + 1.5*IQR & X > Q1 - 1.5*IQR);
+% Visualize again
+histogram(X)

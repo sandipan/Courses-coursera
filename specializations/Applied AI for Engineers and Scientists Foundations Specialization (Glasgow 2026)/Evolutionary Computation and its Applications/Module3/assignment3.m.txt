@@ -1,0 +1,27 @@
+T = readtable("Concrete_Data.xls", 'VariableNamingRule','preserve');
+values = table2array(T(:,9));
+% Visualize the data here if necessary
+histogram(values)
+xlabel('compressive strength');
+ylabel('Number of samples');
+
+X = values;
+% Note, for this case study, the values in X are all positive, which satisfy the requirement of boxcox.
+% In other cases where X contains non-positive values, we need to pre-process X before applying boxcox.
+% Apply boxcox to X, assign it to X_temp. Your code: 
+[X_temp, lambda] = boxcox(X);
+% Draw the histogram of the transformed distribution
+histogram(X_temp);
+
+% Calculating the z-score of every sample in the dataset. Your code: 
+z = (X_temp - mean(X_temp)) ./ std(X_temp);
+% Plotting the distribution of z
+figure
+histogram(z)
+
+% Filtering out those samples having large z-scores
+% Removing outliers, z should be between -3 and 3. Your code: 
+X = X_temp(abs(z) < 2.5); 
+
+histogram(X)
+

@@ -1,0 +1,15 @@
+% Load data
+data = readtable('fruit_dataset.csv');
+X = data{:, 2:6};
+Y = data{:, 'name'};
+% Split into training and test data by the ratio 75% and 25%, respectively.
+cvObj = cvpartition(size(X, 1), 'HoldOut', 0.75);
+idx = cvObj.test;
+X_train = X(idx,  :); X_test  = X(~idx, :);
+Y_train = Y(idx,  :); Y_test  = Y(~idx, :);
+
+% Train a nonlinear SVM with Gaussian kernel. Should the data be standarized? Your code:
+SVMModel_nonlinear = fitcsvm(X_train, Y_train, 'KernelFunction', 'gaussian', 'Standardize', true);
+% Predict using the nonlinear SM, your code: 
+Y_pred_nonlinear = predict(SVMModel_nonlinear, X_test);
+accuracy_nonlinear = sum(Y_pred_nonlinear == Y_test) / length(Y_test) * 100;

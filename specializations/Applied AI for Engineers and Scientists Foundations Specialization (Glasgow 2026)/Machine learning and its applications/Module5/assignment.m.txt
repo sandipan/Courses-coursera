@@ -1,0 +1,49 @@
+load TrainingSet.mat
+load TestSet.mat
+
+% Spliting the dataset, 80% for training, 20% for validation
+[trainInd, valInd, ~] = dividerand(size(TrainingSet,1), 0.8, 0.2, 0);
+tblTrain = TrainingSet(trainInd,:);  % Extracting training sample
+tblValid = TrainingSet(valInd,:); % Extracting validation sample
+tblTest = TestSet; % Extracting testing sample
+
+% You should have one input layers with "rescale-zero-one" normalization,
+% followed by two hidden layers with relu activation layers,
+% followed by one output layer and one regression layer at the end.
+% Try complete this part with the info above.
+layers = [
+    featureInputLayer(size(tblTrain,2)-1, "Normalization", "rescale-zero-one" )
+    fullyConnectedLayer(  40  )         % hidden layer neurons: 40
+    reluLayer           % ReLU activation func. (not a new layer of neurons)
+    
+    % The other layer here, also 40 neurons and ReLU activation func.
+    fullyConnectedLayer(  40  )         % hidden layer neurons: 40
+    reluLayer           % ReLU activation func. (not a new layer of neurons)
+    
+    fullyConnectedLayer(1) % Output layer: # output dim.
+    regressionLayer];
+
+options = trainingOptions('adam', ...   % using adam optimizer
+    'MaxEpochs', 1000 , ...               % number of epochs of training, 1000
+    'MiniBatchSize', size(tblTrain,1), ... % batch training, please explain.
+    'L2Regularization',  1e-3, ...       % L2 Regularization, please explain.
+    'Shuffle','every-epoch', ...    % shuffling the training samples
+    'ValidationFrequency', 10 , ...   % Computing validation accuracy every 10 epoch
+    'ValidationPatience', 10  , ...    % Stop the training if acc does not improve for 10 valid
+    'ValidationData', tblValid  , ... % Validation set
+    'Plots','training-progress', ...    % visualizing the training process
+    'ExecutionEnvironment', 'cpu'  , ...  % training on CPU
+    'Verbose',false); % hide notice while training
+
+% TO SAVE TRAINING TIME, THE ACTUAL TRAINING IS SKIPPED AND A TRAINIG NETWORK IS PROVIDED
+% net = trainNetwork(table2array(tblTrain(:,1:12)), table2array(tblTrain(:,end)), layers, options);
+load net.mat
+
+% Precicting test set,using the test set, your code: 
+y_pred = predict(net, tblTest);
+
+% Root-mean-squared-error
+v_rmse = sqrt(sum((y_pred(:,1) - table2array(tblTest(:,end))).^2)./length(y_pred));
+
+% Prediction accuracy
+accuracy = 100* (nnz(double(y_pred(:,1)./abs(y_pred(:,1))) == table2array(tblTest(:,end)./abs(tblTest(:,end))) )./length(y_pred));
