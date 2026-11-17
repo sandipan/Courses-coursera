@@ -71,3 +71,29 @@ u = Matrix([-3/sqrt(109),10/sqrt(109)])
 u = Matrix([3/sqrt(109),-10/sqrt(109)])
 #u = Matrix([-10/sqrt(109),3/sqrt(109)])
 print(compute_dir_derivative(f, P, u))
+
+# flight descend
+
+from sympy import *
+
+a, b, c, d = symbols('a b c d')
+x = symbols('x')
+
+f = a*x**3 + b*x**2 + c*x + d
+
+eq1 = Eq(f.subs(x, 65), Rational(875, 132))
+eq2 = Eq(f.subs(x, 0), 0)
+eq3 = Eq(diff(f, x).subs(x, 65), 0)
+eq4 = Eq(diff(f, x).subs(x, 0), 0)
+
+sol = solve([eq1, eq2, eq3, eq4], [a, b, c, d])
+print(sol)
+
+import matplotlib.pylab as plt
+import numpy as np
+
+x = np.linspace(65,0,1000)
+f = -7/145002*x**3 + 35/7436*x**2
+plt.plot(x, f, 'r.-')
+plt.grid()
+plt.show()
